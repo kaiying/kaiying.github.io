@@ -68,10 +68,161 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-webpack/lodash" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/webpack/lodash/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.215Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="lodash"><a href="#lodash" class="headerlink" title="lodash"></a>lodash</h1><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/lodash-webpack-plugin">https://www.npmjs.com/package/lodash-webpack-plugin</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lodash-webpack-plugin //dev</span><br><span class="line">lodash // prd</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">LodashWebpackPlugin</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/webpack/lodash/" data-id="ckx4qyzp8002280u1gcem6zkd" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-webp note" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/webp%20note/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.214Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Using-webp"><a href="#Using-webp" class="headerlink" title="Using webp"></a>Using webp</h1><h2 id="way-1：將本地的圖片用-webpack-都轉成-webp，再用套件選擇性套入"><a href="#way-1：將本地的圖片用-webpack-都轉成-webp，再用套件選擇性套入" class="headerlink" title="way 1：將本地的圖片用 webpack 都轉成 webp，再用套件選擇性套入"></a>way 1：將本地的圖片用 webpack 都轉成 webp，再用套件選擇性套入</h2><ul>
+<li>用 <a target="_blank" rel="noopener" href="https://github.com/iampava/imagemin-webp-webpack-plugin">imagemin-webp-webpack-plugin</a> 將圖片全部轉成 webp</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> ImageminWebpWebpackPlugin <span class="keyword">from</span> <span class="string">&#x27;imagemin-webp-webpack-plugin&#x27;</span></span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="attr">plugins</span>: [</span><br><span class="line">  ...</span><br><span class="line">  <span class="keyword">new</span> ImageminWebpWebpackPlugin(&#123;</span><br><span class="line">    <span class="attr">config</span>: [</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attr">test</span>: <span class="regexp">/\.(jpe?g|png)/</span>,</span><br><span class="line">        options: &#123;</span><br><span class="line">          <span class="attr">quality</span>: <span class="number">75</span></span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">overrideExtension</span>: <span class="literal">false</span></span><br><span class="line">  &#125;)</span><br><span class="line">]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">Vue.use(VueLazyLoad, &#123;</span><br><span class="line">  <span class="attr">preLoad</span>: <span class="number">1.3</span>,</span><br><span class="line">  <span class="attr">error</span>: <span class="built_in">require</span>(<span class="string">&#x27;@/static/images/product-default@3x.png&#x27;</span>),</span><br><span class="line">  <span class="attr">loading</span>: <span class="built_in">require</span>(<span class="string">&#x27;@/static/images/loading.gif&#x27;</span>),</span><br><span class="line">  <span class="attr">attempt</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="attr">filter</span>: &#123;</span><br><span class="line">    <span class="function"><span class="title">progressive</span>(<span class="params">listener, options</span>)</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> ;</span><br><span class="line">      <span class="built_in">console</span>.group(<span class="string">&#x27;============== [lazy load] progressive ==============&#x27;</span>);</span><br><span class="line">      <span class="built_in">console</span>.log(listener);</span><br><span class="line">      <span class="built_in">console</span>.log(options);</span><br><span class="line">      <span class="comment">// 把temp的值赋给src</span></span><br><span class="line">      <span class="comment">// listener.src = $(listener.el).attr(&#x27;temp&#x27;);</span></span><br><span class="line">      <span class="built_in">console</span>.groupEnd();</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="function"><span class="title">webp</span>(<span class="params">listener, options</span>)</span> &#123;</span><br><span class="line">      <span class="built_in">console</span>.group(<span class="string">&#x27;============== [lazy load] webp ==============&#x27;</span>);</span><br><span class="line">      <span class="built_in">console</span>.log(listener);</span><br><span class="line">      <span class="built_in">console</span>.log(options);</span><br><span class="line">      <span class="comment">// 把temp的值赋给src</span></span><br><span class="line">      <span class="comment">// listener.src = $(listener.el).attr(&#x27;temp&#x27;);</span></span><br><span class="line">      <span class="built_in">console</span>.groupEnd();</span><br><span class="line">      <span class="comment">// if ()</span></span><br><span class="line">      <span class="comment">// 1. 是否支持webp</span></span><br><span class="line">      <span class="comment">// 2. 考虑编译速度及热更新相关问题，DEV环境还是照旧</span></span><br><span class="line">      <span class="comment">// 3. 如果是svg的话，照旧</span></span><br><span class="line">      <span class="comment">// 4. 做一个防错误处理，是cdn的地址才走webp</span></span><br><span class="line">      <span class="comment">// if (options.supportWebp &amp;&amp; !__DEV__ &amp;&amp; !listener.src.endsWith(&#x27;.svg&#x27;) &amp;&amp; listener.src.startsWith(cdnSetting[__ENV__].publicPath)) &#123;</span></span><br><span class="line">      <span class="comment">//   listener.src += &#x27;.webp&#x27;;</span></span><br><span class="line">      <span class="comment">// &#125;</span></span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="article"><a href="#article" class="headerlink" title="article"></a>article</h2><p>解說：</p>
+<p><a target="_blank" rel="noopener" href="https://medium.com/@mingjunlu/image-optimization-using-webp-72d5641213c9">https://medium.com/@mingjunlu/image-optimization-using-webp-72d5641213c9</a></p>
+<p>範例</p>
+<p><a target="_blank" rel="noopener" href="https://juejin.im/post/6856607599249326094">https://juejin.im/post/6856607599249326094</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/webp%20note/" data-id="ckx4qyznp000580u1ddcv1uei" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-webpack/different enviroment text using dotenv (webpack)" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/webpack/different%20enviroment%20text%20using%20dotenv%20(webpack)/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.214Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="different-enviroment-using-dotenv-webpack"><a href="#different-enviroment-using-dotenv-webpack" class="headerlink" title="different enviroment using dotenv (webpack)"></a>different enviroment using dotenv (webpack)</h1><h2 id="how-to-use"><a href="#how-to-use" class="headerlink" title="how to use ?"></a>how to use ?</h2><h2 id="inject-env-params"><a href="#inject-env-params" class="headerlink" title="inject env params"></a>inject env params</h2><p>Using <code>DefinePlugin</code> in <code>webpack.config.js</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> conifg = &#123;</span><br><span class="line">  <span class="attr">plugins</span>: [</span><br><span class="line">    <span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line">      ...webpackHelper.defineEnv(process.env)</span><br><span class="line">    &#125;),</span><br><span class="line">  ],</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>webpackHelper.defineEnv</code> 為我們自己寫的 <code>helper</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> defineEnv = <span class="function"><span class="params">env</span> =&gt;</span> <span class="built_in">Object</span>.keys(env).reduce(<span class="function">(<span class="params">o, key</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> value = env[key];</span><br><span class="line">  o[<span class="string">`process.env.<span class="subst">$&#123;key&#125;</span>`</span>] = [<span class="string">&#x27;boolean&#x27;</span>, <span class="string">&#x27;number&#x27;</span>].indexOf(<span class="keyword">typeof</span> value) !== -<span class="number">1</span></span><br><span class="line">    ? value</span><br><span class="line">    : <span class="built_in">JSON</span>.stringify(value);</span><br><span class="line">  <span class="keyword">return</span> o;</span><br><span class="line">&#125;, &#123;&#125;);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  defineEnv</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="split-env-file"><a href="#split-env-file" class="headerlink" title="split env file"></a>split env file</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> getCommonName = <span class="function">() =&gt;</span> <span class="string">&#x27;.env&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> getEnvName = <span class="function"><span class="params">env</span> =&gt;</span> (env === <span class="string">&#x27;production&#x27;</span> ?</span><br><span class="line">  <span class="string">&#x27;.env.prd&#x27;</span> : env === <span class="string">&#x27;stg&#x27;</span> ?</span><br><span class="line">    <span class="string">&#x27;.env.stg&#x27;</span> : env === <span class="string">&#x27;lab&#x27;</span> ?</span><br><span class="line">      <span class="string">&#x27;.env.lab&#x27;</span> : <span class="string">&#x27;.env.development&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> getLocalEnvName = <span class="function"><span class="params">env</span> =&gt;</span> <span class="string">`<span class="subst">$&#123;getEnvName(env)&#125;</span>.local`</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> processEnvFile = <span class="function">(<span class="params">env, action</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> files = [getLocalEnvName(env), getEnvName(env), getCommonName()];</span><br><span class="line">  files.forEach(<span class="function"><span class="params">file</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (!fs.existsSync(file)) <span class="keyword">return</span>;</span><br><span class="line">    action(file);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = processEnvFile;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/webpack/different%20enviroment%20text%20using%20dotenv%20(webpack)/" data-id="ckx4qyzp8002180u12uep1egk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue/vue-test-utils/mock plugin or global instance (`$xxx`) instance" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="mock-plugin-or-global-instance-xxx-instance"><a href="#mock-plugin-or-global-instance-xxx-instance" class="headerlink" title="mock plugin or global instance ($xxx) instance"></a>mock plugin or global instance (<code>$xxx</code>) instance</h1><h2 id="author"><a href="#author" class="headerlink" title="author"></a>author</h2><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>使用 i18n 、auth、route … 等 vue global 套件會出現的測試需求。</p>
+<h2 id="sample"><a href="#sample" class="headerlink" title="sample"></a>sample</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> wrapper = shallowMount(component, &#123;</span><br><span class="line">      localVue,</span><br><span class="line">      <span class="attr">mocks</span>: &#123;</span><br><span class="line">        <span class="attr">$auth</span>: &#123;</span><br><span class="line">          <span class="attr">getToken</span>: <span class="function">() =&gt;</span> <span class="string">&#x27;token-stub&#x27;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="attr">$route</span>: &#123;</span><br><span class="line">          <span class="attr">params</span>: &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">          &#125;,</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" data-id="ckx4qyzpf002d80u13naqccyy" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue/vue-test-utils/setMethods is deprecated and will be removed in the next major version. 2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/11/22/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" class="article-date">
-  <time datetime="2021-11-22T03:27:13.587Z" itemprop="datePublished">2021-11-22</time>
+    <a href="/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
 </a>
     
   </div>
@@ -105,7 +256,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/11/22/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" data-id="ckwd7ccvb00072g4yd1ifgfil" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" data-id="ckx4qyzpg002e80u1f2grhale" class="article-share-link">Share</a>
       
       
     </footer>
@@ -115,10 +266,10 @@
 
 
   
-    <article id="post-vue/vue-test-utils/mock plugin or global instance (`$xxx`) instance 2" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/vue-test-utils/setMethods is deprecated and will be removed in the next major version." class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/11/22/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/" class="article-date">
-  <time datetime="2021-11-22T03:27:13.586Z" itemprop="datePublished">2021-11-22</time>
+    <a href="/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
 </a>
     
   </div>
@@ -127,160 +278,32 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="mock-plugin-or-global-instance-xxx-instance"><a href="#mock-plugin-or-global-instance-xxx-instance" class="headerlink" title="mock plugin or global instance ($xxx) instance"></a>mock plugin or global instance (<code>$xxx</code>) instance</h1><h2 id="author"><a href="#author" class="headerlink" title="author"></a>author</h2><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>使用 i18n 、auth、route … 等 vue global 套件會出現的測試需求。</p>
-<h2 id="sample"><a href="#sample" class="headerlink" title="sample"></a>sample</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> wrapper = shallowMount(component, &#123;</span><br><span class="line">      localVue,</span><br><span class="line">      <span class="attr">mocks</span>: &#123;</span><br><span class="line">        <span class="attr">$auth</span>: &#123;</span><br><span class="line">          <span class="attr">getToken</span>: <span class="function">() =&gt;</span> <span class="string">&#x27;token-stub&#x27;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="attr">$route</span>: &#123;</span><br><span class="line">          <span class="attr">params</span>: &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">          &#125;,</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+        <h1 id="setMethods-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#setMethods-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="setMethods is deprecated and will be removed in the next major version."></a><code>setMethods</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: setMethods is deprecated and will be removed <span class="keyword">in</span> the next major version. There is no clear migration path <span class="keyword">for</span> setMethods - Vue does not support arbitrarily replacement <span class="keyword">of</span> methods, nor should VTU. To stub a complex method extract it <span class="keyword">from</span> the component and test it <span class="keyword">in</span> isolation. Otherwise, the suggestion is to rethink those tests.</span><br></pre></td></tr></table></figure>
+
+<p>錯誤訊息：<code>setMethods</code> 將在下一個主要版本棄用。</p>
+<p>網路上大多舉例都是在<code>需要mock axios</code>的情境，所以可以查到不少範例是針對 axios mock的部分。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Component.vue</span></span><br><span class="line"><span class="keyword">import</span> &#123; asyncAction &#125; <span class="keyword">from</span> <span class="string">&#x27;actions&#x27;</span></span><br><span class="line"><span class="keyword">const</span> Component = &#123;</span><br><span class="line">    ...,</span><br><span class="line">    <span class="attr">methods</span>: &#123;</span><br><span class="line">        <span class="keyword">async</span> <span class="function"><span class="title">someAsyncMethod</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.result = <span class="keyword">await</span> asyncAction()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// spec.js</span></span><br><span class="line"><span class="keyword">import</span> &#123; asyncAction &#125; <span class="keyword">from</span> <span class="string">&#x27;actions&#x27;</span></span><br><span class="line">jest.mock(<span class="string">&#x27;actions&#x27;</span>)</span><br><span class="line">asyncAction.mockResolvedValue(&#123; <span class="attr">foo</span>: <span class="string">&#x27;bar&#x27;</span> &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// rest of your test</span></span><br></pre></td></tr></table></figure>
+
+<p>(From <a target="_blank" rel="noopener" href="https://github.com/dobromir-hristov/rfcs/blob/vtu-2-api/active-rfcs/0000-vtu-api.md#setmethods">rfcs</a>)</p>
+<p>但因為我的需求是<code>針對流程控制</code>，例如執行這個 method ，中間會跑 A 一次、B兩次 等等，所以這個解法完全幫不上忙。</p>
+<p>按照官方網站建議的解法，改用 <code>mount</code> 時帶入 <code>method</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mount(Foo, &#123;</span><br><span class="line">  <span class="attr">methods</span>: &#123;</span><br><span class="line">    <span class="attr">getData</span>: <span class="function">() =&gt;</span> &#123;&#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>會出現另外一個錯誤訊息：</p>
+<p><code>[vue-test-utils]: overwriting methods via the</code>methods<code>property is deprecated and will be removed in the next major version.</code> </p>
+<p>最後是在 github 爬到的一個解法，原理也是用覆蓋的：<a target="_blank" rel="noopener" href="https://github.com/vuejs/vue-test-utils/issues/1541#issuecomment-698329740">solution</a></p>
+<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;description 變更觸發 watch，如期呼叫 renderTags() renderContent() 方法重捲頁面&#x27;</span>, <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="keyword">const</span> renderTags = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> renderContent = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line">  wrapper.setMethods(&#123; renderTags, renderContent &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  wrapper.setProps(&#123;</span><br><span class="line">    <span class="attr">description</span>: fakeDescription,</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">await</span> wrapper.vm.$nextTick();</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(renderTags).toBeCalled();</span><br><span class="line">  expect(renderContent).toBeCalled();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;description 變更觸發 watch，如期呼叫 renderTags() renderContent() 方法重捲頁面&#x27;</span>, <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="keyword">const</span> renderTags = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> renderContent = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">// 改用新方式</span></span><br><span class="line">  wrapper.vm.renderTags = renderTags;</span><br><span class="line">  wrapper.vm.renderContent = renderContent;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  wrapper.setProps(&#123;</span><br><span class="line">    <span class="attr">description</span>: fakeDescription,</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">await</span> wrapper.vm.$nextTick();</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(renderTags).toBeCalled();</span><br><span class="line">  expect(renderContent).toBeCalled();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/11/22/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/" data-id="ckwd7ccv900052g4y53o213nr" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/isVueInstance is deprecated and will be removed in the next major version. 2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/11/22/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" class="article-date">
-  <time datetime="2021-11-22T03:27:13.586Z" itemprop="datePublished">2021-11-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="isVueInstance is deprecated and will be removed in the next major version."></a><code>isVueInstance</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: isVueInstance is deprecated and will be removed <span class="keyword">in</span> the next major version.</span><br></pre></td></tr></table></figure>
-
-<p>錯誤訊息：<code>isVueInstance</code> 將在下一個主要版本棄用。</p>
-<p>棄用原因：這個方法以長遠來看，並沒有存在的必要，用 <code>findComponent</code> 可以得到 <code>vueWrapper</code> ，這也代表他是 vue instance。</p>
-<p>根據棄用原因，我試了這個方法，拿到 <code>vueWrapper</code>，然後就卡住了，我要怎麼辨別 <code>vueWrapper</code>？ <code>typeof</code> 的結果是 <code>object</code> ，也不可能生成一個一模一樣的內容來當測試結果。</p>
-<p>官網文件的 <code>update to V1</code> 給了一個比較好的解法：<code>wrapper.vm</code>。</p>
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; mount &#125; <span class="keyword">from</span> <span class="string">&#x27;@vue/test-utils&#x27;</span>;</span><br><span class="line"><span class="comment">// your test instance</span></span><br><span class="line"><span class="keyword">import</span> grade <span class="keyword">from</span> <span class="string">&#x27;@/components/product/grade.vue&#x27;</span>;</span><br><span class="line"></span><br><span class="line">describe(<span class="string">&#x27;grade.vue&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    expect(wrapper.isVueInstance()).toBeTruthy();</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// import 的部分沒有變動（略過）  </span></span><br><span class="line">test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">// 改用 vm</span></span><br><span class="line">    expect(wrapper.vm).toBeTruthy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><h3 id="vue-test-utils-Upgrading-to-V1-0"><a href="#vue-test-utils-Upgrading-to-V1-0" class="headerlink" title="vue-test-utils Upgrading to V1.0"></a><a target="_blank" rel="noopener" href="https://vue-test-utils.vuejs.org/upgrading-to-v1/#upgrading-to-v1-0">vue-test-utils Upgrading to V1.0</a></h3>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/11/22/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" data-id="ckwd7ccva00062g4y03g267yy" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead 2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/11/22/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" class="article-date">
-  <time datetime="2021-11-22T03:27:13.585Z" itemprop="datePublished">2021-11-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="contains-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#contains-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="contains is deprecated and will be removed in the next major version."></a>contains is deprecated and will be removed in the next major version.</h1><p>完整錯誤訊息：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: contains is deprecated and will be removed <span class="keyword">in</span> the next major version. Use <span class="string">`wrapper.find`</span>, <span class="string">`wrapper.findComponent`</span> or <span class="string">`wrapper.get`</span> instead.</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-header&#x27;</span>)).toBeFalsy();</span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-footer&#x27;</span>)).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-header&#x27;</span>).element).toBeFalsy();</span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-footer&#x27;</span>).element).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/11/22/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" data-id="ckwd7ccv800042g4y4lb48vp6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue3/emit events" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/11/22/vue/vue3/emit%20events/" class="article-date">
-  <time datetime="2021-11-22T03:27:13.487Z" itemprop="datePublished">2021-11-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="vue3-emit-events"><a href="#vue3-emit-events" class="headerlink" title="[vue3] emit events"></a>[vue3] emit events</h1><ul>
-<li>這份文件寫的是指客製化事件的發射。</li>
-<li>一般事件仍然會正常觸發（例如 click），接收一樣以 <code>@</code> 在 element 上接收。</li>
-</ul>
-<h2 id="setup-style"><a href="#setup-style" class="headerlink" title="setup style"></a>setup style</h2><p>setup 的參數 context 可以取得 emit，再把它傳進函式中使用即可。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> setup = <span class="function"><span class="keyword">function</span> (<span class="params">props, context</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// context 裡頭有 attrs, emit, expose, slots</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 發射事件：目前正在選擇的項目</span></span><br><span class="line"><span class="keyword">const</span> emitCurrentItem = <span class="function">(<span class="params">&#123; emit, list &#125;</span>) =&gt;</span> <span class="function">(<span class="params">index</span>) =&gt;</span> &#123;</span><br><span class="line">  emit(<span class="string">&#x27;overItem&#x27;</span>, &#123;</span><br><span class="line">    index,</span><br><span class="line">    <span class="attr">text</span>: list.value[index] || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<h3 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h3><p><a target="_blank" rel="noopener" href="https://v3.vuejs.org/guide/composition-api-setup.html#context">vue3 official</a></p>
-<h2 id="normal-style"><a href="#normal-style" class="headerlink" title="normal style"></a>normal style</h2><p>same as v2</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">  <span class="function"><span class="title">emitCurrentItem</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="built_in">this</span>.$emit(<span class="string">&#x27;overItem&#x27;</span>, &#123;</span><br><span class="line">        index,</span><br><span class="line">        <span class="attr">text</span>: list.value[index] || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">      &#125;);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">name</span>: <span class="string">&#x27;test&#x27;</span>,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/11/22/vue/vue3/emit%20events/" data-id="ckojigvl6000pz45d1xn33gv3" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue3/slot" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/05/10/vue/vue3/slot/" class="article-date">
-  <time datetime="2021-05-10T06:41:44.408Z" itemprop="datePublished">2021-05-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="vue3-slot"><a href="#vue3-slot" class="headerlink" title="[vue3] slot"></a>[vue3] slot</h1><h2 id="create-slot-template"><a href="#create-slot-template" class="headerlink" title="create slot template"></a>create slot template</h2><p>建立 <code>template</code> 方法和 <code>V2</code> 沒有區別～</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.modal-mask</span><br><span class="line">  .modal-wrapper</span><br><span class="line">    .modal-container.container</span><br><span class="line">      .header</span><br><span class="line">        slot(name=&#x27;header&#x27;)</span><br><span class="line">      .body</span><br><span class="line">        slot(name=&#x27;body&#x27;)</span><br><span class="line">      .footer</span><br><span class="line">        slot(name=&#x27;footer&#x27;)</span><br><span class="line">          button.default-button(type=&quot;button&quot;)</span><br><span class="line">            | OK</span><br></pre></td></tr></table></figure>
-
-<h2 id="using"><a href="#using" class="headerlink" title="using"></a>using</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">modal</span><br><span class="line">  template(v-slot:body)</span><br><span class="line">    h2 hello modal content</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/05/10/vue/vue3/slot/" data-id="ckojigvl9000sz45detkvhmeq" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" data-id="ckx4qyzpg002f80u1f1xn1ooe" class="article-share-link">Share</a>
       
       
     </footer>
@@ -292,8 +315,8 @@
   
     <article id="post-vue/vue3/element ref" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/04/20/vue/vue3/element%20ref/" class="article-date">
-  <time datetime="2021-04-20T09:06:43.233Z" itemprop="datePublished">2021-04-20</time>
+    <a href="/note/2021/12/13/vue/vue3/element%20ref/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
 </a>
     
   </div>
@@ -327,7 +350,88 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/04/20/vue/vue3/element%20ref/" data-id="ckojigvl5000oz45dhh5j74qx" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue3/element%20ref/" data-id="ckx4qyzph002g80u112u7ar22" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue/vue3/emit events" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/vue/vue3/emit%20events/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="vue3-emit-events"><a href="#vue3-emit-events" class="headerlink" title="[vue3] emit events"></a>[vue3] emit events</h1><ul>
+<li>這份文件寫的是指客製化事件的發射。</li>
+<li>一般事件仍然會正常觸發（例如 click），接收一樣以 <code>@</code> 在 element 上接收。</li>
+</ul>
+<h2 id="setup-style"><a href="#setup-style" class="headerlink" title="setup style"></a>setup style</h2><p>setup 的參數 context 可以取得 emit，再把它傳進函式中使用即可。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> setup = <span class="function"><span class="keyword">function</span> (<span class="params">props, context</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// context 裡頭有 attrs, emit, expose, slots</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 發射事件：目前正在選擇的項目</span></span><br><span class="line"><span class="keyword">const</span> emitCurrentItem = <span class="function">(<span class="params">&#123; emit, list &#125;</span>) =&gt;</span> <span class="function">(<span class="params">index</span>) =&gt;</span> &#123;</span><br><span class="line">  emit(<span class="string">&#x27;overItem&#x27;</span>, &#123;</span><br><span class="line">    index,</span><br><span class="line">    <span class="attr">text</span>: list.value[index] || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h3><p><a target="_blank" rel="noopener" href="https://v3.vuejs.org/guide/composition-api-setup.html#context">vue3 official</a></p>
+<h2 id="normal-style"><a href="#normal-style" class="headerlink" title="normal style"></a>normal style</h2><p>same as v2</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">  <span class="function"><span class="title">emitCurrentItem</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="built_in">this</span>.$emit(<span class="string">&#x27;overItem&#x27;</span>, &#123;</span><br><span class="line">        index,</span><br><span class="line">        <span class="attr">text</span>: list.value[index] || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">      &#125;);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">name</span>: <span class="string">&#x27;test&#x27;</span>,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue3/emit%20events/" data-id="ckx4qyzph002h80u1cfgshsm6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue/vue3/mixin to composition api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/13/vue/vue3/mixin%20to%20composition%20api/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="vue3-mixin-to-composition-api"><a href="#vue3-mixin-to-composition-api" class="headerlink" title="[vue3]mixin to composition api"></a>[vue3]mixin to composition api</h1><h2 id="compare-1-type-object-amp-function"><a href="#compare-1-type-object-amp-function" class="headerlink" title="compare 1 : type (object &amp; function)"></a>compare 1 : type (object &amp; function)</h2><h3 id="mixin"><a href="#mixin" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="composition-api-setup"><a href="#composition-api-setup" class="headerlink" title="composition api (setup)"></a>composition api (setup)</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 對外可共用的項目</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="compare-2-using-import"><a href="#compare-2-using-import" class="headerlink" title="compare 2 : using (import)"></a>compare 2 : using (import)</h2><h3 id="mixin-1"><a href="#mixin-1" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">mixins</span>: [mixinName],</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="composition-api"><a href="#composition-api" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> useAutoComplete <span class="keyword">from</span> <span class="string">&#x27;@/src/mixins/auto-complete/use-auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> setup = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; hoverIndex, keyDown &#125; = useAutoComplete();</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    keyDown,</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="compare-3-Syntax"><a href="#compare-3-Syntax" class="headerlink" title="compare 3 : Syntax"></a>compare 3 : Syntax</h2><h3 id="mixin-2"><a href="#mixin-2" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> data = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    <span class="attr">hoverIndex</span>: hoverDefaultIndex,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">    <span class="function"><span class="title">keyDown</span>(<span class="params">event</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.down) <span class="built_in">this</span>.hoverIndex += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.up) <span class="built_in">this</span>.hoverIndex -= <span class="number">1</span>;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="composition-api-1"><a href="#composition-api-1" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> keyDown = <span class="function">(<span class="params">&#123; hoverIndex &#125;</span>) =&gt;</span> <span class="function">(<span class="params">event</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.down) hoverIndex.value += <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.up) hoverIndex.value -= <span class="number">1</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> hoverIndex = ref(hoverDefaultIndex);</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    <span class="attr">keyDown</span>: keyDown(&#123; hoverIndex &#125;),</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue3/mixin%20to%20composition%20api/" data-id="ckx4qyzpi002i80u1cirxa2fu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -339,8 +443,8 @@
   
     <article id="post-vue/vue3/props" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/04/15/vue/vue3/props/" class="article-date">
-  <time datetime="2021-04-15T07:27:29.931Z" itemprop="datePublished">2021-04-15</time>
+    <a href="/note/2021/12/13/vue/vue3/props/" class="article-date">
+  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
 </a>
     
   </div>
@@ -373,78 +477,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/04/15/vue/vue3/props/" data-id="ckojigvl9000rz45d090sf1sq" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue3/mixin to composition api" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/04/14/vue/vue3/mixin%20to%20composition%20api/" class="article-date">
-  <time datetime="2021-04-14T07:10:12.361Z" itemprop="datePublished">2021-04-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="vue3-mixin-to-composition-api"><a href="#vue3-mixin-to-composition-api" class="headerlink" title="[vue3]mixin to composition api"></a>[vue3]mixin to composition api</h1><h2 id="compare-1-type-object-amp-function"><a href="#compare-1-type-object-amp-function" class="headerlink" title="compare 1 : type (object &amp; function)"></a>compare 1 : type (object &amp; function)</h2><h3 id="mixin"><a href="#mixin" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="composition-api-setup"><a href="#composition-api-setup" class="headerlink" title="composition api (setup)"></a>composition api (setup)</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 對外可共用的項目</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="compare-2-using-import"><a href="#compare-2-using-import" class="headerlink" title="compare 2 : using (import)"></a>compare 2 : using (import)</h2><h3 id="mixin-1"><a href="#mixin-1" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">mixins</span>: [mixinName],</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="composition-api"><a href="#composition-api" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> useAutoComplete <span class="keyword">from</span> <span class="string">&#x27;@/src/mixins/auto-complete/use-auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> setup = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; hoverIndex, keyDown &#125; = useAutoComplete();</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    keyDown,</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="compare-3-Syntax"><a href="#compare-3-Syntax" class="headerlink" title="compare 3 : Syntax"></a>compare 3 : Syntax</h2><h3 id="mixin-2"><a href="#mixin-2" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> data = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    <span class="attr">hoverIndex</span>: hoverDefaultIndex,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">    <span class="function"><span class="title">keyDown</span>(<span class="params">event</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.down) <span class="built_in">this</span>.hoverIndex += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.up) <span class="built_in">this</span>.hoverIndex -= <span class="number">1</span>;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="composition-api-1"><a href="#composition-api-1" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> keyDown = <span class="function">(<span class="params">&#123; hoverIndex &#125;</span>) =&gt;</span> <span class="function">(<span class="params">event</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.down) hoverIndex.value += <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.up) hoverIndex.value -= <span class="number">1</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> hoverIndex = ref(hoverDefaultIndex);</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    <span class="attr">keyDown</span>: keyDown(&#123; hoverIndex &#125;),</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/04/14/vue/vue3/mixin%20to%20composition%20api/" data-id="ckojigvl7000qz45dehyhgwz0" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/mock plugin or global instance (`$xxx`) instance" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2020/12/15/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" class="article-date">
-  <time datetime="2020-12-15T08:29:50.293Z" itemprop="datePublished">2020-12-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="mock-plugin-or-global-instance-xxx-instance"><a href="#mock-plugin-or-global-instance-xxx-instance" class="headerlink" title="mock plugin or global instance ($xxx) instance"></a>mock plugin or global instance (<code>$xxx</code>) instance</h1><h2 id="author"><a href="#author" class="headerlink" title="author"></a>author</h2><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>使用 i18n 、auth、route … 等 vue global 套件會出現的測試需求。</p>
-<h2 id="sample"><a href="#sample" class="headerlink" title="sample"></a>sample</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> wrapper = shallowMount(component, &#123;</span><br><span class="line">      localVue,</span><br><span class="line">      <span class="attr">mocks</span>: &#123;</span><br><span class="line">        <span class="attr">$auth</span>: &#123;</span><br><span class="line">          <span class="attr">getToken</span>: <span class="function">() =&gt;</span> <span class="string">&#x27;token-stub&#x27;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="attr">$route</span>: &#123;</span><br><span class="line">          <span class="attr">params</span>: &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">          &#125;,</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2020/12/15/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" data-id="ckojigvl3000nz45d9f0a4e1m" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue3/props/" data-id="ckx4qyzpi002j80u11zqa5aub" class="article-share-link">Share</a>
       
       
     </footer>
@@ -477,7 +510,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">彙整</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/11/">十一月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/05/">五月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/04/">四月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/12/">十二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/11/">十一月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/09/">九月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/08/">八月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/07/">七月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/04/">四月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/02/">二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/01/">一月 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/12/">十二月 2021</a></li></ul>
     </div>
   </div>
 
@@ -490,23 +523,23 @@
       <ul>
         
           <li>
-            <a href="/note/2021/11/22/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
+            <a href="/note/2021/12/13/webpack/lodash/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/11/22/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/">(no title)</a>
+            <a href="/note/2021/12/13/webp%20note/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/11/22/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
+            <a href="/note/2021/12/13/webpack/different%20enviroment%20text%20using%20dotenv%20(webpack)/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/11/22/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/">(no title)</a>
+            <a href="/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/11/22/vue/vue3/emit%20events/">(no title)</a>
+            <a href="/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
           </li>
         
       </ul>
