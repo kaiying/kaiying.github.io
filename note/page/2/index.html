@@ -68,10 +68,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-vue/vue3/slot" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/vue3/mixin to composition api" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue3/slot/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.213Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2021/04/14/vue/vue3/mixin%20to%20composition%20api/" class="article-date">
+  <time datetime="2021-04-14T07:10:12.361Z" itemprop="datePublished">2021-04-14</time>
 </a>
     
   </div>
@@ -80,16 +80,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="vue3-slot"><a href="#vue3-slot" class="headerlink" title="[vue3] slot"></a>[vue3] slot</h1><h2 id="create-slot-template"><a href="#create-slot-template" class="headerlink" title="create slot template"></a>create slot template</h2><p>建立 <code>template</code> 方法和 <code>V2</code> 沒有區別～</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.modal-mask</span><br><span class="line">  .modal-wrapper</span><br><span class="line">    .modal-container.container</span><br><span class="line">      .header</span><br><span class="line">        slot(name=&#x27;header&#x27;)</span><br><span class="line">      .body</span><br><span class="line">        slot(name=&#x27;body&#x27;)</span><br><span class="line">      .footer</span><br><span class="line">        slot(name=&#x27;footer&#x27;)</span><br><span class="line">          button.default-button(type=&quot;button&quot;)</span><br><span class="line">            | OK</span><br></pre></td></tr></table></figure>
+        <h1 id="vue3-mixin-to-composition-api"><a href="#vue3-mixin-to-composition-api" class="headerlink" title="[vue3]mixin to composition api"></a>[vue3]mixin to composition api</h1><h2 id="compare-1-type-object-amp-function"><a href="#compare-1-type-object-amp-function" class="headerlink" title="compare 1 : type (object &amp; function)"></a>compare 1 : type (object &amp; function)</h2><h3 id="mixin"><a href="#mixin" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="using"><a href="#using" class="headerlink" title="using"></a>using</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">modal</span><br><span class="line">  template(v-slot:body)</span><br><span class="line">    h2 hello modal content</span><br></pre></td></tr></table></figure>
+<h3 id="composition-api-setup"><a href="#composition-api-setup" class="headerlink" title="composition api (setup)"></a>composition api (setup)</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 對外可共用的項目</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="compare-2-using-import"><a href="#compare-2-using-import" class="headerlink" title="compare 2 : using (import)"></a>compare 2 : using (import)</h2><h3 id="mixin-1"><a href="#mixin-1" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="attr">mixins</span>: [mixinName],</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="composition-api"><a href="#composition-api" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> useAutoComplete <span class="keyword">from</span> <span class="string">&#x27;@/src/mixins/auto-complete/use-auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> setup = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; hoverIndex, keyDown &#125; = useAutoComplete();</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    keyDown,</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="compare-3-Syntax"><a href="#compare-3-Syntax" class="headerlink" title="compare 3 : Syntax"></a>compare 3 : Syntax</h2><h3 id="mixin-2"><a href="#mixin-2" class="headerlink" title="mixin"></a>mixin</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> data = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    <span class="attr">hoverIndex</span>: hoverDefaultIndex,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">    <span class="function"><span class="title">keyDown</span>(<span class="params">event</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.down) <span class="built_in">this</span>.hoverIndex += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (event.key === arrowKeyEnum.up) <span class="built_in">this</span>.hoverIndex -= <span class="number">1</span>;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="composition-api-1"><a href="#composition-api-1" class="headerlink" title="composition api"></a>composition api</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; hoverDefaultIndex, arrowKeyEnum &#125; <span class="keyword">from</span> <span class="string">&#x27;@/src/constant/search/auto-complete&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> keyDown = <span class="function">(<span class="params">&#123; hoverIndex &#125;</span>) =&gt;</span> <span class="function">(<span class="params">event</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.down) hoverIndex.value += <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (event.key === arrowKeyEnum.up) hoverIndex.value -= <span class="number">1</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> hoverIndex = ref(hoverDefaultIndex);</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    hoverIndex,</span><br><span class="line">    <span class="attr">keyDown</span>: keyDown(&#123; hoverIndex &#125;),</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue3/slot/" data-id="ckx4qyzpj002k80u115wmhqe7" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2021/04/14/vue/vue3/mixin%20to%20composition%20api/" data-id="ckojigvl7000qz45dehyhgwz0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -99,125 +110,10 @@
 
 
   
-    <article id="post-vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/vue-test-utils/mock plugin or global instance (`$xxx`) instance" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.212Z" itemprop="datePublished">2021-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="contains-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#contains-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="contains is deprecated and will be removed in the next major version."></a>contains is deprecated and will be removed in the next major version.</h1><p>完整錯誤訊息：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: contains is deprecated and will be removed <span class="keyword">in</span> the next major version. Use <span class="string">`wrapper.find`</span>, <span class="string">`wrapper.findComponent`</span> or <span class="string">`wrapper.get`</span> instead.</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-header&#x27;</span>)).toBeFalsy();</span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-footer&#x27;</span>)).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-header&#x27;</span>).element).toBeFalsy();</span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-footer&#x27;</span>).element).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/" data-id="ckx4qyzpc002980u1g7l50qae" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/isVueInstance is deprecated and will be removed in the next major version. 2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.212Z" itemprop="datePublished">2021-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="isVueInstance is deprecated and will be removed in the next major version."></a><code>isVueInstance</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: isVueInstance is deprecated and will be removed <span class="keyword">in</span> the next major version.</span><br></pre></td></tr></table></figure>
-
-<p>錯誤訊息：<code>isVueInstance</code> 將在下一個主要版本棄用。</p>
-<p>棄用原因：這個方法以長遠來看，並沒有存在的必要，用 <code>findComponent</code> 可以得到 <code>vueWrapper</code> ，這也代表他是 vue instance。</p>
-<p>根據棄用原因，我試了這個方法，拿到 <code>vueWrapper</code>，然後就卡住了，我要怎麼辨別 <code>vueWrapper</code>？ <code>typeof</code> 的結果是 <code>object</code> ，也不可能生成一個一模一樣的內容來當測試結果。</p>
-<p>官網文件的 <code>update to V1</code> 給了一個比較好的解法：<code>wrapper.vm</code>。</p>
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; mount &#125; <span class="keyword">from</span> <span class="string">&#x27;@vue/test-utils&#x27;</span>;</span><br><span class="line"><span class="comment">// your test instance</span></span><br><span class="line"><span class="keyword">import</span> grade <span class="keyword">from</span> <span class="string">&#x27;@/components/product/grade.vue&#x27;</span>;</span><br><span class="line"></span><br><span class="line">describe(<span class="string">&#x27;grade.vue&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    expect(wrapper.isVueInstance()).toBeTruthy();</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// import 的部分沒有變動（略過）  </span></span><br><span class="line">test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">// 改用 vm</span></span><br><span class="line">    expect(wrapper.vm).toBeTruthy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><h3 id="vue-test-utils-Upgrading-to-V1-0"><a href="#vue-test-utils-Upgrading-to-V1-0" class="headerlink" title="vue-test-utils Upgrading to V1.0"></a><a target="_blank" rel="noopener" href="https://vue-test-utils.vuejs.org/upgrading-to-v1/#upgrading-to-v1-0">vue-test-utils Upgrading to V1.0</a></h3>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" data-id="ckx4qyzpc002a80u1h2xx2988" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/isVueInstance is deprecated and will be removed in the next major version." class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" class="article-date">
-  <time datetime="2021-12-13T13:44:40.212Z" itemprop="datePublished">2021-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="isVueInstance is deprecated and will be removed in the next major version."></a><code>isVueInstance</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: isVueInstance is deprecated and will be removed <span class="keyword">in</span> the next major version.</span><br></pre></td></tr></table></figure>
-
-<p>錯誤訊息：<code>isVueInstance</code> 將在下一個主要版本棄用。</p>
-<p>棄用原因：這個方法以長遠來看，並沒有存在的必要，用 <code>findComponent</code> 可以得到 <code>vueWrapper</code> ，這也代表他是 vue instance。</p>
-<p>根據棄用原因，我試了這個方法，拿到 <code>vueWrapper</code>，然後就卡住了，我要怎麼辨別 <code>vueWrapper</code>？ <code>typeof</code> 的結果是 <code>object</code> ，也不可能生成一個一模一樣的內容來當測試結果。</p>
-<p>官網文件的 <code>update to V1</code> 給了一個比較好的解法：<code>wrapper.vm</code>。</p>
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; mount &#125; <span class="keyword">from</span> <span class="string">&#x27;@vue/test-utils&#x27;</span>;</span><br><span class="line"><span class="comment">// your test instance</span></span><br><span class="line"><span class="keyword">import</span> grade <span class="keyword">from</span> <span class="string">&#x27;@/components/product/grade.vue&#x27;</span>;</span><br><span class="line"></span><br><span class="line">describe(<span class="string">&#x27;grade.vue&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    expect(wrapper.isVueInstance()).toBeTruthy();</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// import 的部分沒有變動（略過）  </span></span><br><span class="line">test(<span class="string">&#x27;grade.vue is a Vue instance&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">// 改用 vm</span></span><br><span class="line">    expect(wrapper.vm).toBeTruthy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><h3 id="vue-test-utils-Upgrading-to-V1-0"><a href="#vue-test-utils-Upgrading-to-V1-0" class="headerlink" title="vue-test-utils Upgrading to V1.0"></a><a target="_blank" rel="noopener" href="https://vue-test-utils.vuejs.org/upgrading-to-v1/#upgrading-to-v1-0">vue-test-utils Upgrading to V1.0</a></h3>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" data-id="ckx4qyzpd002b80u17sd17pob" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue/vue-test-utils/mock plugin or global instance (`$xxx`) instance 2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.212Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/12/15/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" class="article-date">
+  <time datetime="2020-12-15T08:29:50.293Z" itemprop="datePublished">2020-12-15</time>
 </a>
     
   </div>
@@ -233,7 +129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/" data-id="ckx4qyzpd002c80u12kvdab49" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/12/15/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/" data-id="ckojigvl3000nz45d9f0a4e1m" class="article-share-link">Share</a>
       
       
     </footer>
@@ -243,10 +139,10 @@
 
 
   
-    <article id="post-vue/vue with debounce(lodash)" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/[vue] 五星評分元件 (using fontawsome)" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue%20with%20debounce(lodash)/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.211Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/12/11/vue/%5Bvue%5D%20%E4%BA%94%E6%98%9F%E8%A9%95%E5%88%86%E5%85%83%E4%BB%B6%20(using%20fontawsome)/" class="article-date">
+  <time datetime="2020-12-11T02:50:13.701Z" itemprop="datePublished">2020-12-11</time>
 </a>
     
   </div>
@@ -255,25 +151,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="debounce-use-case-vue"><a href="#debounce-use-case-vue" class="headerlink" title="debounce use case (vue)"></a>debounce use case (vue)</h1><h2 id="Case：Binding"><a href="#Case：Binding" class="headerlink" title="Case：Binding"></a>Case：Binding</h2><h3 id="Html-pug-jade"><a href="#Html-pug-jade" class="headerlink" title="Html(pug/jade)"></a>Html(pug/jade)</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">input.quantity.pl-3.pl-lg-0(v-model=&quot;itemQuantity&quot;)</span><br></pre></td></tr></table></figure>
+        <h1 id="vue-star-grade-using-fontawsome"><a href="#vue-star-grade-using-fontawsome" class="headerlink" title="vue star grade (using fontawsome)"></a>vue star grade (using fontawsome)</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">&lt;template lang=&quot;pug&quot;&gt;</span><br><span class="line">  .grade(:style=&quot;&#123; fontSize: size + &#x27;rem&#x27; &#125;&quot;)</span><br><span class="line">    span(v-for=&quot;(item, index) in 5&quot; :class=&quot;getStarClass(index)&quot;)</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">const props = &#123;</span><br><span class="line">  score: &#123;</span><br><span class="line">    type: Number,</span><br><span class="line">    default: 0,</span><br><span class="line">  &#125;,</span><br><span class="line">  size: &#123;</span><br><span class="line">    type: Number,</span><br><span class="line">    default: 2,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">const data = function() &#123;</span><br><span class="line">  return &#123;</span><br><span class="line">    star: &#123;</span><br><span class="line">      on: &#x27;icon-fa-star&#x27;,</span><br><span class="line">      off: &#x27;far icon-fa-star&#x27;,</span><br><span class="line">      half: &#x27;fa icon-fa-star-half-alt&#x27;,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">const methods = &#123;</span><br><span class="line">  getStarClass(index) &#123;</span><br><span class="line">    // 轉數字</span><br><span class="line">    const decimal = Number(this.score);</span><br><span class="line">    // 無條件捨去</span><br><span class="line">    const numbers = parseInt(this.score, 10);</span><br><span class="line"></span><br><span class="line">    // 分數比index還大，代表實心。舉例：小於1.5分的整數星星都發亮</span><br><span class="line">    if (index &lt; numbers) return this.star.on;</span><br><span class="line"></span><br><span class="line">    // 半顆星星：整數部份相同，實際數比整數大。 todo: 大於.5才亮半顆的話，可以把numbers+0.5再計算</span><br><span class="line">    if (index === numbers &amp;&amp; decimal &gt; numbers) return this.star.half;</span><br><span class="line"></span><br><span class="line">    return this.star.off;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &#x27;Grade&#x27;,</span><br><span class="line">  props,</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style lang=&quot;scss&quot; scoped&gt;</span><br><span class="line">.grade &#123;</span><br><span class="line">  color: #bb2d0f;</span><br><span class="line">  span &#123;</span><br><span class="line">    margin: 0 0.1rem 0 0.1rem;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
 
-<h3 id="Js"><a href="#Js" class="headerlink" title="Js"></a>Js</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> computed = &#123;</span><br><span class="line">  <span class="attr">itemQuantity</span>: &#123;</span><br><span class="line">    <span class="function"><span class="title">get</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="built_in">this</span>.item.qty;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">set</span>: debounce(<span class="function"><span class="keyword">function</span>(<span class="params">value</span>) </span>&#123;</span><br><span class="line">      <span class="built_in">this</span>.item.qty = value &lt;= <span class="number">0</span> ? <span class="number">1</span> : <span class="built_in">parseInt</span>(value, <span class="number">10</span>);</span><br><span class="line">    &#125;, <span class="number">500</span>),</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="Case：Handle-event"><a href="#Case：Handle-event" class="headerlink" title="Case：Handle event"></a>Case：Handle event</h2><h3 id="Html-pug-jade-1"><a href="#Html-pug-jade-1" class="headerlink" title="Html (pug/jade)"></a>Html (pug/jade)</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">button.add-cart-group.btn-eslite-red(v-if=&quot;isEnabled&quot; @click=&quot;action&quot;)</span><br></pre></td></tr></table></figure>
-
-<h3 id="Js-1"><a href="#Js-1" class="headerlink" title="Js"></a>Js</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">  <span class="attr">action</span>: debounce(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.product.status === productStatusEnum.selling) <span class="built_in">this</span>.$emit(<span class="string">&#x27;addCart&#x27;</span>, <span class="built_in">this</span>.product.id);</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.product.status === productStatusEnum.notices) <span class="built_in">this</span>.$emit(<span class="string">&#x27;notices&#x27;</span>, <span class="built_in">this</span>.product.id);</span><br><span class="line">  &#125;, <span class="number">500</span>),</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="Refernce"><a href="#Refernce" class="headerlink" title="Refernce"></a>Refernce</h2><p><a target="_blank" rel="noopener" href="https://medium.com/@alexian853/debounce-throttle-%E9%82%A3%E4%BA%9B%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC%E6%87%89%E8%A9%B2%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E5%B0%8F%E4%BA%8B-%E4%B8%80-76a73a8cbc39">Debounce &amp; Throttle — 那些前端開發應該要知道的小事(一)</a></p>
-<p><a target="_blank" rel="noopener" href="https://homura0731.github.io/post/2018/09/lodash-debounce/">Lodash - 使用debounce做事件延遲</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue%20with%20debounce(lodash)/" data-id="ckx4qyzp7002080u11nhf1fgq" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/12/11/vue/[vue]%20%E4%BA%94%E6%98%9F%E8%A9%95%E5%88%86%E5%85%83%E4%BB%B6%20(using%20fontawsome)/" data-id="ckojigvl0000iz45ddncl1u65" class="article-share-link">Share</a>
       
       
     </footer>
@@ -283,15 +167,57 @@
 
 
   
-    <article id="post-vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead 2" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-javascript/[testing tool - jest]expect throw error" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.211Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/12/10/javascript/%5Btesting%20tool%20-%20jest%5Dexpect%20throw%20error/" class="article-date">
+  <time datetime="2020-12-10T06:33:03.997Z" itemprop="datePublished">2020-12-10</time>
 </a>
     
   </div>
   <div class="article-inner">
     
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="testing-tool-jest-expect-throw-error"><a href="#testing-tool-jest-expect-throw-error" class="headerlink" title="[testing tool - jest]expect throw error"></a>[testing tool - jest]expect throw error</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&quot;Test description&quot;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> t = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">TypeError</span>();</span><br><span class="line">  &#125;;</span><br><span class="line">  expect(t).toThrow(<span class="built_in">TypeError</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="另一種概念"><a href="#另一種概念" class="headerlink" title="另一種概念"></a>另一種概念</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">it(<span class="string">&#x27;should throw Error with message \&#x27;UNKNOWN ERROR\&#x27; when no parameters were passed&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">      throwError();</span><br><span class="line">      <span class="comment">// Fail test if above expression doesn&#x27;t throw anything.</span></span><br><span class="line">      expect(<span class="literal">true</span>).toBe(<span class="literal">false</span>);</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">      expect(e.message).toBe(<span class="string">&quot;UNKNOWN ERROR&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2020/12/10/javascript/[testing%20tool%20-%20jest]expect%20throw%20error/" data-id="ckojigvkv000hz45d7owg8vu7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2020/12/03/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/" class="article-date">
+  <time datetime="2020-12-03T07:37:51.093Z" itemprop="datePublished">2020-12-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/note/2020/12/03/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/">vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead</a>
+    </h1>
+  
+
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -300,17 +226,17 @@
 
 
 
-<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-header&#x27;</span>)).toBeFalsy();</span><br><span class="line">  expect(wrapper.contains(<span class="string">&#x27;.modal-footer&#x27;</span>)).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">'預設不顯示 header &amp; footer'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.contains(<span class="string">'.modal-header'</span>)).toBeFalsy();</span><br><span class="line">  expect(wrapper.contains(<span class="string">'.modal-footer'</span>)).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-header&#x27;</span>).element).toBeFalsy();</span><br><span class="line">  expect(wrapper.find(<span class="string">&#x27;.modal-footer&#x27;</span>).element).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">'預設不顯示 header &amp; footer'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(wrapper.find(<span class="string">'.modal-header'</span>).element).toBeFalsy();</span><br><span class="line">  expect(wrapper.find(<span class="string">'.modal-footer'</span>).element).toBeFalsy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" data-id="ckx4qyzpb002880u181k1bhu6" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/12/03/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/" data-id="cki9web3m0000ds5d0aou6cyx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -320,24 +246,54 @@
 
 
   
-    <article id="post-vue/image on error handle (vueJs)" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/vue-test-utils/setMethods is deprecated and will be removed in the next major version." class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/image%20on%20error%20handle%20(vueJs)/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.210Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/12/03/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" class="article-date">
+  <time datetime="2020-12-03T03:53:05.766Z" itemprop="datePublished">2020-12-03</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/note/2020/12/03/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./">vue/vue-test-utils/setMethods is deprecated and will be removed in the next major version.</a>
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/394c487d81d7">https://www.jianshu.com/p/394c487d81d7</a></p>
+        <h1 id="setMethods-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#setMethods-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="setMethods is deprecated and will be removed in the next major version."></a><code>setMethods</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: setMethods is deprecated and will be removed <span class="keyword">in</span> the next major version. There is no clear migration path <span class="keyword">for</span> setMethods - Vue does not support arbitrarily replacement <span class="keyword">of</span> methods, nor should VTU. To stub a complex method extract it <span class="keyword">from</span> the component and test it <span class="keyword">in</span> isolation. Otherwise, the suggestion is to rethink those tests.</span><br></pre></td></tr></table></figure>
+
+<p>錯誤訊息：<code>setMethods</code> 將在下一個主要版本棄用。</p>
+<p>網路上大多舉例都是在<code>需要mock axios</code>的情境，所以可以查到不少範例是針對 axios mock的部分。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Component.vue</span></span><br><span class="line"><span class="keyword">import</span> &#123; asyncAction &#125; <span class="keyword">from</span> <span class="string">'actions'</span></span><br><span class="line"><span class="keyword">const</span> Component = &#123;</span><br><span class="line">    ...,</span><br><span class="line">    methods: &#123;</span><br><span class="line">        <span class="keyword">async</span> someAsyncMethod() &#123;</span><br><span class="line">            <span class="keyword">this</span>.result = <span class="keyword">await</span> asyncAction()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// spec.js</span></span><br><span class="line"><span class="keyword">import</span> &#123; asyncAction &#125; <span class="keyword">from</span> <span class="string">'actions'</span></span><br><span class="line">jest.mock(<span class="string">'actions'</span>)</span><br><span class="line">asyncAction.mockResolvedValue(&#123; <span class="attr">foo</span>: <span class="string">'bar'</span> &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// rest of your test</span></span><br></pre></td></tr></table></figure>
+
+<p>(From <a href="https://github.com/dobromir-hristov/rfcs/blob/vtu-2-api/active-rfcs/0000-vtu-api.md#setmethods" target="_blank" rel="noopener">rfcs</a>)</p>
+<p>但因為我的需求是<code>針對流程控制</code>，例如執行這個 method ，中間會跑 A 一次、B兩次 等等，所以這個解法完全幫不上忙。</p>
+<p>按照官方網站建議的解法，改用 <code>mount</code> 時帶入 <code>method</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mount(Foo, &#123;</span><br><span class="line">  methods: &#123;</span><br><span class="line">    getData: <span class="function"><span class="params">()</span> =&gt;</span> &#123;&#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>會出現另外一個錯誤訊息：</p>
+<p><code>[vue-test-utils]: overwriting methods via the</code>methods<code>property is deprecated and will be removed in the next major version.</code> </p>
+<p>最後是在 github 爬到的一個解法，原理也是用覆蓋的：<a href="https://github.com/vuejs/vue-test-utils/issues/1541#issuecomment-698329740" target="_blank" rel="noopener">solution</a></p>
+<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">'description 變更觸發 watch，如期呼叫 renderTags() renderContent() 方法重捲頁面'</span>, <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="keyword">const</span> renderTags = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> renderContent = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line">  wrapper.setMethods(&#123; renderTags, renderContent &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  wrapper.setProps(&#123;</span><br><span class="line">    description: fakeDescription,</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">await</span> wrapper.vm.$nextTick();</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(renderTags).toBeCalled();</span><br><span class="line">  expect(renderContent).toBeCalled();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">test(<span class="string">'description 變更觸發 watch，如期呼叫 renderTags() renderContent() 方法重捲頁面'</span>, <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="keyword">const</span> renderTags = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> renderContent = jest.fn();</span><br><span class="line">  <span class="keyword">const</span> wrapper = shallowMount(component);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">// 改用新方式</span></span><br><span class="line">  wrapper.vm.renderTags = renderTags;</span><br><span class="line">  wrapper.vm.renderContent = renderContent;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  wrapper.setProps(&#123;</span><br><span class="line">    description: fakeDescription,</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">await</span> wrapper.vm.$nextTick();</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  expect(renderTags).toBeCalled();</span><br><span class="line">  expect(renderContent).toBeCalled();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/image%20on%20error%20handle%20(vueJs)/" data-id="ckx4qyzp5001y80u118t60anz" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/12/03/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" data-id="cki8bm0il001dkd5d37bpb5hc" class="article-share-link">Share</a>
       
       
     </footer>
@@ -347,25 +303,46 @@
 
 
   
-    <article id="post-vue/vue timer" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-vue/vue-test-utils/isVueInstance is deprecated and will be removed in the next major version." class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/vue%20timer/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.210Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/12/03/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" class="article-date">
+  <time datetime="2020-12-03T02:48:12.928Z" itemprop="datePublished">2020-12-03</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/note/2020/12/03/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./">vue/vue-test-utils/isVueInstance is deprecated and will be removed in the next major version.</a>
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="vue-timer"><a href="#vue-timer" class="headerlink" title="vue timer"></a>vue timer</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> data = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    <span class="attr">timerInstance</span>: <span class="literal">null</span>,</span><br><span class="line">    <span class="attr">timerSeconds</span>: <span class="number">30</span>,</span><br><span class="line">    <span class="attr">timerCounting</span>: <span class="number">0</span>,</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">const</span> methods = &#123;</span><br><span class="line">  <span class="function"><span class="title">timerStart</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.timerCounting = <span class="built_in">this</span>.timerSeconds;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.timerInstance == <span class="literal">null</span>) &#123;</span><br><span class="line">      <span class="built_in">this</span>.timerInstance = <span class="built_in">setInterval</span>(<span class="built_in">this</span>.timerHandler, <span class="number">1000</span>);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="function"><span class="title">timerHandler</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.timerCounting === <span class="number">0</span>) &#123;</span><br><span class="line">      <span class="built_in">this</span>.timerEnd();</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">this</span>.timerCounting -= <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;timer ==&gt;&#x27;</span>, <span class="built_in">this</span>.timerCounting);</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="function"><span class="title">timerEnd</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">clearInterval</span>(<span class="built_in">this</span>.timerInstance);</span><br><span class="line">    <span class="built_in">this</span>.timerInstance = <span class="literal">null</span>; <span class="comment">// 將狀態轉為空</span></span><br><span class="line">    <span class="built_in">this</span>.timerCounting = <span class="built_in">this</span>.timerSeconds;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  data,</span><br><span class="line">  methods,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <h1 id="isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#isVueInstance-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="isVueInstance is deprecated and will be removed in the next major version."></a><code>isVueInstance</code> is deprecated and will be removed in the next major version.</h1><h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>完整錯誤訊息：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: isVueInstance is deprecated and will be removed <span class="keyword">in</span> the next major version.</span><br></pre></td></tr></table></figure>
+
+<p>錯誤訊息：<code>isVueInstance</code> 將在下一個主要版本棄用。</p>
+<p>棄用原因：這個方法以長遠來看，並沒有存在的必要，用 <code>findComponent</code> 可以得到 <code>vueWrapper</code> ，這也代表他是 vue instance。</p>
+<p>根據棄用原因，我試了這個方法，拿到 <code>vueWrapper</code>，然後就卡住了，我要怎麼辨別 <code>vueWrapper</code>？ <code>typeof</code> 的結果是 <code>object</code> ，也不可能生成一個一模一樣的內容來當測試結果。</p>
+<p>官網文件的 <code>update to V1</code> 給了一個比較好的解法：<code>wrapper.vm</code>。</p>
+<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; mount &#125; <span class="keyword">from</span> <span class="string">'@vue/test-utils'</span>;</span><br><span class="line"><span class="comment">// your test instance</span></span><br><span class="line"><span class="keyword">import</span> grade <span class="keyword">from</span> <span class="string">'@/components/product/grade.vue'</span>;</span><br><span class="line"></span><br><span class="line">describe(<span class="string">'grade.vue'</span>, () =&gt; &#123;</span><br><span class="line">  test(<span class="string">'grade.vue is a Vue instance'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    expect(wrapper.isVueInstance()).toBeTruthy();</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// import 的部分沒有變動（略過）  </span></span><br><span class="line">test(<span class="string">'grade.vue is a Vue instance'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> wrapper = mount(grade);</span><br><span class="line">    expect(wrapper.exists()).toBe(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">// 改用 vm</span></span><br><span class="line">    expect(wrapper.vm).toBeTruthy();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
 
+
+<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><h3 id="vue-test-utils-Upgrading-to-V1-0"><a href="#vue-test-utils-Upgrading-to-V1-0" class="headerlink" title="vue-test-utils Upgrading to V1.0"></a><a href="https://vue-test-utils.vuejs.org/upgrading-to-v1/#upgrading-to-v1-0" target="_blank" rel="noopener">vue-test-utils Upgrading to V1.0</a></h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/vue%20timer/" data-id="ckx4qyzp6001z80u1409qa8rm" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/12/03/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version./" data-id="cki8bm0ik001ckd5d4ektgl72" class="article-share-link">Share</a>
       
       
     </footer>
@@ -375,10 +352,113 @@
 
 
   
-    <article id="post-vue/Props with type ObjectArray must use a factory function to return the default value" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-webp note" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/note/2021/12/13/vue/Props%20with%20type%20ObjectArray%20must%20use%20a%20factory%20function%20to%20return%20the%20default%20value/" class="article-date">
-  <time datetime="2021-12-13T13:44:40.209Z" itemprop="datePublished">2021-12-13</time>
+    <a href="/note/2020/11/13/webp%20note/" class="article-date">
+  <time datetime="2020-11-13T07:55:19.324Z" itemprop="datePublished">2020-11-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/note/2020/11/13/webp%20note/">webp note</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Using-webp"><a href="#Using-webp" class="headerlink" title="Using webp"></a>Using webp</h1><h2 id="way-1：將本地的圖片用-webpack-都轉成-webp，再用套件選擇性套入"><a href="#way-1：將本地的圖片用-webpack-都轉成-webp，再用套件選擇性套入" class="headerlink" title="way 1：將本地的圖片用 webpack 都轉成 webp，再用套件選擇性套入"></a>way 1：將本地的圖片用 webpack 都轉成 webp，再用套件選擇性套入</h2><ul>
+<li>用 <a href="https://github.com/iampava/imagemin-webp-webpack-plugin" target="_blank" rel="noopener">imagemin-webp-webpack-plugin</a> 將圖片全部轉成 webp</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> ImageminWebpWebpackPlugin <span class="keyword">from</span> <span class="string">'imagemin-webp-webpack-plugin'</span></span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">plugins: [</span><br><span class="line">  ...</span><br><span class="line">  <span class="keyword">new</span> ImageminWebpWebpackPlugin(&#123;</span><br><span class="line">    config: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.(jpe?g|png)/</span>,</span><br><span class="line">        options: &#123;</span><br><span class="line">          quality: <span class="number">75</span></span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">    overrideExtension: <span class="literal">false</span></span><br><span class="line">  &#125;)</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">Vue.use(VueLazyLoad, &#123;</span><br><span class="line">  preLoad: <span class="number">1.3</span>,</span><br><span class="line">  error: <span class="built_in">require</span>(<span class="string">'@/static/images/product-default@3x.png'</span>),</span><br><span class="line">  loading: <span class="built_in">require</span>(<span class="string">'@/static/images/loading.gif'</span>),</span><br><span class="line">  attempt: <span class="number">1</span>,</span><br><span class="line">  filter: &#123;</span><br><span class="line">    progressive(listener, options) &#123;</span><br><span class="line">      <span class="keyword">return</span> ;</span><br><span class="line">      <span class="built_in">console</span>.group(<span class="string">'============== [lazy load] progressive =============='</span>);</span><br><span class="line">      <span class="built_in">console</span>.log(listener);</span><br><span class="line">      <span class="built_in">console</span>.log(options);</span><br><span class="line">      <span class="comment">// 把temp的值赋给src</span></span><br><span class="line">      <span class="comment">// listener.src = $(listener.el).attr('temp');</span></span><br><span class="line">      <span class="built_in">console</span>.groupEnd();</span><br><span class="line">    &#125;,</span><br><span class="line">    webp(listener, options) &#123;</span><br><span class="line">      <span class="built_in">console</span>.group(<span class="string">'============== [lazy load] webp =============='</span>);</span><br><span class="line">      <span class="built_in">console</span>.log(listener);</span><br><span class="line">      <span class="built_in">console</span>.log(options);</span><br><span class="line">      <span class="comment">// 把temp的值赋给src</span></span><br><span class="line">      <span class="comment">// listener.src = $(listener.el).attr('temp');</span></span><br><span class="line">      <span class="built_in">console</span>.groupEnd();</span><br><span class="line">      <span class="comment">// if ()</span></span><br><span class="line">      <span class="comment">// 1. 是否支持webp</span></span><br><span class="line">      <span class="comment">// 2. 考虑编译速度及热更新相关问题，DEV环境还是照旧</span></span><br><span class="line">      <span class="comment">// 3. 如果是svg的话，照旧</span></span><br><span class="line">      <span class="comment">// 4. 做一个防错误处理，是cdn的地址才走webp</span></span><br><span class="line">      <span class="comment">// if (options.supportWebp &amp;&amp; !__DEV__ &amp;&amp; !listener.src.endsWith('.svg') &amp;&amp; listener.src.startsWith(cdnSetting[__ENV__].publicPath)) &#123;</span></span><br><span class="line">      <span class="comment">//   listener.src += '.webp';</span></span><br><span class="line">      <span class="comment">// &#125;</span></span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="article"><a href="#article" class="headerlink" title="article"></a>article</h2><p>解說：</p>
+<p><a href="https://medium.com/@mingjunlu/image-optimization-using-webp-72d5641213c9" target="_blank" rel="noopener">https://medium.com/@mingjunlu/image-optimization-using-webp-72d5641213c9</a></p>
+<p>範例</p>
+<p><a href="https://juejin.im/post/6856607599249326094" target="_blank" rel="noopener">https://juejin.im/post/6856607599249326094</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2020/11/13/webp%20note/" data-id="cki8bm0hb0003kd5dbxsfathn" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-javascript/change url (not reload page) " class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2020/11/04/javascript/change%20url%20(not%20reload%20page)%20/" class="article-date">
+  <time datetime="2020-11-04T03:51:04.059Z" itemprop="datePublished">2020-11-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/note/2020/11/04/javascript/change%20url%20(not%20reload%20page)%20/">javascript/change url (not reload page) </a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="change-url-不換頁"><a href="#change-url-不換頁" class="headerlink" title="change url 不換頁"></a>change url 不換頁</h1><h2 id="use-case"><a href="#use-case" class="headerlink" title="use case"></a>use case</h2><p>使用 ajax 搜尋時，不 refesh page，但要改動網址。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> setDisplayUrl = <span class="function">(<span class="params">url</span>) =&gt;</span> <span class="built_in">window</span>.history.pushState(<span class="literal">null</span>, <span class="literal">null</span>, url);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p><a href="https://henry255164.gitbooks.io/coding/content/rewrite_url.html" target="_blank" rel="noopener">https://henry255164.gitbooks.io/coding/content/rewrite_url.html</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2020/11/04/javascript/change%20url%20(not%20reload%20page)%20/" data-id="cki8bm0ib0012kd5dewta0b8h" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-css/font size 無法調得更低？" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2020/11/03/css/font%20size%20%E7%84%A1%E6%B3%95%E8%AA%BF%E5%BE%97%E6%9B%B4%E4%BD%8E%EF%BC%9F/" class="article-date">
+  <time datetime="2020-11-03T11:33:32.859Z" itemprop="datePublished">2020-11-03</time>
 </a>
     
   </div>
@@ -387,15 +467,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Vue-warn-Props-with-type-Object-Array-must-use-a-factory-function-to-return-the-default-value"><a href="#Vue-warn-Props-with-type-Object-Array-must-use-a-factory-function-to-return-the-default-value" class="headerlink" title="[Vue warn] : Props with type Object/Array must use a factory function to return the default value."></a>[Vue warn] : Props with type Object/Array must use a factory function to return the default value.</h1><h2 id="Error"><a href="#Error" class="headerlink" title="Error"></a>Error</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> props = &#123;</span><br><span class="line">  <span class="attr">description</span>: &#123;</span><br><span class="line">    <span class="attr">type</span>: <span class="built_in">Array</span>,</span><br><span class="line">    <span class="attr">default</span>:[],</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+        <h1 id="font-size-無法縮得更小？"><a href="#font-size-無法縮得更小？" class="headerlink" title="font-size 無法縮得更小？"></a>font-size 無法縮得更小？</h1><h2 id="question"><a href="#question" class="headerlink" title="question"></a>question</h2><p>在 chrome 上使用 font-size 會遇到字體無法縮小的問題。</p>
+<p>ex. chrome font-size 小於 11下不去。</p>
+<h2 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h2><p>偏方：CSS3</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">transform</span>: <span class="built_in">scale</span>(<span class="number">0.5</span>)</span><br></pre></td></tr></table></figure>
 
-<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> props = &#123;</span><br><span class="line">  <span class="attr">description</span>: &#123;</span><br><span class="line">    <span class="attr">type</span>: <span class="built_in">Array</span>,</span><br><span class="line">    <span class="attr">default</span>:<span class="function">() =&gt;</span> [],</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
+<p>這個方法可以在 chrome 上讓字更小，但要注意是否會影響「其他瀏覽器」的顯示。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaiying.github.io/note/2021/12/13/vue/Props%20with%20type%20ObjectArray%20must%20use%20a%20factory%20function%20to%20return%20the%20default%20value/" data-id="ckx4qyzoz001v80u13x3s5r10" class="article-share-link">Share</a>
+      <a data-url="http://kaiying.github.io/note/2020/11/03/css/font%20size%20%E7%84%A1%E6%B3%95%E8%AA%BF%E5%BE%97%E6%9B%B4%E4%BD%8E%EF%BC%9F/" data-id="cki8bm0ia0010kd5d3u73g2dt" class="article-share-link">Share</a>
       
       
     </footer>
@@ -409,7 +491,7 @@
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/note/">&amp;laquo; 上一頁</a><a class="page-number" href="/note/">1</a><span class="page-number current">2</span><a class="page-number" href="/note/page/3/">3</a><a class="extend next" rel="next" href="/note/page/3/">下一頁 &amp;raquo;</a>
+    <a class="extend prev" rel="prev" href="/note/">&amp;laquo; 上一頁</a><a class="page-number" href="/note/">1</a><span class="page-number current">2</span><a class="page-number" href="/note/page/3/">3</a><a class="page-number" href="/note/page/4/">4</a><a class="extend next" rel="next" href="/note/page/3/">下一頁 &amp;raquo;</a>
   </nav>
 
 </section>
@@ -428,7 +510,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">彙整</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/12/">十二月 2021</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2022/11/">十一月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/12/">十二月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/11/">十一月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/05/">五月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/04/">四月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/12/">十二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/11/">十一月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/09/">九月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/08/">八月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/07/">七月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/02/">二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2020/01/">一月 2020</a></li></ul>
     </div>
   </div>
 
@@ -441,23 +523,23 @@
       <ul>
         
           <li>
-            <a href="/note/2021/12/13/webpack/lodash/">(no title)</a>
+            <a href="/note/2022/11/17/dev%20env/upgrade%20node%20via%20npm/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/12/13/webp%20note/">(no title)</a>
+            <a href="/note/2021/12/28/vue/Duplicate%20keys%20detected%200%20This%20may%20cause%20an%20update%20error/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/12/13/webpack/different%20enviroment%20text%20using%20dotenv%20(webpack)/">(no title)</a>
+            <a href="/note/2021/11/22/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/12/13/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance/">(no title)</a>
+            <a href="/note/2021/11/22/vue/vue-test-utils/mock%20plugin%20or%20global%20instance%20(%60$xxx%60)%20instance%202/">(no title)</a>
           </li>
         
           <li>
-            <a href="/note/2021/12/13/vue/vue-test-utils/setMethods%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
+            <a href="/note/2021/11/22/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/">(no title)</a>
           </li>
         
       </ul>
@@ -472,7 +554,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2021 Kathy Lai(KaiYing)<br>
+      &copy; 2024 Kathy Lai(KaiYing)<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
