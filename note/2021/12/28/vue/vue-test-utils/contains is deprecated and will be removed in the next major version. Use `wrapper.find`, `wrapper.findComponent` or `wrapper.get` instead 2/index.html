@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Kathy :PPP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="contains is deprecated and will be removed in the next major version.完整錯誤訊息： 1[vue-test-utils]: contains is deprecated and will be removed in the next major version. Use &#96;wrapper.find&#96;, &#96;wrapper.findC">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kathy :PPP">
+<meta property="og:url" content="http://kaiying.github.io/note/2021/12/28/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/index.html">
+<meta property="og:site_name" content="Kathy :PPP">
+<meta property="og:description" content="contains is deprecated and will be removed in the next major version.完整錯誤訊息： 1[vue-test-utils]: contains is deprecated and will be removed in the next major version. Use &#96;wrapper.find&#96;, &#96;wrapper.findC">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-12-28T07:38:02.270Z">
+<meta property="article:modified_time" content="2021-12-28T07:38:02.270Z">
+<meta property="article:author" content="Kathy Lai(KaiYing)">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/note/atom.xml" title="Kathy :PPP" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/note/css/style.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/note/" id="logo">Kathy :PPP</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/note/">Home</a>
+        
+          <a class="main-nav-link" href="/note/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/note/rathena">RAthena</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/note/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜尋"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://kaiying.github.io/note"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-vue/vue-test-utils/contains is deprecated and will be removed in the next major version. Use `wrapper.find`, `wrapper.findComponent` or `wrapper.get` instead 2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/note/2021/12/28/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" class="article-date">
+  <time datetime="2021-12-28T07:38:02.270Z" itemprop="datePublished">2021-12-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="contains-is-deprecated-and-will-be-removed-in-the-next-major-version"><a href="#contains-is-deprecated-and-will-be-removed-in-the-next-major-version" class="headerlink" title="contains is deprecated and will be removed in the next major version."></a>contains is deprecated and will be removed in the next major version.</h1><p>完整錯誤訊息：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vue-test-utils]: contains is deprecated and will be removed <span class="keyword">in</span> the next major version. <span class="title class_">Use</span> <span class="string">`wrapper.find`</span>, <span class="string">`wrapper.findComponent`</span> or <span class="string">`wrapper.get`</span> instead.</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="old"><a href="#old" class="headerlink" title="old"></a>old</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">test</span>(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = <span class="title function_">shallowMount</span>(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  <span class="title function_">expect</span>(wrapper.<span class="title function_">contains</span>(<span class="string">&#x27;.modal-header&#x27;</span>)).<span class="title function_">toBeFalsy</span>();</span><br><span class="line">  <span class="title function_">expect</span>(wrapper.<span class="title function_">contains</span>(<span class="string">&#x27;.modal-footer&#x27;</span>)).<span class="title function_">toBeFalsy</span>();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="improving"><a href="#improving" class="headerlink" title="improving"></a>improving</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">test</span>(<span class="string">&#x27;預設不顯示 header &amp; footer&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">/** arrange */</span></span><br><span class="line">  <span class="comment">// none</span></span><br><span class="line">  <span class="comment">/** act */</span></span><br><span class="line">  <span class="keyword">const</span> wrapper = <span class="title function_">shallowMount</span>(component);</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** assert */</span></span><br><span class="line">  <span class="title function_">expect</span>(wrapper.<span class="title function_">find</span>(<span class="string">&#x27;.modal-header&#x27;</span>).<span class="property">element</span>).<span class="title function_">toBeFalsy</span>();</span><br><span class="line">  <span class="title function_">expect</span>(wrapper.<span class="title function_">find</span>(<span class="string">&#x27;.modal-footer&#x27;</span>).<span class="property">element</span>).<span class="title function_">toBeFalsy</span>();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaiying.github.io/note/2021/12/28/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead%202/" data-id="cm7u60sb5002nm8e8ffef0jw1" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/note/2021/12/28/vue/vue-test-utils/contains%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%20Use%20%60wrapper.find%60,%20%60wrapper.findComponent%60%20or%20%60wrapper.get%60%20instead/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/note/2021/12/28/vue/vue-test-utils/isVueInstance%20is%20deprecated%20and%20will%20be%20removed%20in%20the%20next%20major%20version.%202/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">彙整</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2022/11/">十一月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/note/archives/2021/12/">十二月 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/note/2022/11/17/dev%20env/upgrade%20node%20via%20npm/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/note/2021/12/28/webp%20note/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/note/2021/12/28/webpack/different%20enviroment%20text%20using%20dotenv%20(webpack)/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/note/2021/12/28/webpack/lodash/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/note/2021/12/28/vue/vue3/props/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2025 Kathy Lai(KaiYing)<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/note/" class="mobile-nav-link">Home</a>
+  
+    <a href="/note/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/note/rathena" class="mobile-nav-link">RAthena</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/note/fancybox/jquery.fancybox.css">
+
+  
+<script src="/note/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/note/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
