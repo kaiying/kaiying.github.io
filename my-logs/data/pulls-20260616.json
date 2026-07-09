@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T09:54:36.287Z",
+  "generatedAt": "2026-07-09T09:08:48.640Z",
   "inputFiles": [
     "logs/Network_30202_20260616.log"
   ],
@@ -14000,9 +14000,7 @@
             "rotationScore": {
               "overall": 96.28471277678898,
               "gcdUptime": 93.80785462798163,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -15020,9 +15018,7 @@
             "rotationScore": {
               "overall": 94.60262417994376,
               "gcdUptime": 96.00437363323961,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           },
           {
@@ -16002,9 +15998,7 @@
             "rotationScore": {
               "overall": 92.95033860045146,
               "gcdUptime": 89.91723100075245,
-              "buffUtilization": 97.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 97.5
             }
           },
           {
@@ -18026,9 +18020,7 @@
             "rotationScore": {
               "overall": 98.36381603714393,
               "gcdUptime": 97.27302672857323,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -19743,9 +19735,7 @@
             "rotationScore": {
               "overall": 96.938871547113,
               "gcdUptime": 94.89811924518831,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -21382,9 +21372,7 @@
             "rotationScore": {
               "overall": 97.92308058904828,
               "gcdUptime": 96.5384676484138,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -23014,9 +23002,7 @@
             "rotationScore": {
               "overall": 92.05618039693016,
               "gcdUptime": 86.76030066155026,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -25063,26 +25049,15 @@
             "rotationScore": {
               "overall": 96.96642590681799,
               "gcdUptime": 94.94404317803,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 58086,
             "healers": [
@@ -25106,17 +25081,7 @@
                 "healsPerSecond": 186.67596348884382,
                 "efficiency": 5.4394000960437365
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 839186,
-              "overhealRate": 93.52637773161315,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (92.0%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (94.6%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -25127,14 +25092,7 @@
             "description": "過度治療率 93.5%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 81.93718639867957,
-          "rotation": 95.76075625427968,
-          "teamwork": 53.236811134193424,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -36773,9 +36731,7 @@
             "rotationScore": {
               "overall": 98.00702145612343,
               "gcdUptime": 96.67836909353906,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -38253,9 +38209,7 @@
             "rotationScore": {
               "overall": 85.56833429173855,
               "gcdUptime": 75.94722381956424,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -39164,9 +39118,7 @@
             "rotationScore": {
               "overall": 87.12757743196212,
               "gcdUptime": 81.87929571993689,
-              "buffUtilization": 95,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 95
             }
           },
           {
@@ -41145,9 +41097,7 @@
             "rotationScore": {
               "overall": 90.26808712637059,
               "gcdUptime": 83.78014521061765,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -42824,9 +42774,7 @@
             "rotationScore": {
               "overall": 88.21966130068905,
               "gcdUptime": 91.4772132789262,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -44664,9 +44612,7 @@
             "rotationScore": {
               "overall": 91.26161644607151,
               "gcdUptime": 85.43602741011921,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -46248,9 +46194,7 @@
             "rotationScore": {
               "overall": 93.45684825085927,
               "gcdUptime": 89.09474708476544,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -47145,26 +47089,15 @@
             "rotationScore": {
               "overall": 80.41724387158948,
               "gcdUptime": 92.36207311931578,
-              "buffUtilization": 62.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 62.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 35243,
             "healers": [
@@ -47188,17 +47121,7 @@
                 "healsPerSecond": 49.27458185504308,
                 "efficiency": 3.1757211980155566
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 494097,
-              "overhealRate": 93.34208637170816,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (89.8%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (96.8%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -47206,17 +47129,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 93.3%，建議調整治療時機",
+            "description": "過度治療率 93.2%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 79.38145439372127,
-          "rotation": 89.2907987719255,
-          "teamwork": 53.32895681414592,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -56776,9 +56692,7 @@
             "rotationScore": {
               "overall": 43.93679886237952,
               "gcdUptime": 46.5613314372992,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -57942,9 +57856,7 @@
             "rotationScore": {
               "overall": 56.766592896585806,
               "gcdUptime": 54.61098816097634,
-              "buffUtilization": 60,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 60
             }
           },
           {
@@ -59350,9 +59262,7 @@
             "rotationScore": {
               "overall": 56.51913850754948,
               "gcdUptime": 60.865230845915804,
-              "buffUtilization": 50,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 50
             }
           },
           {
@@ -60859,9 +60769,7 @@
             "rotationScore": {
               "overall": 60.56371911573472,
               "gcdUptime": 74.2728651928912,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -61443,9 +61351,7 @@
             "rotationScore": {
               "overall": 36.528675244596855,
               "gcdUptime": 42.547792074328086,
-              "buffUtilization": 27.500000000000004,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 27.500000000000004
             }
           },
           {
@@ -62034,9 +61940,7 @@
             "rotationScore": {
               "overall": 38.93065161236564,
               "gcdUptime": 43.217752687276054,
-              "buffUtilization": 32.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 32.5
             }
           },
           {
@@ -62958,9 +62862,7 @@
             "rotationScore": {
               "overall": 39.48304860633628,
               "gcdUptime": 39.1384143438938,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -63958,26 +63860,15 @@
             "rotationScore": {
               "overall": 61.15973146594131,
               "gcdUptime": 75.2662191099022,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 50267,
             "healers": [
@@ -64001,17 +63892,7 @@
                 "healsPerSecond": 119.07497059708433,
                 "efficiency": 13.07269028368954
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 453992,
-              "overhealRate": 90.03151158432472,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (88.5%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (86.9%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -64087,14 +63968,7 @@
             "description": "GCD 使用率偏低 (75.3%)；Buff 視窗動作密度偏低 (40.0%)",
             "expectedImprovement": "檢查 GCD 空窗與 buff 視窗內 action 密度"
           }
-        ],
-        "score": {
-          "total": 63.938903288317654,
-          "rotation": 49.236044538936206,
-          "teamwork": 54.98424420783764,
-          "mechanics": 100,
-          "grade": "C"
-        }
+        ]
       }
     },
     {
@@ -77011,9 +76885,7 @@
             "rotationScore": {
               "overall": 96.53653551354114,
               "gcdUptime": 94.22755918923522,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -77700,9 +77572,7 @@
             "rotationScore": {
               "overall": 81.36611391310916,
               "gcdUptime": 89.77685652184859,
-              "buffUtilization": 68.75,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 68.75
             }
           },
           {
@@ -78815,9 +78685,7 @@
             "rotationScore": {
               "overall": 92.879980952057,
               "gcdUptime": 88.13330158676168,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -79903,9 +79771,7 @@
             "rotationScore": {
               "overall": 93.47557996529474,
               "gcdUptime": 89.12596660882457,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -80943,9 +80809,7 @@
             "rotationScore": {
               "overall": 96.13031881326411,
               "gcdUptime": 93.55053135544019,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -81709,9 +81573,7 @@
             "rotationScore": {
               "overall": 94.10204893830077,
               "gcdUptime": 94.33674823050129,
-              "buffUtilization": 93.75,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 93.75
             }
           },
           {
@@ -83089,9 +82951,7 @@
             "rotationScore": {
               "overall": 97.88875755746221,
               "gcdUptime": 96.48126259577037,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -84306,26 +84166,15 @@
             "rotationScore": {
               "overall": 90.00377591651792,
               "gcdUptime": 83.33962652752987,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 81593,
             "healers": [
@@ -84349,17 +84198,7 @@
                 "healsPerSecond": 214.48203231358042,
                 "efficiency": 9.981869259428981
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 785365,
-              "overhealRate": 90.58858675968156,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (91.6%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (90.0%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -84367,17 +84206,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 90.6%，建議調整治療時機",
+            "description": "過度治療率 91.0%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 81.26615289553308,
-          "rotation": 92.79788894619338,
-          "teamwork": 54.70570662015922,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -96001,9 +95833,7 @@
             "rotationScore": {
               "overall": 87.25101929104963,
               "gcdUptime": 89.86280992952716,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -97568,9 +97398,7 @@
             "rotationScore": {
               "overall": 86.681169669762,
               "gcdUptime": 77.80194944960334,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -99606,9 +99434,7 @@
             "rotationScore": {
               "overall": 97.72129906000802,
               "gcdUptime": 96.20216510001336,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -100545,9 +100371,7 @@
             "rotationScore": {
               "overall": 87.78169427269034,
               "gcdUptime": 84.63615712115057,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           },
           {
@@ -102570,9 +102394,7 @@
             "rotationScore": {
               "overall": 92.76047671036257,
               "gcdUptime": 87.93412785060428,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -104190,9 +104012,7 @@
             "rotationScore": {
               "overall": 93.03732371565607,
               "gcdUptime": 88.39553952609347,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -106049,9 +105869,7 @@
             "rotationScore": {
               "overall": 90.81845775540785,
               "gcdUptime": 84.69742959234641,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -107042,26 +106860,15 @@
             "rotationScore": {
               "overall": 93.06927170533365,
               "gcdUptime": 93.44878617555608,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 49254,
             "healers": [
@@ -107085,17 +106892,7 @@
                 "healsPerSecond": 146.30809886522619,
                 "efficiency": 10.223600527907974
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 519950,
-              "overhealRate": 91.34686333897865,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (92.4%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (89.8%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -107106,14 +106903,7 @@
             "description": "過度治療率 91.3%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 80.47033452469225,
-          "rotation": 91.14008902253377,
-          "teamwork": 54.326568330510675,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -118957,9 +118747,7 @@
             "rotationScore": {
               "overall": 84.15430950855037,
               "gcdUptime": 75.4423676994358,
-              "buffUtilization": 97.22222222222221,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 97.22222222222221
             }
           },
           {
@@ -120484,9 +120272,7 @@
             "rotationScore": {
               "overall": 86.59406726788043,
               "gcdUptime": 77.65677877980073,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -122103,9 +121889,7 @@
             "rotationScore": {
               "overall": 90.26527073029739,
               "gcdUptime": 83.77545121716231,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -123015,9 +122799,7 @@
             "rotationScore": {
               "overall": 57.635262589203414,
               "gcdUptime": 79.39210431533903,
-              "buffUtilization": 25,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 25
             }
           },
           {
@@ -123763,9 +123545,7 @@
             "rotationScore": {
               "overall": 56.72808808516844,
               "gcdUptime": 59.546813475280736,
-              "buffUtilization": 52.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 52.5
             }
           },
           {
@@ -125728,9 +125508,7 @@
             "rotationScore": {
               "overall": 84.4406779661017,
               "gcdUptime": 74.0677966101695,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -127538,9 +127316,7 @@
             "rotationScore": {
               "overall": 84.12571301851693,
               "gcdUptime": 73.54285503086155,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -129473,26 +129249,15 @@
             "rotationScore": {
               "overall": 84.75779388623107,
               "gcdUptime": 74.59632314371844,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 98820,
             "healers": [
@@ -129516,17 +129281,7 @@
                 "healsPerSecond": 202.3138590914272,
                 "efficiency": 11.075443638267116
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 892812,
-              "overhealRate": 90.03460961324362,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (89.4%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (88.9%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -129552,17 +129307,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 90.0%，建議調整治療時機",
+            "description": "過度治療率 89.2%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 75.67900247027985,
-          "rotation": 78.58764788149372,
-          "teamwork": 54.98269519337819,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -139418,9 +139166,7 @@
             "rotationScore": {
               "overall": 73.43595035711377,
               "gcdUptime": 55.726583928522935,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -140741,9 +140487,7 @@
             "rotationScore": {
               "overall": 70.19613276679598,
               "gcdUptime": 50.32688794465997,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -142640,9 +142384,7 @@
             "rotationScore": {
               "overall": 76.36632200886262,
               "gcdUptime": 60.610536681437715,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -144401,9 +144143,7 @@
             "rotationScore": {
               "overall": 70.77935678573037,
               "gcdUptime": 51.29892797621729,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -145192,9 +144932,7 @@
             "rotationScore": {
               "overall": 65.62787664432133,
               "gcdUptime": 56.046461073868876,
-              "buffUtilization": 80,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 80
             }
           },
           {
@@ -146561,9 +146299,7 @@
             "rotationScore": {
               "overall": 62.429780753019514,
               "gcdUptime": 37.3829679216992,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -147823,9 +147559,7 @@
             "rotationScore": {
               "overall": 65.4987128443741,
               "gcdUptime": 49.90526214803089,
-              "buffUtilization": 88.88888888888889,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 88.88888888888889
             }
           },
           {
@@ -148593,26 +148327,15 @@
             "rotationScore": {
               "overall": 55.71181876719545,
               "gcdUptime": 64.51969794532576,
-              "buffUtilization": 42.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 42.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 95218,
             "healers": [
@@ -148636,17 +148359,7 @@
                 "healsPerSecond": 182.97022454066334,
                 "efficiency": 7.512737480797073
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 914188,
-              "overhealRate": 90.56692748012198,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (91.3%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (92.5%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -148690,17 +148403,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 90.6%，建議調整治療時機",
+            "description": "過度治療率 92.0%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 71.1530852373493,
-          "rotation": 67.50574386592663,
-          "teamwork": 54.71653625993901,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -162704,9 +162410,7 @@
             "rotationScore": {
               "overall": 96.46575342465752,
               "gcdUptime": 94.10958904109589,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -163625,9 +163329,7 @@
             "rotationScore": {
               "overall": 88.93560552491397,
               "gcdUptime": 86.55934254152328,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           },
           {
@@ -165648,9 +165350,7 @@
             "rotationScore": {
               "overall": 98.14611167254179,
               "gcdUptime": 96.91018612090299,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -166618,9 +166318,7 @@
             "rotationScore": {
               "overall": 90.54452014334659,
               "gcdUptime": 95.90753357224432,
-              "buffUtilization": 82.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 82.5
             }
           },
           {
@@ -168291,9 +167989,7 @@
             "rotationScore": {
               "overall": 93.21020228671944,
               "gcdUptime": 88.68367047786573,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -169886,9 +169582,7 @@
             "rotationScore": {
               "overall": 97.94853201970443,
               "gcdUptime": 96.58088669950739,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -171541,9 +171235,7 @@
             "rotationScore": {
               "overall": 96.12432920169064,
               "gcdUptime": 93.54054866948441,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -173630,26 +173322,15 @@
             "rotationScore": {
               "overall": 96.89243217893792,
               "gcdUptime": 94.82072029822986,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 108116,
             "healers": [
@@ -173673,17 +173354,7 @@
                 "healsPerSecond": 315.0501619276116,
                 "efficiency": 17.49622926093514
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 763921,
-              "overhealRate": 87.60190221286483,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (88.4%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (82.5%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -173691,17 +173362,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 87.6%，建議調整治療時機",
+            "description": "過度治療率 86.3%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 82.58304143537427,
-          "rotation": 94.78343580656404,
-          "teamwork": 56.199048893567586,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -185634,9 +185298,7 @@
             "rotationScore": {
               "overall": 96.52433322944032,
               "gcdUptime": 94.20722204906718,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -187184,9 +186846,7 @@
             "rotationScore": {
               "overall": 84.98667771922553,
               "gcdUptime": 74.97779619870921,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -189185,9 +188845,7 @@
             "rotationScore": {
               "overall": 92.45414003953842,
               "gcdUptime": 87.42356673256403,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -190090,9 +189748,7 @@
             "rotationScore": {
               "overall": 84.39295705848394,
               "gcdUptime": 82.32159509747325,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -191049,9 +190705,7 @@
             "rotationScore": {
               "overall": 90.10191244964281,
               "gcdUptime": 91.8365207494047,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -192809,9 +192463,7 @@
             "rotationScore": {
               "overall": 87.4242759665668,
               "gcdUptime": 90.15157105538911,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -194650,9 +194302,7 @@
             "rotationScore": {
               "overall": 89.75604297224709,
               "gcdUptime": 82.92673828707848,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -196279,26 +195929,15 @@
             "rotationScore": {
               "overall": 91.59018094851315,
               "gcdUptime": 85.98363491418858,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 73010,
             "healers": [
@@ -196322,17 +195961,7 @@
                 "healsPerSecond": 170.4774897680764,
                 "efficiency": 10.882633967672586
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 480103,
-              "overhealRate": 86.80016560811262,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (83.2%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (89.1%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -196340,17 +195969,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 86.8%，建議調整治療時機",
+            "description": "過度治療率 86.0%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 80.6714970377632,
-          "rotation": 89.65381504795727,
-          "teamwork": 56.59991719594369,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -202235,9 +201857,7 @@
             "rotationScore": {
               "overall": 92.65040571164015,
               "gcdUptime": 87.75067618606691,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -203486,9 +203106,7 @@
             "rotationScore": {
               "overall": 74.05733773846318,
               "gcdUptime": 56.7622295641053,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -204481,9 +204099,7 @@
             "rotationScore": {
               "overall": 70.14218460221599,
               "gcdUptime": 50.236974337026645,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -204970,9 +204586,7 @@
             "rotationScore": {
               "overall": 83.29959621562675,
               "gcdUptime": 92.16599369271125,
-              "buffUtilization": 70,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 70
             }
           },
           {
@@ -205958,9 +205572,7 @@
             "rotationScore": {
               "overall": 90.51673688242053,
               "gcdUptime": 84.19456147070088,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -206678,9 +206290,7 @@
             "rotationScore": {
               "overall": 91.24156916724019,
               "gcdUptime": 85.40261527873365,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -207851,9 +207461,7 @@
             "rotationScore": {
               "overall": 62.39046918990888,
               "gcdUptime": 37.31744864984813,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -208935,26 +208543,15 @@
             "rotationScore": {
               "overall": 71.85121167075742,
               "gcdUptime": 53.085352784595706,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 12877,
             "healers": [
@@ -208978,17 +208575,7 @@
                 "healsPerSecond": 34.987074098817786,
                 "efficiency": 6.867552311990421
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 174110,
-              "overhealRate": 93.11342499745972,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (89.4%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (93.1%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -209005,17 +208592,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 93.1%，建議調整治療時機",
+            "description": "過度治療率 90.8%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 75.5126261843582,
-          "rotation": 79.51868889728414,
-          "teamwork": 53.44328750127014,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -223194,9 +222774,7 @@
             "rotationScore": {
               "overall": 95.71378485559131,
               "gcdUptime": 92.85630809265218,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -224109,9 +223687,7 @@
             "rotationScore": {
               "overall": 82.4908414586034,
               "gcdUptime": 95.81806909767232,
-              "buffUtilization": 62.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 62.5
             }
           },
           {
@@ -225093,9 +224669,7 @@
             "rotationScore": {
               "overall": 90.21661468670257,
               "gcdUptime": 88.69435781117096,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           },
           {
@@ -227074,9 +226648,7 @@
             "rotationScore": {
               "overall": 97.43209291301255,
               "gcdUptime": 95.72015485502094,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -228737,9 +228309,7 @@
             "rotationScore": {
               "overall": 93.47341222348157,
               "gcdUptime": 89.12235370580262,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -230314,9 +229884,7 @@
             "rotationScore": {
               "overall": 97.629122737219,
               "gcdUptime": 96.04853789536503,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -232020,9 +231588,7 @@
             "rotationScore": {
               "overall": 97.55803105089828,
               "gcdUptime": 95.93005175149713,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -234076,26 +233642,15 @@
             "rotationScore": {
               "overall": 96.65613468078435,
               "gcdUptime": 94.42689113464058,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 70020,
             "healers": [
@@ -234119,17 +233674,7 @@
                 "healsPerSecond": 179.44920120710003,
                 "efficiency": 7.650616445988796
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 710214,
-              "overhealRate": 91.02576919231923,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (90.1%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (92.3%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -234137,17 +233682,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 91.0%，建議調整治療時機",
+            "description": "過度治療率 91.2%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 81.62899212165878,
-          "rotation": 93.89625432578663,
-          "teamwork": 54.487115403840384,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -245705,9 +245243,7 @@
             "rotationScore": {
               "overall": 95.07538127122417,
               "gcdUptime": 91.79230211870696,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -247239,9 +246775,7 @@
             "rotationScore": {
               "overall": 88.18797182258324,
               "gcdUptime": 80.31328637097207,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -249266,9 +248800,7 @@
             "rotationScore": {
               "overall": 97.45719394920835,
               "gcdUptime": 95.76198991534724,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -251049,9 +250581,7 @@
             "rotationScore": {
               "overall": 87.40918377770967,
               "gcdUptime": 90.1264174072939,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -252014,9 +251544,7 @@
             "rotationScore": {
               "overall": 87.5713540165601,
               "gcdUptime": 82.61892336093348,
-              "buffUtilization": 95,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 95
             }
           },
           {
@@ -253537,9 +253065,7 @@
             "rotationScore": {
               "overall": 90.5888102811451,
               "gcdUptime": 84.31468380190849,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -255344,9 +254870,7 @@
             "rotationScore": {
               "overall": 88.77478891072496,
               "gcdUptime": 81.29131485120828,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -256293,26 +255817,15 @@
             "rotationScore": {
               "overall": 90.97809503385312,
               "gcdUptime": 91.63015838975522,
-              "buffUtilization": 90,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 90
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 35850,
             "healers": [
@@ -256336,17 +255849,7 @@
                 "healsPerSecond": 140.64450243957788,
                 "efficiency": 11.463886741846192
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 401713,
-              "overhealRate": 91.8068940929649,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (96.6%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (88.5%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -256354,17 +255857,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 91.8%，建議調整治療時機",
+            "description": "過度治療率 93.1%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 80.23593248688158,
-          "rotation": 90.7553473828761,
-          "teamwork": 54.09655295351755,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -261706,9 +261202,7 @@
             "rotationScore": {
               "overall": 37.3370503119607,
               "gcdUptime": 35.561750519934506,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -262252,9 +261746,7 @@
             "rotationScore": {
               "overall": 31.82171436876095,
               "gcdUptime": 26.369523947934923,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -262955,9 +262447,7 @@
             "rotationScore": {
               "overall": 68.99545920609344,
               "gcdUptime": 88.32576534348908,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -263318,9 +262808,7 @@
             "rotationScore": {
               "overall": 28.69221314760552,
               "gcdUptime": 36.153688579342536,
-              "buffUtilization": 17.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 17.5
             }
           },
           {
@@ -264071,9 +263559,7 @@
             "rotationScore": {
               "overall": 39.867437097887695,
               "gcdUptime": 44.223506274257275,
-              "buffUtilization": 33.33333333333333,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 33.33333333333333
             }
           },
           {
@@ -264751,9 +264237,7 @@
             "rotationScore": {
               "overall": 40.89031844182689,
               "gcdUptime": 41.483864069711494,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -265554,9 +265038,7 @@
             "rotationScore": {
               "overall": 38.82604575605794,
               "gcdUptime": 38.0434095934299,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -265888,26 +265370,15 @@
             "rotationScore": {
               "overall": 30.202159374748206,
               "gcdUptime": 35.33693229124701,
-              "buffUtilization": 22.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 22.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 37338,
             "healers": [
@@ -265931,17 +265402,7 @@
                 "healsPerSecond": 146.19019060017845,
                 "efficiency": 22.150313615106718
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 209654,
-              "overhealRate": 84.88291118740689,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (77.5%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (77.8%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -266017,14 +265478,7 @@
             "description": "Buff 視窗動作密度偏低 (40.0%)",
             "expectedImprovement": "檢查 GCD 空窗與 buff 視窗內 action 密度"
           }
-        ],
-        "score": {
-          "total": 60.97711042745085,
-          "rotation": 39.57904971311766,
-          "teamwork": 57.558544406296555,
-          "mechanics": 100,
-          "grade": "C"
-        }
+        ]
       }
     },
     {
@@ -279550,9 +279004,7 @@
             "rotationScore": {
               "overall": 94.9562263164772,
               "gcdUptime": 91.593710527462,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -280981,9 +280433,7 @@
             "rotationScore": {
               "overall": 93.23053909441344,
               "gcdUptime": 88.71756515735574,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -282177,9 +281627,7 @@
             "rotationScore": {
               "overall": 84.0206030528611,
               "gcdUptime": 95.58989397699075,
-              "buffUtilization": 66.66666666666666,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 66.66666666666666
             }
           },
           {
@@ -283428,9 +282876,7 @@
             "rotationScore": {
               "overall": 95.1461125128153,
               "gcdUptime": 91.91018752135882,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -284950,9 +284396,7 @@
             "rotationScore": {
               "overall": 98.65113444926341,
               "gcdUptime": 97.75189074877235,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -285792,9 +285236,7 @@
             "rotationScore": {
               "overall": 83.78630415980805,
               "gcdUptime": 93.81050693301341,
-              "buffUtilization": 68.75,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 68.75
             }
           },
           {
@@ -286549,9 +285991,7 @@
             "rotationScore": {
               "overall": 90.03802671764275,
               "gcdUptime": 87.56337786273792,
-              "buffUtilization": 93.75,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 93.75
             }
           },
           {
@@ -287760,26 +287200,15 @@
             "rotationScore": {
               "overall": 91.49181471589347,
               "gcdUptime": 85.81969119315579,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 116617,
             "healers": [
@@ -287803,17 +287232,7 @@
                 "healsPerSecond": 423.9349981637899,
                 "efficiency": 11.408558580817314
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 832224,
-              "overhealRate": 87.70953194476209,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (83.8%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (88.6%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -287821,17 +287240,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 87.7%，建議調整治療時機",
+            "description": "過度治療率 87.0%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 81.21686996062537,
-          "rotation": 91.41509512739685,
-          "teamwork": 56.145234027618955,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -299333,9 +298745,7 @@
             "rotationScore": {
               "overall": 94.58823888477708,
               "gcdUptime": 90.98039814129514,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -300255,9 +299665,7 @@
             "rotationScore": {
               "overall": 87.25040005120655,
               "gcdUptime": 85.41733341867759,
-              "buffUtilization": 90,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 90
             }
           },
           {
@@ -301867,9 +301275,7 @@
             "rotationScore": {
               "overall": 88.07289957499259,
               "gcdUptime": 80.12149929165433,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -303418,9 +302824,7 @@
             "rotationScore": {
               "overall": 92.05415314292969,
               "gcdUptime": 86.75692190488283,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -305191,9 +304595,7 @@
             "rotationScore": {
               "overall": 95.21217640171719,
               "gcdUptime": 92.02029400286197,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -306968,9 +306370,7 @@
             "rotationScore": {
               "overall": 87.25018801959469,
               "gcdUptime": 89.86142447710226,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -307891,9 +307291,7 @@
             "rotationScore": {
               "overall": 90.8987963645296,
               "gcdUptime": 93.16466060754934,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -309969,26 +309367,15 @@
             "rotationScore": {
               "overall": 91.22849083215797,
               "gcdUptime": 85.38081805359661,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 40494,
             "healers": [
@@ -310012,17 +309399,7 @@
                 "healsPerSecond": 51.911423414130994,
                 "efficiency": 3.781204327078283
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 389800,
-              "overhealRate": 90.58922504148327,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (85.4%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (96.2%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -310030,17 +309407,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 90.6%，建議調整治療時機",
+            "description": "過度治療率 90.5%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 80.47465278133569,
-          "rotation": 90.81941790898817,
-          "teamwork": 54.70538747925836,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -323167,9 +322537,7 @@
             "rotationScore": {
               "overall": 83.8751937650706,
               "gcdUptime": 73.12532294178436,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -325240,9 +324608,7 @@
             "rotationScore": {
               "overall": 82.95944254642626,
               "gcdUptime": 71.59907091071045,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -325998,9 +325364,7 @@
             "rotationScore": {
               "overall": 49.62879573069884,
               "gcdUptime": 64.3813262178314,
-              "buffUtilization": 27.500000000000004,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 27.500000000000004
             }
           },
           {
@@ -327649,9 +327013,7 @@
             "rotationScore": {
               "overall": 81.3889235587124,
               "gcdUptime": 68.98153926452068,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -329409,9 +328771,7 @@
             "rotationScore": {
               "overall": 90.23003969638083,
               "gcdUptime": 83.71673282730137,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -331518,9 +330878,7 @@
             "rotationScore": {
               "overall": 86.23311265555037,
               "gcdUptime": 77.05518775925061,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -333126,9 +332484,7 @@
             "rotationScore": {
               "overall": 72.56291927423348,
               "gcdUptime": 54.27153212372248,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -334173,26 +333529,15 @@
             "rotationScore": {
               "overall": 67.4124809905411,
               "gcdUptime": 80.68746831756852,
-              "buffUtilization": 47.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 47.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 134648,
             "healers": [
@@ -334216,17 +333561,7 @@
                 "healsPerSecond": 313.6574261815547,
                 "efficiency": 14.667212799741092
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 1052073,
-              "overhealRate": 88.65377793095428,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (90.5%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (85.3%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -334252,17 +333587,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 88.7%，建議調整治療時機",
+            "description": "過度治療率 88.2%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 75.2001342729637,
-          "rotation": 76.78636352720173,
-          "teamwork": 55.67311103452286,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -342421,9 +341749,7 @@
             "rotationScore": {
               "overall": 69.48877570269761,
               "gcdUptime": 49.14795950449601,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -343567,9 +342893,7 @@
             "rotationScore": {
               "overall": 63.15919082798665,
               "gcdUptime": 46.00605878738515,
-              "buffUtilization": 88.88888888888889,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 88.88888888888889
             }
           },
           {
@@ -344811,9 +344135,7 @@
             "rotationScore": {
               "overall": 62.865794128050936,
               "gcdUptime": 38.1096568800849,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -346661,9 +345983,7 @@
             "rotationScore": {
               "overall": 80.52137071103988,
               "gcdUptime": 67.53561785173315,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -347886,9 +347206,7 @@
             "rotationScore": {
               "overall": 71.67819009277088,
               "gcdUptime": 52.79698348795145,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -348500,9 +347818,7 @@
             "rotationScore": {
               "overall": 47.4695468184046,
               "gcdUptime": 45.78257803067434,
-              "buffUtilization": 50,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 50
             }
           },
           {
@@ -349924,9 +349240,7 @@
             "rotationScore": {
               "overall": 70.75361616873252,
               "gcdUptime": 51.25602694788754,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -350611,26 +349925,15 @@
             "rotationScore": {
               "overall": 55.65798592428384,
               "gcdUptime": 61.096643207139735,
-              "buffUtilization": 47.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 47.5
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 92700,
             "healers": [
@@ -350654,17 +349957,7 @@
                 "healsPerSecond": 197.5614755453289,
                 "efficiency": 7.120727539644333
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 694886,
-              "overhealRate": 88.22985680293961,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (80.3%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (92.9%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -350717,17 +350010,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 88.2%，建議調整治療時機",
+            "description": "過度治療率 88.5%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 70.63949857818392,
-          "rotation": 65.19930879674585,
-          "teamwork": 55.885071598530196,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -365721,9 +365007,7 @@
             "rotationScore": {
               "overall": 94.89721715445691,
               "gcdUptime": 91.49536192409487,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -366835,9 +366119,7 @@
             "rotationScore": {
               "overall": 89.9211814589327,
               "gcdUptime": 94.86863576488784,
-              "buffUtilization": 82.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 82.5
             }
           },
           {
@@ -367881,9 +367163,7 @@
             "rotationScore": {
               "overall": 93.14413667736925,
               "gcdUptime": 91.90689446228208,
-              "buffUtilization": 95,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 95
             }
           },
           {
@@ -369635,9 +368915,7 @@
             "rotationScore": {
               "overall": 90.24701069855254,
               "gcdUptime": 83.74501783092092,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -371317,9 +370595,7 @@
             "rotationScore": {
               "overall": 90.81840104608148,
               "gcdUptime": 95.80844618791356,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -373081,9 +372357,7 @@
             "rotationScore": {
               "overall": 95.28898804867598,
               "gcdUptime": 92.14831341445995,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -375271,9 +374545,7 @@
             "rotationScore": {
               "overall": 98.24333483200354,
               "gcdUptime": 97.0722247200059,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -377442,26 +376714,15 @@
             "rotationScore": {
               "overall": 94.08701531388391,
               "gcdUptime": 90.14502552313985,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 97460,
             "healers": [
@@ -377485,17 +376746,7 @@
                 "healsPerSecond": 215.95107839486727,
                 "efficiency": 7.699770727697014
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 1062528,
-              "overhealRate": 91.59818894678222,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (91.6%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (92.3%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -377503,17 +376754,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 91.6%，建議調整治療時機",
+            "description": "過度治療率 91.9%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 81.30268119581093,
-          "rotation": 93.33091065374455,
-          "teamwork": 54.20090552660889,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -389052,9 +388296,7 @@
             "rotationScore": {
               "overall": 94.58568470001308,
               "gcdUptime": 90.97614116668848,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -389894,9 +389136,7 @@
             "rotationScore": {
               "overall": 83.37174792369737,
               "gcdUptime": 80.61957987282895,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -391867,9 +391107,7 @@
             "rotationScore": {
               "overall": 91.37213112146708,
               "gcdUptime": 85.62021853577848,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -393455,9 +392693,7 @@
             "rotationScore": {
               "overall": 87.08675454167768,
               "gcdUptime": 78.47792423612947,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -394421,9 +393657,7 @@
             "rotationScore": {
               "overall": 90.9349260523322,
               "gcdUptime": 89.89154342055366,
-              "buffUtilization": 92.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 92.5
             }
           },
           {
@@ -396016,9 +395250,7 @@
             "rotationScore": {
               "overall": 99.72330767356442,
               "gcdUptime": 99.53884612260737,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -397535,9 +396767,7 @@
             "rotationScore": {
               "overall": 92.23962103805357,
               "gcdUptime": 87.06603506342262,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -399331,26 +398561,15 @@
             "rotationScore": {
               "overall": 90.6077702069138,
               "gcdUptime": 84.34628367818966,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 36731,
             "healers": [
@@ -399374,17 +398593,7 @@
                 "healsPerSecond": 99.59854101984946,
                 "efficiency": 8.467974512611372
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 393674,
-              "overhealRate": 91.46594486588214,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (89.3%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (91.5%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -399392,17 +398601,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 91.5%，建議調整治療時機",
+            "description": "過度治療率 90.3%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 80.48955681135658,
-          "rotation": 91.24024290721489,
-          "teamwork": 54.26702756705893,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -411759,9 +410961,7 @@
             "rotationScore": {
               "overall": 84.84399407288463,
               "gcdUptime": 76.40665678814105,
-              "buffUtilization": 97.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 97.5
             }
           },
           {
@@ -413323,9 +412523,7 @@
             "rotationScore": {
               "overall": 80.685713268328,
               "gcdUptime": 71.14285544721334,
-              "buffUtilization": 95,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 95
             }
           },
           {
@@ -415050,9 +414248,7 @@
             "rotationScore": {
               "overall": 91.5432199631177,
               "gcdUptime": 85.90536660519619,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -416053,9 +415249,7 @@
             "rotationScore": {
               "overall": 68.05724532726396,
               "gcdUptime": 83.42874221210658,
-              "buffUtilization": 45,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 45
             }
           },
           {
@@ -416887,9 +416081,7 @@
             "rotationScore": {
               "overall": 57.90094599559147,
               "gcdUptime": 69.83490999265246,
-              "buffUtilization": 40,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 40
             }
           },
           {
@@ -418785,9 +417977,7 @@
             "rotationScore": {
               "overall": 86.41715945950844,
               "gcdUptime": 77.36193243251407,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -420749,9 +419939,7 @@
             "rotationScore": {
               "overall": 83.4455812040512,
               "gcdUptime": 72.409302006752,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -421620,26 +420808,15 @@
             "rotationScore": {
               "overall": 61.492328449060274,
               "gcdUptime": 52.48721408176713,
-              "buffUtilization": 75,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 75
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 124575,
             "healers": [
@@ -421663,17 +420840,7 @@
                 "healsPerSecond": 269.91478768729957,
                 "efficiency": 8.793758236959286
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 1091692,
-              "overhealRate": 89.75759434400506,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (88.2%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (91.2%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -421708,17 +420875,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 89.8%，建議調整治療時機",
+            "description": "過度治療率 89.9%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 75.0117303767894,
-          "rotation": 76.79827346747572,
-          "teamwork": 55.12120282799747,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -428546,9 +427706,7 @@
             "rotationScore": {
               "overall": 53.97096904713737,
               "gcdUptime": 53.28494841189561,
-              "buffUtilization": 55.00000000000001,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 55.00000000000001
             }
           },
           {
@@ -429642,9 +428800,7 @@
             "rotationScore": {
               "overall": 67.26394649274461,
               "gcdUptime": 52.84731822864842,
-              "buffUtilization": 88.88888888888889,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 88.88888888888889
             }
           },
           {
@@ -430777,9 +429933,7 @@
             "rotationScore": {
               "overall": 61.32429511739857,
               "gcdUptime": 35.54049186233095,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -431511,9 +430665,7 @@
             "rotationScore": {
               "overall": 63.85605319899766,
               "gcdUptime": 48.09342199832943,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -433041,9 +432193,7 @@
             "rotationScore": {
               "overall": 66.81012255854202,
               "gcdUptime": 44.68353759757002,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -434372,9 +433522,7 @@
             "rotationScore": {
               "overall": 72.49626852515661,
               "gcdUptime": 54.160447541927674,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -436077,9 +435225,7 @@
             "rotationScore": {
               "overall": 84.25743330067812,
               "gcdUptime": 73.76238883446354,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -437482,26 +436628,15 @@
             "rotationScore": {
               "overall": 66.62070378366452,
               "gcdUptime": 44.367839639440874,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 81281,
             "healers": [
@@ -437525,17 +436660,7 @@
                 "healsPerSecond": 189.22646331075325,
                 "efficiency": 18.977962200990305
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 622125,
-              "overhealRate": 88.44465358555372,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (92.0%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (81.0%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -437597,17 +436722,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 88.4%，建議調整治療時機",
+            "description": "過度治療率 87.9%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 71.35217522374407,
-          "rotation": 67.07497400303994,
-          "teamwork": 55.77767320722314,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -451738,9 +450856,7 @@
             "rotationScore": {
               "overall": 99.10485474751414,
               "gcdUptime": 98.50809124585689,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -452742,9 +451858,7 @@
             "rotationScore": {
               "overall": 92.93935411190387,
               "gcdUptime": 96.56559018650644,
-              "buffUtilization": 87.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 87.5
             }
           },
           {
@@ -453671,9 +452785,7 @@
             "rotationScore": {
               "overall": 90.2062350119904,
               "gcdUptime": 87.01039168665068,
-              "buffUtilization": 95,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 95
             }
           },
           {
@@ -455326,9 +454438,7 @@
             "rotationScore": {
               "overall": 90.65176251724027,
               "gcdUptime": 84.41960419540045,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -457282,9 +456392,7 @@
             "rotationScore": {
               "overall": 98.04191916384055,
               "gcdUptime": 96.73653193973425,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -458948,9 +458056,7 @@
             "rotationScore": {
               "overall": 95.77764016576955,
               "gcdUptime": 92.96273360961591,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -460501,9 +459607,7 @@
             "rotationScore": {
               "overall": 99.33811156123403,
               "gcdUptime": 98.89685260205671,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -462583,26 +461687,15 @@
             "rotationScore": {
               "overall": 97.05986940194381,
               "gcdUptime": 95.09978233657304,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 78173,
             "healers": [
@@ -462626,17 +461719,7 @@
                 "healsPerSecond": 195.75690712976117,
                 "efficiency": 5.609291810988881
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 906149,
-              "overhealRate": 92.0581882757878,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (85.3%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (94.4%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -462644,17 +461727,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 92.1%，建議調整治療時機",
+            "description": "過度治療率 90.7%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 82.04580438580896,
-          "rotation": 95.38996833517959,
-          "teamwork": 53.9709058621061,
-          "mechanics": 100,
-          "grade": "A"
-        }
+        ]
       }
     },
     {
@@ -473863,9 +472939,7 @@
             "rotationScore": {
               "overall": 86.79749446757437,
               "gcdUptime": 89.10693522373505,
-              "buffUtilization": 83.33333333333334,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 83.33333333333334
             }
           },
           {
@@ -475851,9 +474925,7 @@
             "rotationScore": {
               "overall": 97.59490155160378,
               "gcdUptime": 95.99150258600629,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -477461,9 +476533,7 @@
             "rotationScore": {
               "overall": 86.23735520311453,
               "gcdUptime": 77.06225867185755,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -478305,9 +477375,7 @@
             "rotationScore": {
               "overall": 80.91087375380752,
               "gcdUptime": 79.85145625634588,
-              "buffUtilization": 82.5,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 82.5
             }
           },
           {
@@ -480278,9 +479346,7 @@
             "rotationScore": {
               "overall": 91.69103241568254,
               "gcdUptime": 86.15172069280423,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -481756,9 +480822,7 @@
             "rotationScore": {
               "overall": 91.25611414105109,
               "gcdUptime": 85.4268569017518,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -482696,9 +481760,7 @@
             "rotationScore": {
               "overall": 88.53098114731186,
               "gcdUptime": 87.55163524551978,
-              "buffUtilization": 90,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 90
             }
           },
           {
@@ -484501,26 +483563,15 @@
             "rotationScore": {
               "overall": 89.46499899754784,
               "gcdUptime": 82.44166499591307,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 40022,
             "healers": [
@@ -484544,17 +483595,7 @@
                 "healsPerSecond": 121.57972558309618,
                 "efficiency": 7.820097866269885
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 484440,
-              "overhealRate": 92.3689418871148,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草灰妲: 過度治療率過高 (94.2%)，建議調整治療時機",
-                "草莓香草可頌: 過度治療率過高 (92.2%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -484562,17 +483603,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 92.4%，建議調整治療時機",
+            "description": "過度治療率 93.2%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 79.4596227536396,
-          "rotation": 89.06046895971168,
-          "teamwork": 53.8155290564426,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -496473,9 +495507,7 @@
             "rotationScore": {
               "overall": 84.28708755196564,
               "gcdUptime": 73.8118125866094,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -498391,9 +497423,7 @@
             "rotationScore": {
               "overall": 85.01423476507986,
               "gcdUptime": 75.02372460846644,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -500294,9 +499324,7 @@
             "rotationScore": {
               "overall": 86.48227531964066,
               "gcdUptime": 77.47045886606777,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -501485,9 +500513,7 @@
             "rotationScore": {
               "overall": 90.22785934667516,
               "gcdUptime": 83.71309891112526,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -503495,9 +502521,7 @@
             "rotationScore": {
               "overall": 84.9390924503599,
               "gcdUptime": 74.8984874172665,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -504088,9 +503112,7 @@
             "rotationScore": {
               "overall": 39.41592143325375,
               "gcdUptime": 65.69320238875625,
-              "buffUtilization": 0,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 0
             }
           },
           {
@@ -505708,9 +504730,7 @@
             "rotationScore": {
               "overall": 88.12816640685892,
               "gcdUptime": 80.2136106780982,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -507478,26 +506498,15 @@
             "rotationScore": {
               "overall": 88.35458470278456,
               "gcdUptime": 80.59097450464094,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 68191,
             "healers": [
@@ -507521,17 +506530,7 @@
                 "healsPerSecond": 4.313750078374819,
                 "efficiency": 0.22373838218938416
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 810532,
-              "overhealRate": 92.23976156308643,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (85.1%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (99.8%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -507548,17 +506547,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 92.2%，建議調整治療時機",
+            "description": "過度治療率 91.9%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 76.2005028252908,
-          "rotation": 80.8561527470773,
-          "teamwork": 53.880119218456784,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     },
     {
@@ -517893,9 +516885,7 @@
             "rotationScore": {
               "overall": 70.5315470625429,
               "gcdUptime": 70.88591177090483,
-              "buffUtilization": 70,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 70
             }
           },
           {
@@ -520122,9 +519112,7 @@
             "rotationScore": {
               "overall": 82.08182783004806,
               "gcdUptime": 70.13637971674676,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -522023,9 +521011,7 @@
             "rotationScore": {
               "overall": 70.77837679365442,
               "gcdUptime": 51.297294656090685,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -523437,9 +522423,7 @@
             "rotationScore": {
               "overall": 68.55477466916885,
               "gcdUptime": 47.59129111528142,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -524972,9 +523956,7 @@
             "rotationScore": {
               "overall": 75.7284231991843,
               "gcdUptime": 59.54737199864052,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           },
           {
@@ -525871,9 +524853,7 @@
             "rotationScore": {
               "overall": 63.743470237213245,
               "gcdUptime": 52.905783728688746,
-              "buffUtilization": 80,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 80
             }
           },
           {
@@ -527434,9 +526414,7 @@
             "rotationScore": {
               "overall": 63.14682006187966,
               "gcdUptime": 45.985440843873505,
-              "buffUtilization": 88.88888888888889,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 88.88888888888889
             }
           },
           {
@@ -528849,26 +527827,15 @@
             "rotationScore": {
               "overall": 70.48386307137456,
               "gcdUptime": 50.806438452290934,
-              "buffUtilization": 100,
-              "skillPriority": 0,
-              "positional": 0
+              "buffUtilization": 100
             }
           }
         ],
         "teamCoordination": {
           "raidBuffSynergy": {
             "buffs": [],
-            "overlapAnalysis": [],
-            "missedOpportunities": [],
             "synergyScore": 100
           },
-          "mitigationCoverage": {
-            "tankMitigations": [],
-            "raidMitigations": [],
-            "coverage": [],
-            "gapsAnalysis": []
-          },
-          "raidCooldownUsage": [],
           "healingDistribution": {
             "totalHealing": 145879,
             "healers": [
@@ -528892,17 +527859,7 @@
                 "healsPerSecond": 317.43153037084255,
                 "efficiency": 16.089668181311392
               }
-            ],
-            "overhealAnalysis": {
-              "totalOverheal": 1047885,
-              "overhealRate": 87.77991294761779,
-              "wastedMana": 0,
-              "optimizationSuggestions": [
-                "草莓香草可頌: 過度治療率過高 (90.0%)，建議調整治療時機",
-                "草灰妲: 過度治療率過高 (83.9%)，建議調整治療時機"
-              ]
-            },
-            "emergencyHealing": []
+            ]
           }
         },
         "recommendations": [
@@ -528937,17 +527894,10 @@
             "category": "team",
             "priority": "low",
             "title": "治療效率優化",
-            "description": "過度治療率 87.8%，建議調整治療時機",
+            "description": "過度治療率 87.4%，建議調整治療時機",
             "expectedImprovement": "減少 MP 浪費，提升生存能力"
           }
-        ],
-        "score": {
-          "total": 72.89097038042019,
-          "rotation": 70.63113786563325,
-          "teamwork": 56.110043526191106,
-          "mechanics": 100,
-          "grade": "B"
-        }
+        ]
       }
     }
   ]
