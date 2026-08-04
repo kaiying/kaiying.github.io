@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:12:29.082Z",
+  "generatedAt": "2026-08-04T10:04:28.181Z",
   "inputFiles": [
     "logs/Network_30202_20260616.log"
   ],
@@ -29,6 +29,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -36,11 +50,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -50,11 +64,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -69,20 +83,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "40002863",
@@ -24752,6 +24752,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -24759,11 +24773,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -24773,11 +24787,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -24792,20 +24806,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002863",
@@ -26899,6 +26899,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -26906,11 +26920,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -26920,11 +26934,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -26939,20 +26953,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002862",
@@ -28813,6 +28813,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -28820,11 +28834,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -28834,11 +28848,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -28853,20 +28867,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "4000285E",
@@ -59242,6 +59242,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -59249,11 +59263,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -59263,11 +59277,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -59282,20 +59296,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "40002B78",
@@ -92929,6 +92929,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -92936,11 +92950,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -92950,11 +92964,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -92969,20 +92983,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B7E",
@@ -95179,6 +95179,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -95186,11 +95200,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -95200,11 +95214,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -95219,20 +95233,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B7D",
@@ -97064,6 +97064,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -97071,11 +97085,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -97085,11 +97099,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -97104,20 +97118,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B79",
@@ -99422,6 +99422,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -99429,11 +99443,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -99443,11 +99457,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -99462,20 +99476,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B78",
@@ -139044,6 +139044,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -139051,11 +139065,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -139065,11 +139079,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -139084,20 +139098,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "40003042",
@@ -161227,6 +161227,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -161234,11 +161248,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -161248,11 +161262,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -161267,20 +161281,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003042",
@@ -163367,6 +163367,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -163374,11 +163388,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -163388,11 +163402,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -163407,20 +163421,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003041",
@@ -165222,6 +165222,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -165229,11 +165243,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -165243,11 +165257,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -165262,20 +165276,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "4000303D",
@@ -192785,6 +192785,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -192792,11 +192806,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -192806,11 +192820,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -192825,20 +192839,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "40003144",
@@ -214750,6 +214750,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -214757,11 +214771,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -214771,11 +214785,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -214790,20 +214804,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003144",
@@ -216922,6 +216922,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -216929,11 +216943,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -216943,11 +216957,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -216962,20 +216976,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003143",
@@ -218775,6 +218775,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -218782,11 +218796,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -218796,11 +218810,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -218815,20 +218829,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "4000313F",
@@ -245915,6 +245915,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -245922,11 +245936,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -245936,11 +245950,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -245955,20 +245969,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "400031CB",
@@ -277845,6 +277845,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -277852,11 +277866,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -277866,11 +277880,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -277885,20 +277899,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "400031D1",
@@ -279924,6 +279924,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -279931,11 +279945,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -279945,11 +279959,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -279964,20 +279978,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "400031D0",
@@ -281754,6 +281754,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -281761,11 +281775,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -281775,11 +281789,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -281794,20 +281808,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "400031CC",
@@ -284113,6 +284113,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -284120,11 +284134,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -284134,11 +284148,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -284153,20 +284167,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "400031CB",
@@ -320496,6 +320496,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -320503,11 +320517,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -320517,11 +320531,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -320536,20 +320550,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "4000371D",
@@ -351787,6 +351787,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -351794,11 +351808,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -351808,11 +351822,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -351827,20 +351841,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003723",
@@ -353921,6 +353921,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -353928,11 +353942,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -353942,11 +353956,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -353961,20 +353975,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003722",
@@ -355854,6 +355854,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -355861,11 +355875,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -355875,11 +355889,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -355894,20 +355908,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "4000371E",
@@ -358384,6 +358384,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -358391,11 +358405,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -358405,11 +358419,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -358424,20 +358438,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "4000371D",
@@ -394764,6 +394764,20 @@
       ],
       "players": [
         {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -394771,11 +394785,11 @@
           "role": "tank"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "100780E3",
@@ -394785,11 +394799,11 @@
           "role": "dps"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "1004F34F",
@@ -394804,20 +394818,6 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
         }
       ],
       "primaryTargetId": "40003B50",
@@ -428887,6 +428887,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -428894,11 +428908,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -428908,11 +428922,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -428927,20 +428941,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B56",
@@ -431074,6 +431074,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -431081,11 +431095,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -431095,11 +431109,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -431114,20 +431128,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B55",
@@ -432929,6 +432929,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -432936,11 +432950,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -432950,11 +432964,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -432969,20 +432983,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B51",
@@ -435197,6 +435197,20 @@
           ],
           "players": [
             {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -435204,11 +435218,11 @@
               "role": "tank"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "100780E3",
@@ -435218,11 +435232,11 @@
               "role": "dps"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "1004F34F",
@@ -435237,20 +435251,6 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B50",
