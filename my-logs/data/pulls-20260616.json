@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T10:04:28.181Z",
+  "generatedAt": "2026-08-06T10:21:42.048Z",
   "inputFiles": [
     "logs/Network_30202_20260616.log"
   ],
@@ -25395,6 +25395,69 @@
               "percent": 9.01
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 226779,
+              "percent": 42.95
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 202693,
+              "percent": 38.39
+            },
+            {
+              "id": "40002863",
+              "name": "迦樓羅",
+              "amount": 40013,
+              "percent": 7.58
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 19834,
+              "percent": 3.76
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 16142,
+              "percent": 3.06
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 8141,
+              "percent": 1.54
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 7150,
+              "percent": 1.35
+            },
+            {
+              "id": "400028A8",
+              "name": "刺羽",
+              "amount": 4577,
+              "percent": 0.87
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 1671,
+              "percent": 0.32
+            },
+            {
+              "id": "4000285A",
+              "name": "妙翅",
+              "amount": 1015,
+              "percent": 0.19
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -27577,6 +27640,81 @@
               "percent": 7.72
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 117220,
+              "percent": 47.6
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 89085,
+              "percent": 36.18
+            },
+            {
+              "id": "40002863",
+              "name": "迦樓羅",
+              "amount": 15522,
+              "percent": 6.3
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 6697,
+              "percent": 2.72
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 5169,
+              "percent": 2.1
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 4954,
+              "percent": 2.01
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 4680,
+              "percent": 1.9
+            },
+            {
+              "id": "40002979",
+              "name": "火獄之楔",
+              "amount": 1784,
+              "percent": 0.72
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 1129,
+              "percent": 0.46
+            },
+            {
+              "id": "40002977",
+              "name": "火獄之楔",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "40002862",
+              "name": "伊弗利特",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -29029,6 +29167,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:15:14.030Z",
+                  "offsetSeconds": 296.58,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -29041,6 +29180,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:17.020Z",
+                  "offsetSeconds": 299.57,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -29053,6 +29193,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:20.002Z",
+                  "offsetSeconds": 302.55,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -29106,6 +29247,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:15:14.075Z",
+                  "offsetSeconds": 296.63,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -29118,6 +29260,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:17.065Z",
+                  "offsetSeconds": 299.62,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -29130,6 +29273,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:20.047Z",
+                  "offsetSeconds": 302.6,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -29183,6 +29327,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:15:14.030Z",
+                  "offsetSeconds": 296.58,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -29195,6 +29340,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:17.020Z",
+                  "offsetSeconds": 299.57,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -29207,6 +29353,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:20.002Z",
+                  "offsetSeconds": 302.55,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -29260,6 +29407,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:15:13.941Z",
+                  "offsetSeconds": 296.49,
                   "sourceId": "1004FD4D",
                   "sourceName": "南天晴齊雲",
                   "targetId": "1004FD4D",
@@ -29272,6 +29420,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:16.931Z",
+                  "offsetSeconds": 299.48,
                   "sourceId": "1004FD4D",
                   "sourceName": "南天晴齊雲",
                   "targetId": "1004FD4D",
@@ -29284,6 +29433,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:15:19.912Z",
+                  "offsetSeconds": 302.46,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -29337,6 +29487,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:02.390Z",
+                  "offsetSeconds": 344.94,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088833",
@@ -29349,6 +29500,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:04.970Z",
+                  "offsetSeconds": 347.52,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088833",
@@ -29361,6 +29513,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:05.371Z",
+                  "offsetSeconds": 347.92,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088833",
@@ -29373,6 +29526,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:07.779Z",
+                  "offsetSeconds": 350.33,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088833",
@@ -29385,6 +29539,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:07.957Z",
+                  "offsetSeconds": 350.51,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088833",
@@ -29397,6 +29552,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:10.944Z",
+                  "offsetSeconds": 353.5,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088833",
@@ -29409,6 +29565,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:10.989Z",
+                  "offsetSeconds": 353.54,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088833",
@@ -29421,6 +29578,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:13.978Z",
+                  "offsetSeconds": 356.53,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088833",
@@ -29454,6 +29612,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:33.064Z",
+                  "offsetSeconds": 375.62,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -29466,6 +29625,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:35.427Z",
+                  "offsetSeconds": 377.98,
                   "sourceId": "40002863",
                   "sourceName": "迦樓羅",
                   "targetId": "1004F34F",
@@ -29478,6 +29638,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:38.416Z",
+                  "offsetSeconds": 380.97,
                   "sourceId": "40002863",
                   "sourceName": "迦樓羅",
                   "targetId": "1004F34F",
@@ -29490,6 +29651,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:41.405Z",
+                  "offsetSeconds": 383.96,
                   "sourceId": "40002863",
                   "sourceName": "迦樓羅",
                   "targetId": "1004F34F",
@@ -29523,6 +29685,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:43.461Z",
+                  "offsetSeconds": 386.01,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -29556,6 +29719,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:33.064Z",
+                  "offsetSeconds": 375.62,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -29568,6 +29732,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:35.070Z",
+                  "offsetSeconds": 377.62,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -29580,6 +29745,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:38.059Z",
+                  "offsetSeconds": 380.61,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -29592,6 +29758,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:41.048Z",
+                  "offsetSeconds": 383.6,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -29604,6 +29771,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:43.461Z",
+                  "offsetSeconds": 386.01,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -29727,6 +29895,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:46.942Z",
+                  "offsetSeconds": 389.49,
                   "sourceId": "40002863",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -29770,6 +29939,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:16:51.583Z",
+                  "offsetSeconds": 394.13,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10061D82",
@@ -29782,6 +29952,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:16:51.583Z",
+                  "offsetSeconds": 394.13,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10061D82",
@@ -30323,6 +30494,69 @@
               "percent": 5.53
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 134895,
+              "percent": 41.56
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 65330,
+              "percent": 20.13
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 64303,
+              "percent": 19.81
+            },
+            {
+              "id": "40002863",
+              "name": "迦樓羅",
+              "amount": 22739,
+              "percent": 7.01
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 14117,
+              "percent": 4.35
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 12798,
+              "percent": 3.94
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 9374,
+              "percent": 2.89
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 1006,
+              "percent": 0.31
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "100780E3",
@@ -31608,6 +31842,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:15:14.030Z",
+              "offsetSeconds": 296.58,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -31620,6 +31855,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:17.020Z",
+              "offsetSeconds": 299.57,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -31632,6 +31868,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:20.002Z",
+              "offsetSeconds": 302.55,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -31685,6 +31922,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:15:14.075Z",
+              "offsetSeconds": 296.63,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -31697,6 +31935,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:17.065Z",
+              "offsetSeconds": 299.62,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -31709,6 +31948,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:20.047Z",
+              "offsetSeconds": 302.6,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -31762,6 +32002,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:15:14.030Z",
+              "offsetSeconds": 296.58,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -31774,6 +32015,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:17.020Z",
+              "offsetSeconds": 299.57,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -31786,6 +32028,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:20.002Z",
+              "offsetSeconds": 302.55,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -31839,6 +32082,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:15:13.941Z",
+              "offsetSeconds": 296.49,
               "sourceId": "1004FD4D",
               "sourceName": "南天晴齊雲",
               "targetId": "1004FD4D",
@@ -31851,6 +32095,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:16.931Z",
+              "offsetSeconds": 299.48,
               "sourceId": "1004FD4D",
               "sourceName": "南天晴齊雲",
               "targetId": "1004FD4D",
@@ -31863,6 +32108,7 @@
             },
             {
               "timestamp": "2026-06-16T13:15:19.912Z",
+              "offsetSeconds": 302.46,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -31916,6 +32162,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:02.390Z",
+              "offsetSeconds": 344.94,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -31928,6 +32175,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:04.970Z",
+              "offsetSeconds": 347.52,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088833",
@@ -31940,6 +32188,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:05.371Z",
+              "offsetSeconds": 347.92,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -31952,6 +32201,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:07.779Z",
+              "offsetSeconds": 350.33,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -31964,6 +32214,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:07.957Z",
+              "offsetSeconds": 350.51,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088833",
@@ -31976,6 +32227,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:10.944Z",
+              "offsetSeconds": 353.5,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -31988,6 +32240,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:10.989Z",
+              "offsetSeconds": 353.54,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088833",
@@ -32000,6 +32253,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:13.978Z",
+              "offsetSeconds": 356.53,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088833",
@@ -32033,6 +32287,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:33.064Z",
+              "offsetSeconds": 375.62,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -32045,6 +32300,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:35.427Z",
+              "offsetSeconds": 377.98,
               "sourceId": "40002863",
               "sourceName": "迦樓羅",
               "targetId": "1004F34F",
@@ -32057,6 +32313,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:38.416Z",
+              "offsetSeconds": 380.97,
               "sourceId": "40002863",
               "sourceName": "迦樓羅",
               "targetId": "1004F34F",
@@ -32069,6 +32326,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:41.405Z",
+              "offsetSeconds": 383.96,
               "sourceId": "40002863",
               "sourceName": "迦樓羅",
               "targetId": "1004F34F",
@@ -32102,6 +32360,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:43.461Z",
+              "offsetSeconds": 386.01,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -32135,6 +32394,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:33.064Z",
+              "offsetSeconds": 375.62,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -32147,6 +32407,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:35.070Z",
+              "offsetSeconds": 377.62,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -32159,6 +32420,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:38.059Z",
+              "offsetSeconds": 380.61,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -32171,6 +32433,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:41.048Z",
+              "offsetSeconds": 383.6,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -32183,6 +32446,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:43.461Z",
+              "offsetSeconds": 386.01,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -32306,6 +32570,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:46.942Z",
+              "offsetSeconds": 389.49,
               "sourceId": "40002863",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -32349,6 +32614,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:16:51.583Z",
+              "offsetSeconds": 394.13,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10061D82",
@@ -32361,6 +32627,7 @@
             },
             {
               "timestamp": "2026-06-16T13:16:51.583Z",
+              "offsetSeconds": 394.13,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10061D82",
@@ -33019,6 +33286,99 @@
           "percent": 9.43
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 478894,
+          "percent": 43.58
+        },
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 357108,
+          "percent": 32.5
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 89306,
+          "percent": 8.13
+        },
+        {
+          "id": "40002863",
+          "name": "迦樓羅",
+          "amount": 78274,
+          "percent": 7.12
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 30196,
+          "percent": 2.75
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 15598,
+          "percent": 1.42
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 14117,
+          "percent": 1.28
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 13847,
+          "percent": 1.26
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 13095,
+          "percent": 1.19
+        },
+        {
+          "id": "400028A8",
+          "name": "刺羽",
+          "amount": 4577,
+          "percent": 0.42
+        },
+        {
+          "id": "40002979",
+          "name": "火獄之楔",
+          "amount": 1784,
+          "percent": 0.16
+        },
+        {
+          "id": "4000285A",
+          "name": "妙翅",
+          "amount": 1015,
+          "percent": 0.09
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 1006,
+          "percent": 0.09
+        },
+        {
+          "id": "40002977",
+          "name": "火獄之楔",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "40002862",
+          "name": "伊弗利特",
+          "amount": 0,
+          "percent": 0
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -93193,6 +93553,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:19:41.551Z",
+                  "offsetSeconds": 100.48,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -93205,6 +93566,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:19:43.156Z",
+                  "offsetSeconds": 102.09,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -93687,6 +94049,75 @@
               "percent": 8.14
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 254666,
+              "percent": 48.06
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 170121,
+              "percent": 32.11
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 46549,
+              "percent": 8.79
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 21605,
+              "percent": 4.08
+            },
+            {
+              "id": "40002B7E",
+              "name": "迦樓羅",
+              "amount": 19239,
+              "percent": 3.63
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 4898,
+              "percent": 0.92
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 4211,
+              "percent": 0.79
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 3981,
+              "percent": 0.75
+            },
+            {
+              "id": "40002B75",
+              "name": "妙翅",
+              "amount": 2464,
+              "percent": 0.47
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 2112,
+              "percent": 0.4
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -95819,6 +96250,69 @@
               "percent": 9.35
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 115582,
+              "percent": 41.46
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 97981,
+              "percent": 35.15
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 26338,
+              "percent": 9.45
+            },
+            {
+              "id": "40002B7E",
+              "name": "迦樓羅",
+              "amount": 11030,
+              "percent": 3.96
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 8854,
+              "percent": 3.18
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 7598,
+              "percent": 2.73
+            },
+            {
+              "id": "40002D35",
+              "name": "火獄之楔",
+              "amount": 7332,
+              "percent": 2.63
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 4034,
+              "percent": 1.45
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -97298,6 +97792,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:23:07.976Z",
+                  "offsetSeconds": 306.9,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -97310,6 +97805,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:08.020Z",
+                  "offsetSeconds": 306.95,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -97322,6 +97818,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:11.013Z",
+                  "offsetSeconds": 309.94,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -97334,6 +97831,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:14.001Z",
+                  "offsetSeconds": 312.93,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -97387,6 +97885,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:23:07.976Z",
+                  "offsetSeconds": 306.9,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "100780E3",
@@ -97399,6 +97898,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:08.020Z",
+                  "offsetSeconds": 306.95,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -97411,6 +97911,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:11.013Z",
+                  "offsetSeconds": 309.94,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -97423,6 +97924,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:14.001Z",
+                  "offsetSeconds": 312.93,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -97476,6 +97978,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:23:07.931Z",
+                  "offsetSeconds": 306.86,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -97488,6 +97991,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:07.976Z",
+                  "offsetSeconds": 306.9,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -97500,6 +98004,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:10.924Z",
+                  "offsetSeconds": 309.85,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -97512,6 +98017,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:13.911Z",
+                  "offsetSeconds": 312.84,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -97565,6 +98071,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:23:07.976Z",
+                  "offsetSeconds": 306.9,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -97577,6 +98084,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:08.065Z",
+                  "offsetSeconds": 306.99,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -97589,6 +98097,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:11.058Z",
+                  "offsetSeconds": 309.99,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -97601,6 +98110,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:23:14.045Z",
+                  "offsetSeconds": 312.97,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -98064,6 +98574,69 @@
               "percent": 9.88
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 335262,
+              "percent": 48.97
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 194035,
+              "percent": 28.34
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 54671,
+              "percent": 7.99
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 30261,
+              "percent": 4.42
+            },
+            {
+              "id": "40002B7E",
+              "name": "迦樓羅",
+              "amount": 22115,
+              "percent": 3.23
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 15317,
+              "percent": 2.24
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 13816,
+              "percent": 2.02
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 11576,
+              "percent": 1.69
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 5321,
+              "percent": 0.78
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 2209,
+              "percent": 0.32
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -99617,6 +100190,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:04.980Z",
+                  "offsetSeconds": 603.91,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "10061D82",
@@ -99629,6 +100203,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:07.959Z",
+                  "offsetSeconds": 606.89,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "10061D82",
@@ -99641,6 +100216,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:10.981Z",
+                  "offsetSeconds": 609.91,
                   "sourceId": "10061D82",
                   "sourceName": "米米帽帽",
                   "targetId": "10061D82",
@@ -99653,6 +100229,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:13.961Z",
+                  "offsetSeconds": 612.89,
                   "sourceId": "10061D82",
                   "sourceName": "米米帽帽",
                   "targetId": "10061D82",
@@ -99796,6 +100373,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:29.452Z",
+                  "offsetSeconds": 628.38,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -99808,6 +100386,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:32.394Z",
+                  "offsetSeconds": 631.32,
                   "sourceId": "40002B7E",
                   "sourceName": "迦樓羅",
                   "targetId": "1004F34F",
@@ -99820,6 +100399,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -99893,6 +100473,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:29.452Z",
+                  "offsetSeconds": 628.38,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1005A7EF",
@@ -99905,6 +100486,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:32.394Z",
+                  "offsetSeconds": 631.32,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -99917,6 +100499,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -99970,6 +100553,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10061D82",
@@ -100123,6 +100707,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:29.452Z",
+                  "offsetSeconds": 628.38,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088833",
@@ -100135,6 +100720,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:31.992Z",
+                  "offsetSeconds": 630.92,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "10088833",
@@ -100147,6 +100733,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088833",
@@ -100159,6 +100746,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.979Z",
+                  "offsetSeconds": 633.91,
                   "sourceId": "40002B78",
                   "sourceName": "究極武器",
                   "targetId": "10088833",
@@ -100171,6 +100759,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:36.004Z",
+                  "offsetSeconds": 634.93,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "10088833",
@@ -100183,6 +100772,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:37.967Z",
+                  "offsetSeconds": 636.9,
                   "sourceId": "40002B78",
                   "sourceName": "究極武器",
                   "targetId": "10088833",
@@ -100195,6 +100785,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:40.955Z",
+                  "offsetSeconds": 639.88,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "10088833",
@@ -100298,6 +100889,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:29.452Z",
+                  "offsetSeconds": 628.38,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "100780E3",
@@ -100310,6 +100902,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:32.037Z",
+                  "offsetSeconds": 630.97,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "100780E3",
@@ -100322,6 +100915,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "100780E3",
@@ -100334,6 +100928,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:35.024Z",
+                  "offsetSeconds": 633.95,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "100780E3",
@@ -100346,6 +100941,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:36.494Z",
+                  "offsetSeconds": 635.42,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -100358,6 +100954,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:38.012Z",
+                  "offsetSeconds": 636.94,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -100370,6 +100967,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:41.000Z",
+                  "offsetSeconds": 639.93,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -100473,6 +101071,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:29.452Z",
+                  "offsetSeconds": 628.38,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -100485,6 +101084,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:32.081Z",
+                  "offsetSeconds": 631.01,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -100497,6 +101097,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -100509,6 +101110,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:35.068Z",
+                  "offsetSeconds": 634,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -100521,6 +101123,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:36.271Z",
+                  "offsetSeconds": 635.2,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -100533,6 +101136,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:38.056Z",
+                  "offsetSeconds": 636.99,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -100545,6 +101149,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:41.045Z",
+                  "offsetSeconds": 639.97,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -100688,6 +101293,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:28:34.132Z",
+                  "offsetSeconds": 633.06,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -100700,6 +101306,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:34.935Z",
+                  "offsetSeconds": 633.86,
                   "sourceId": "40002B7E",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -100712,6 +101319,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:37.923Z",
+                  "offsetSeconds": 636.85,
                   "sourceId": "40002B7E",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -100724,6 +101332,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:40.911Z",
+                  "offsetSeconds": 639.84,
                   "sourceId": "40002B7E",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -100736,6 +101345,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:28:43.941Z",
+                  "offsetSeconds": 642.87,
                   "sourceId": "40002B7E",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -101177,6 +101787,69 @@
               "percent": 4.33
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 112270,
+              "percent": 35.41
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 80705,
+              "percent": 25.45
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 38900,
+              "percent": 12.27
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 35893,
+              "percent": 11.32
+            },
+            {
+              "id": "40002B7E",
+              "name": "迦樓羅",
+              "amount": 14928,
+              "percent": 4.71
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 12872,
+              "percent": 4.06
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 12289,
+              "percent": 3.88
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 7174,
+              "percent": 2.26
+            },
+            {
+              "id": "40002B78",
+              "name": "究極武器",
+              "amount": 2038,
+              "percent": 0.64
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -102490,6 +103163,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:19:41.551Z",
+              "offsetSeconds": 100.48,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -102502,6 +103176,7 @@
             },
             {
               "timestamp": "2026-06-16T13:19:43.156Z",
+              "offsetSeconds": 102.09,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -102555,6 +103230,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:23:07.976Z",
+              "offsetSeconds": 306.9,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -102567,6 +103243,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:08.020Z",
+              "offsetSeconds": 306.95,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -102579,6 +103256,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:11.013Z",
+              "offsetSeconds": 309.94,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -102591,6 +103269,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:14.001Z",
+              "offsetSeconds": 312.93,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -102644,6 +103323,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:23:07.976Z",
+              "offsetSeconds": 306.9,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "100780E3",
@@ -102656,6 +103336,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:08.020Z",
+              "offsetSeconds": 306.95,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -102668,6 +103349,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:11.013Z",
+              "offsetSeconds": 309.94,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -102680,6 +103362,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:14.001Z",
+              "offsetSeconds": 312.93,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -102733,6 +103416,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:23:07.931Z",
+              "offsetSeconds": 306.86,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -102745,6 +103429,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:07.976Z",
+              "offsetSeconds": 306.9,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -102757,6 +103442,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:10.924Z",
+              "offsetSeconds": 309.85,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -102769,6 +103455,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:13.911Z",
+              "offsetSeconds": 312.84,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -102822,6 +103509,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:23:07.976Z",
+              "offsetSeconds": 306.9,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -102834,6 +103522,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:08.065Z",
+              "offsetSeconds": 306.99,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -102846,6 +103535,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:11.058Z",
+              "offsetSeconds": 309.99,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -102858,6 +103548,7 @@
             },
             {
               "timestamp": "2026-06-16T13:23:14.045Z",
+              "offsetSeconds": 312.97,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -102891,6 +103582,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:04.980Z",
+              "offsetSeconds": 603.91,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "10061D82",
@@ -102903,6 +103595,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:07.959Z",
+              "offsetSeconds": 606.89,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "10061D82",
@@ -102915,6 +103608,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:10.981Z",
+              "offsetSeconds": 609.91,
               "sourceId": "10061D82",
               "sourceName": "米米帽帽",
               "targetId": "10061D82",
@@ -102927,6 +103621,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:13.961Z",
+              "offsetSeconds": 612.89,
               "sourceId": "10061D82",
               "sourceName": "米米帽帽",
               "targetId": "10061D82",
@@ -103070,6 +103765,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:29.452Z",
+              "offsetSeconds": 628.38,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -103082,6 +103778,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:32.394Z",
+              "offsetSeconds": 631.32,
               "sourceId": "40002B7E",
               "sourceName": "迦樓羅",
               "targetId": "1004F34F",
@@ -103094,6 +103791,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -103167,6 +103865,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:29.452Z",
+              "offsetSeconds": 628.38,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -103179,6 +103878,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:32.394Z",
+              "offsetSeconds": 631.32,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -103191,6 +103891,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -103244,6 +103945,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10061D82",
@@ -103397,6 +104099,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:29.452Z",
+              "offsetSeconds": 628.38,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088833",
@@ -103409,6 +104112,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:31.992Z",
+              "offsetSeconds": 630.92,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "10088833",
@@ -103421,6 +104125,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -103433,6 +104138,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.979Z",
+              "offsetSeconds": 633.91,
               "sourceId": "40002B78",
               "sourceName": "究極武器",
               "targetId": "10088833",
@@ -103445,6 +104151,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:36.004Z",
+              "offsetSeconds": 634.93,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "10088833",
@@ -103457,6 +104164,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:37.967Z",
+              "offsetSeconds": 636.9,
               "sourceId": "40002B78",
               "sourceName": "究極武器",
               "targetId": "10088833",
@@ -103469,6 +104177,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:40.955Z",
+              "offsetSeconds": 639.88,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "10088833",
@@ -103572,6 +104281,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:29.452Z",
+              "offsetSeconds": 628.38,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "100780E3",
@@ -103584,6 +104294,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:32.037Z",
+              "offsetSeconds": 630.97,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "100780E3",
@@ -103596,6 +104307,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "100780E3",
@@ -103608,6 +104320,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:35.024Z",
+              "offsetSeconds": 633.95,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "100780E3",
@@ -103620,6 +104333,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:36.494Z",
+              "offsetSeconds": 635.42,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -103632,6 +104346,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:38.012Z",
+              "offsetSeconds": 636.94,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -103644,6 +104359,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:41.000Z",
+              "offsetSeconds": 639.93,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -103747,6 +104463,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:29.452Z",
+              "offsetSeconds": 628.38,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -103759,6 +104476,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:32.081Z",
+              "offsetSeconds": 631.01,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -103771,6 +104489,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -103783,6 +104502,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:35.068Z",
+              "offsetSeconds": 634,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -103795,6 +104515,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:36.271Z",
+              "offsetSeconds": 635.2,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -103807,6 +104528,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:38.056Z",
+              "offsetSeconds": 636.99,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -103819,6 +104541,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:41.045Z",
+              "offsetSeconds": 639.97,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -103962,6 +104685,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:28:34.132Z",
+              "offsetSeconds": 633.06,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -103974,6 +104698,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:34.935Z",
+              "offsetSeconds": 633.86,
               "sourceId": "40002B7E",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -103986,6 +104711,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:37.923Z",
+              "offsetSeconds": 636.85,
               "sourceId": "40002B7E",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -103998,6 +104724,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:40.911Z",
+              "offsetSeconds": 639.84,
               "sourceId": "40002B7E",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -104010,6 +104737,7 @@
             },
             {
               "timestamp": "2026-06-16T13:28:43.941Z",
+              "offsetSeconds": 642.87,
               "sourceId": "40002B7E",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -104530,6 +105258,87 @@
           "percent": 8.59
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 701670,
+          "percent": 38.76
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 658952,
+          "percent": 36.4
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 124564,
+          "percent": 6.88
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 115486,
+          "percent": 6.38
+        },
+        {
+          "id": "40002B7E",
+          "name": "迦樓羅",
+          "amount": 67312,
+          "percent": 3.72
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 59419,
+          "percent": 3.28
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 28076,
+          "percent": 1.55
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 26525,
+          "percent": 1.47
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 10219,
+          "percent": 0.56
+        },
+        {
+          "id": "40002D35",
+          "name": "火獄之楔",
+          "amount": 7332,
+          "percent": 0.41
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 6190,
+          "percent": 0.34
+        },
+        {
+          "id": "40002B75",
+          "name": "妙翅",
+          "amount": 2464,
+          "percent": 0.14
+        },
+        {
+          "id": "40002B78",
+          "name": "究極武器",
+          "amount": 2038,
+          "percent": 0.11
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -161851,6 +162660,63 @@
               "percent": 9.47
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 244564,
+              "percent": 47.17
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 152448,
+              "percent": 29.41
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 47963,
+              "percent": 9.25
+            },
+            {
+              "id": "40003042",
+              "name": "迦樓羅",
+              "amount": 31717,
+              "percent": 6.12
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 19323,
+              "percent": 3.73
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 17037,
+              "percent": 3.29
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 5367,
+              "percent": 1.04
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -164007,6 +164873,69 @@
               "percent": 5.8
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 181955,
+              "percent": 58.5
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 60485,
+              "percent": 19.45
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 23389,
+              "percent": 7.52
+            },
+            {
+              "id": "40003042",
+              "name": "迦樓羅",
+              "amount": 16515,
+              "percent": 5.31
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 14196,
+              "percent": 4.56
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 8812,
+              "percent": 2.83
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 3009,
+              "percent": 0.97
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 1620,
+              "percent": 0.52
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 1073,
+              "percent": 0.34
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -165439,6 +166368,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:17.006Z",
+                  "offsetSeconds": 306.35,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -165451,6 +166381,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:35:20.043Z",
+                  "offsetSeconds": 309.39,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -165504,6 +166435,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:17.051Z",
+                  "offsetSeconds": 306.4,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -165516,6 +166448,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:35:20.043Z",
+                  "offsetSeconds": 309.39,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -165569,6 +166502,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:16.916Z",
+                  "offsetSeconds": 306.26,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -165581,6 +166515,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:35:19.909Z",
+                  "offsetSeconds": 309.26,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -165634,6 +166569,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:17.006Z",
+                  "offsetSeconds": 306.35,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -165646,6 +166582,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:35:20.043Z",
+                  "offsetSeconds": 309.39,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -165689,6 +166626,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:45.401Z",
+                  "offsetSeconds": 334.75,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -165802,6 +166740,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:35:56.220Z",
+                  "offsetSeconds": 345.57,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -165905,6 +166844,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:36:02.886Z",
+                  "offsetSeconds": 352.23,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -166449,6 +167389,51 @@
               "percent": 7.88
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 45779,
+              "percent": 35.67
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 35374,
+              "percent": 27.56
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 26588,
+              "percent": 20.72
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 9333,
+              "percent": 7.27
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 8594,
+              "percent": 6.7
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 2666,
+              "percent": 2.08
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088980",
@@ -167613,6 +168598,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:17.006Z",
+              "offsetSeconds": 306.35,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -167625,6 +168611,7 @@
             },
             {
               "timestamp": "2026-06-16T13:35:20.043Z",
+              "offsetSeconds": 309.39,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -167678,6 +168665,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:17.051Z",
+              "offsetSeconds": 306.4,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -167690,6 +168678,7 @@
             },
             {
               "timestamp": "2026-06-16T13:35:20.043Z",
+              "offsetSeconds": 309.39,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -167743,6 +168732,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:16.916Z",
+              "offsetSeconds": 306.26,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -167755,6 +168745,7 @@
             },
             {
               "timestamp": "2026-06-16T13:35:19.909Z",
+              "offsetSeconds": 309.26,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -167808,6 +168799,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:17.006Z",
+              "offsetSeconds": 306.35,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -167820,6 +168812,7 @@
             },
             {
               "timestamp": "2026-06-16T13:35:20.043Z",
+              "offsetSeconds": 309.39,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -167863,6 +168856,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:45.401Z",
+              "offsetSeconds": 334.75,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -167976,6 +168970,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:35:56.220Z",
+              "offsetSeconds": 345.57,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -168079,6 +169074,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:36:02.886Z",
+              "offsetSeconds": 352.23,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -168312,6 +169308,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:36:02.886Z",
+              "offsetSeconds": 352.23,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004FD4D",
@@ -168775,6 +169772,69 @@
           "percent": 8.44
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 472298,
+          "percent": 49.31
+        },
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 239521,
+          "percent": 25.01
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 78086,
+          "percent": 8.15
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 64825,
+          "percent": 6.77
+        },
+        {
+          "id": "40003042",
+          "name": "迦樓羅",
+          "amount": 48232,
+          "percent": 5.04
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 18657,
+          "percent": 1.95
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 14179,
+          "percent": 1.48
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 12342,
+          "percent": 1.29
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 8594,
+          "percent": 0.9
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 1073,
+          "percent": 0.11
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -215412,6 +216472,75 @@
               "percent": 9.5
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 213213,
+              "percent": 41.42
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 199353,
+              "percent": 38.73
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 36657,
+              "percent": 7.12
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 28985,
+              "percent": 5.63
+            },
+            {
+              "id": "40003144",
+              "name": "迦樓羅",
+              "amount": 15139,
+              "percent": 2.94
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 10205,
+              "percent": 1.98
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 4353,
+              "percent": 0.85
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 4167,
+              "percent": 0.81
+            },
+            {
+              "id": "4000313B",
+              "name": "妙翅",
+              "amount": 1671,
+              "percent": 0.32
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 1038,
+              "percent": 0.2
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -217581,6 +218710,75 @@
               "percent": 3.8
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 90121,
+              "percent": 44.44
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 38020,
+              "percent": 18.75
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 24251,
+              "percent": 11.96
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 13442,
+              "percent": 6.63
+            },
+            {
+              "id": "40003144",
+              "name": "迦樓羅",
+              "amount": 11329,
+              "percent": 5.59
+            },
+            {
+              "id": "4000319F",
+              "name": "火獄之楔",
+              "amount": 9358,
+              "percent": 4.61
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 7086,
+              "percent": 3.49
+            },
+            {
+              "id": "400031A0",
+              "name": "火獄之楔",
+              "amount": 4650,
+              "percent": 2.29
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 3341,
+              "percent": 1.65
+            },
+            {
+              "id": "4000319E",
+              "name": "火獄之楔",
+              "amount": 1215,
+              "percent": 0.6
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -219002,6 +220200,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:45:20.015Z",
+                  "offsetSeconds": 300.3,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -219014,6 +220213,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:23.007Z",
+                  "offsetSeconds": 303.29,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -219026,6 +220226,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:26.043Z",
+                  "offsetSeconds": 306.32,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -219089,6 +220290,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:45:20.015Z",
+                  "offsetSeconds": 300.3,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -219101,6 +220303,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:23.007Z",
+                  "offsetSeconds": 303.29,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -219113,6 +220316,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:26.043Z",
+                  "offsetSeconds": 306.32,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -219176,6 +220380,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:45:20.060Z",
+                  "offsetSeconds": 300.34,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -219188,6 +220393,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:23.052Z",
+                  "offsetSeconds": 303.33,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -219200,6 +220406,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:26.043Z",
+                  "offsetSeconds": 306.32,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -219263,6 +220470,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:45:19.926Z",
+                  "offsetSeconds": 300.21,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004FD4D",
@@ -219275,6 +220483,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:22.918Z",
+                  "offsetSeconds": 303.2,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004FD4D",
@@ -219287,6 +220496,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:45:25.909Z",
+                  "offsetSeconds": 306.19,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004FD4D",
@@ -219430,6 +220640,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:46:05.334Z",
+                  "offsetSeconds": 345.61,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -219563,6 +220774,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:46:05.334Z",
+                  "offsetSeconds": 345.61,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088833",
@@ -219626,6 +220838,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:46:05.334Z",
+                  "offsetSeconds": 345.61,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "1004FD4D",
@@ -219729,6 +220942,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:46:00.426Z",
+                  "offsetSeconds": 340.71,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -219741,6 +220955,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:46:05.334Z",
+                  "offsetSeconds": 345.61,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "1004BEF8",
@@ -220106,6 +221321,45 @@
               "percent": 2.71
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 49108,
+              "percent": 35.41
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 38527,
+              "percent": 27.78
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 21656,
+              "percent": 15.62
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 17279,
+              "percent": 12.46
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 8529,
+              "percent": 6.15
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 3572,
+              "percent": 2.58
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "1004BEF8",
@@ -221241,6 +222495,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:45:20.015Z",
+              "offsetSeconds": 300.3,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -221253,6 +222508,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:23.007Z",
+              "offsetSeconds": 303.29,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -221265,6 +222521,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:26.043Z",
+              "offsetSeconds": 306.32,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -221328,6 +222585,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:45:20.015Z",
+              "offsetSeconds": 300.3,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -221340,6 +222598,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:23.007Z",
+              "offsetSeconds": 303.29,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -221352,6 +222611,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:26.043Z",
+              "offsetSeconds": 306.32,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -221415,6 +222675,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:45:20.060Z",
+              "offsetSeconds": 300.34,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -221427,6 +222688,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:23.052Z",
+              "offsetSeconds": 303.33,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -221439,6 +222701,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:26.043Z",
+              "offsetSeconds": 306.32,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -221502,6 +222765,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:45:19.926Z",
+              "offsetSeconds": 300.21,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004FD4D",
@@ -221514,6 +222778,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:22.918Z",
+              "offsetSeconds": 303.2,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004FD4D",
@@ -221526,6 +222791,7 @@
             },
             {
               "timestamp": "2026-06-16T13:45:25.909Z",
+              "offsetSeconds": 306.19,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004FD4D",
@@ -221669,6 +222935,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:46:05.334Z",
+              "offsetSeconds": 345.61,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -221802,6 +223069,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:46:05.334Z",
+              "offsetSeconds": 345.61,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088833",
@@ -221865,6 +223133,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:46:05.334Z",
+              "offsetSeconds": 345.61,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004FD4D",
@@ -221968,6 +223237,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:46:00.426Z",
+              "offsetSeconds": 340.71,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -221980,6 +223250,7 @@
             },
             {
               "timestamp": "2026-06-16T13:46:05.334Z",
+              "offsetSeconds": 345.61,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004BEF8",
@@ -222519,6 +223790,93 @@
           "percent": 7.05
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 311130,
+          "percent": 36.34
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 300341,
+          "percent": 35.08
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 91763,
+          "percent": 10.72
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 50099,
+          "percent": 5.85
+        },
+        {
+          "id": "40003144",
+          "name": "迦樓羅",
+          "amount": 26468,
+          "percent": 3.09
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 18317,
+          "percent": 2.14
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 15011,
+          "percent": 1.75
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 11870,
+          "percent": 1.39
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 10205,
+          "percent": 1.19
+        },
+        {
+          "id": "4000319F",
+          "name": "火獄之楔",
+          "amount": 9358,
+          "percent": 1.09
+        },
+        {
+          "id": "400031A0",
+          "name": "火獄之楔",
+          "amount": 4650,
+          "percent": 0.54
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 4167,
+          "percent": 0.49
+        },
+        {
+          "id": "4000313B",
+          "name": "妙翅",
+          "amount": 1671,
+          "percent": 0.2
+        },
+        {
+          "id": "4000319E",
+          "name": "火獄之楔",
+          "amount": 1215,
+          "percent": 0.14
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -278450,6 +279808,57 @@
               "percent": 7.74
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 278122,
+              "percent": 52.88
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 140446,
+              "percent": 26.7
+            },
+            {
+              "id": "400031D1",
+              "name": "迦樓羅",
+              "amount": 65879,
+              "percent": 12.53
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 27705,
+              "percent": 5.27
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 6401,
+              "percent": 1.22
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 4994,
+              "percent": 0.95
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 1316,
+              "percent": 0.25
+            },
+            {
+              "id": "400031C8",
+              "name": "妙翅",
+              "amount": 1063,
+              "percent": 0.2
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -280545,6 +281954,63 @@
               "percent": 3.4
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 96825,
+              "percent": 40.52
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 79013,
+              "percent": 33.07
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 33558,
+              "percent": 14.04
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 11991,
+              "percent": 5.02
+            },
+            {
+              "id": "400031D1",
+              "name": "迦樓羅",
+              "amount": 9430,
+              "percent": 3.95
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 5185,
+              "percent": 2.17
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 1363,
+              "percent": 0.57
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 1176,
+              "percent": 0.49
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 400,
+              "percent": 0.17
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -281998,6 +283464,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:51:47.000Z",
+                  "offsetSeconds": 296.28,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "10088980",
@@ -282010,6 +283477,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:50.039Z",
+                  "offsetSeconds": 299.32,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "10088980",
@@ -282022,6 +283490,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:53.031Z",
+                  "offsetSeconds": 302.31,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "10088980",
@@ -282085,6 +283554,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:51:47.045Z",
+                  "offsetSeconds": 296.33,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -282097,6 +283567,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:50.084Z",
+                  "offsetSeconds": 299.37,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -282109,6 +283580,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:53.075Z",
+                  "offsetSeconds": 302.36,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -282172,6 +283644,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:51:47.000Z",
+                  "offsetSeconds": 296.28,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -282184,6 +283657,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:50.039Z",
+                  "offsetSeconds": 299.32,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -282196,6 +283670,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:53.031Z",
+                  "offsetSeconds": 302.31,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -282259,6 +283734,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:51:46.910Z",
+                  "offsetSeconds": 296.19,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -282271,6 +283747,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:49.904Z",
+                  "offsetSeconds": 299.19,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -282283,6 +283760,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:51:52.941Z",
+                  "offsetSeconds": 302.22,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004FD4D",
@@ -282755,6 +284233,69 @@
               "percent": 10.6
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 330376,
+              "percent": 44.05
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 303919,
+              "percent": 40.53
+            },
+            {
+              "id": "400031D1",
+              "name": "迦樓羅",
+              "amount": 31432,
+              "percent": 4.19
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 26533,
+              "percent": 3.54
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 21601,
+              "percent": 2.88
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 17153,
+              "percent": 2.29
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 11049,
+              "percent": 1.47
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 5814,
+              "percent": 0.78
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 2052,
+              "percent": 0.27
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088980",
@@ -284308,6 +285849,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:56:29.716Z",
+                  "offsetSeconds": 579,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -284320,6 +285862,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:56:32.437Z",
+                  "offsetSeconds": 581.72,
                   "sourceId": "400031D1",
                   "sourceName": "迦樓羅",
                   "targetId": "1005A7EF",
@@ -284353,6 +285896,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:56:56.931Z",
+                  "offsetSeconds": 606.21,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10061D82",
@@ -284365,6 +285909,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:56:57.822Z",
+                  "offsetSeconds": 607.11,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10061D82",
@@ -284418,6 +285963,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T13:56:56.931Z",
+                  "offsetSeconds": 606.21,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -284430,6 +285976,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T13:56:57.822Z",
+                  "offsetSeconds": 607.11,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -284833,6 +286380,57 @@
               "percent": 1.95
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 59277,
+              "percent": 41.4
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 24848,
+              "percent": 17.35
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 21526,
+              "percent": 15.03
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 15177,
+              "percent": 10.6
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 11957,
+              "percent": 8.35
+            },
+            {
+              "id": "400031D1",
+              "name": "迦樓羅",
+              "amount": 6488,
+              "percent": 4.53
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 3908,
+              "percent": 2.73
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -286075,6 +287673,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:51:47.000Z",
+              "offsetSeconds": 296.28,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "10088980",
@@ -286087,6 +287686,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:50.039Z",
+              "offsetSeconds": 299.32,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "10088980",
@@ -286099,6 +287699,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:53.031Z",
+              "offsetSeconds": 302.31,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "10088980",
@@ -286162,6 +287763,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:51:47.045Z",
+              "offsetSeconds": 296.33,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -286174,6 +287776,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:50.084Z",
+              "offsetSeconds": 299.37,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -286186,6 +287789,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:53.075Z",
+              "offsetSeconds": 302.36,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -286249,6 +287853,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:51:47.000Z",
+              "offsetSeconds": 296.28,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -286261,6 +287866,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:50.039Z",
+              "offsetSeconds": 299.32,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -286273,6 +287879,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:53.031Z",
+              "offsetSeconds": 302.31,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -286336,6 +287943,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:51:46.910Z",
+              "offsetSeconds": 296.19,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -286348,6 +287956,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:49.904Z",
+              "offsetSeconds": 299.19,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -286360,6 +287969,7 @@
             },
             {
               "timestamp": "2026-06-16T13:51:52.941Z",
+              "offsetSeconds": 302.22,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004FD4D",
@@ -286402,6 +288012,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:29.716Z",
+              "offsetSeconds": 579,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -286414,6 +288025,7 @@
             },
             {
               "timestamp": "2026-06-16T13:56:32.437Z",
+              "offsetSeconds": 581.72,
               "sourceId": "400031D1",
               "sourceName": "迦樓羅",
               "targetId": "1005A7EF",
@@ -286447,6 +288059,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:56.931Z",
+              "offsetSeconds": 606.21,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10061D82",
@@ -286459,6 +288072,7 @@
             },
             {
               "timestamp": "2026-06-16T13:56:57.822Z",
+              "offsetSeconds": 607.11,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10061D82",
@@ -286512,6 +288126,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:56.931Z",
+              "offsetSeconds": 606.21,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -286524,6 +288139,7 @@
             },
             {
               "timestamp": "2026-06-16T13:56:57.822Z",
+              "offsetSeconds": 607.11,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -286557,6 +288173,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:56.931Z",
+              "offsetSeconds": 606.21,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -286569,6 +288186,7 @@
             },
             {
               "timestamp": "2026-06-16T13:56:57.822Z",
+              "offsetSeconds": 607.11,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -286602,6 +288220,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:57.822Z",
+              "offsetSeconds": 607.11,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -286635,6 +288254,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:57.822Z",
+              "offsetSeconds": 607.11,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -286688,6 +288308,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:57:01.214Z",
+              "offsetSeconds": 610.5,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -286700,6 +288321,7 @@
             },
             {
               "timestamp": "2026-06-16T13:57:04.070Z",
+              "offsetSeconds": 613.35,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088833",
@@ -286733,6 +288355,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T13:56:59.429Z",
+              "offsetSeconds": 608.71,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -287215,6 +288838,75 @@
           "percent": 8.81
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 738143,
+          "percent": 44.52
+        },
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 574683,
+          "percent": 34.66
+        },
+        {
+          "id": "400031D1",
+          "name": "迦樓羅",
+          "amount": 113229,
+          "percent": 6.83
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 109322,
+          "percent": 6.59
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 51950,
+          "percent": 3.13
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 22777,
+          "percent": 1.37
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 22354,
+          "percent": 1.35
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 21228,
+          "percent": 1.28
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 2052,
+          "percent": 0.12
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 1176,
+          "percent": 0.07
+        },
+        {
+          "id": "400031C8",
+          "name": "妙翅",
+          "amount": 1063,
+          "percent": 0.06
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -352411,6 +354103,63 @@
               "percent": 9.74
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 226141,
+              "percent": 39.16
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 214214,
+              "percent": 37.09
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 56843,
+              "percent": 9.84
+            },
+            {
+              "id": "40003723",
+              "name": "迦樓羅",
+              "amount": 44480,
+              "percent": 7.7
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 27171,
+              "percent": 4.7
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 4295,
+              "percent": 0.74
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 2311,
+              "percent": 0.4
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 2056,
+              "percent": 0.36
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -354639,6 +356388,87 @@
               "percent": 5.81
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 94625,
+              "percent": 39.97
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 89491,
+              "percent": 37.8
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 22462,
+              "percent": 9.49
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 13286,
+              "percent": 5.61
+            },
+            {
+              "id": "40003898",
+              "name": "火獄之楔",
+              "amount": 7974,
+              "percent": 3.37
+            },
+            {
+              "id": "40003723",
+              "name": "迦樓羅",
+              "amount": 4996,
+              "percent": 2.11
+            },
+            {
+              "id": "40003899",
+              "name": "火獄之楔",
+              "amount": 1360,
+              "percent": 0.57
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 878,
+              "percent": 0.37
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 742,
+              "percent": 0.31
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 710,
+              "percent": 0.3
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 238,
+              "percent": 0.1
+            },
+            {
+              "id": "4000389B",
+              "name": "火獄之楔",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "4000389A",
+              "name": "火獄之楔",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -356088,6 +357918,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:03:14.144Z",
+                  "offsetSeconds": 299.28,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -356100,6 +357931,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.399Z",
+                  "offsetSeconds": 302.54,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "10088980",
@@ -356112,6 +357944,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:20.024Z",
+                  "offsetSeconds": 305.16,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -356124,6 +357957,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.009Z",
+                  "offsetSeconds": 308.15,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10088980",
@@ -356136,6 +357970,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.857Z",
+                  "offsetSeconds": 308.99,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356189,6 +358024,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:03:14.010Z",
+                  "offsetSeconds": 299.15,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -356201,6 +358037,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.043Z",
+                  "offsetSeconds": 302.18,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -356213,6 +358050,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.399Z",
+                  "offsetSeconds": 302.54,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "100780E3",
@@ -356225,6 +358063,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:20.024Z",
+                  "offsetSeconds": 305.16,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -356237,6 +358076,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.009Z",
+                  "offsetSeconds": 308.15,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -356249,6 +358089,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.857Z",
+                  "offsetSeconds": 308.99,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "100780E3",
@@ -356302,6 +358143,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:03:14.055Z",
+                  "offsetSeconds": 299.19,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -356314,6 +358156,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.043Z",
+                  "offsetSeconds": 302.18,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -356326,6 +358169,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.399Z",
+                  "offsetSeconds": 302.54,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -356338,6 +358182,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:20.069Z",
+                  "offsetSeconds": 305.21,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -356350,6 +358195,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.054Z",
+                  "offsetSeconds": 308.19,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -356362,6 +358208,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.857Z",
+                  "offsetSeconds": 308.99,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -356415,6 +358262,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:03:13.921Z",
+                  "offsetSeconds": 299.06,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -356427,6 +358275,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:16.909Z",
+                  "offsetSeconds": 302.05,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "1004FD4D",
@@ -356439,6 +358288,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:17.399Z",
+                  "offsetSeconds": 302.54,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -356451,6 +358301,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:19.935Z",
+                  "offsetSeconds": 305.07,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "1004FD4D",
@@ -356463,6 +358314,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:22.919Z",
+                  "offsetSeconds": 308.06,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "1004FD4D",
@@ -356475,6 +358327,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:03:23.857Z",
+                  "offsetSeconds": 308.99,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -356518,6 +358371,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:04:49.833Z",
+                  "offsetSeconds": 394.97,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356530,6 +358384,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:04:50.012Z",
+                  "offsetSeconds": 395.15,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356542,6 +358397,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:04:53.041Z",
+                  "offsetSeconds": 398.18,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356554,6 +358410,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:04:56.022Z",
+                  "offsetSeconds": 401.16,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356566,6 +358423,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:04:59.005Z",
+                  "offsetSeconds": 404.14,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -356578,6 +358436,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:05:02.034Z",
+                  "offsetSeconds": 407.17,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -357041,6 +358900,69 @@
               "percent": 9.79
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 336752,
+              "percent": 40.49
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 332337,
+              "percent": 39.95
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 37445,
+              "percent": 4.5
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 34768,
+              "percent": 4.18
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 24153,
+              "percent": 2.9
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 17914,
+              "percent": 2.15
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 17233,
+              "percent": 2.07
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 15189,
+              "percent": 1.83
+            },
+            {
+              "id": "40003723",
+              "name": "迦樓羅",
+              "amount": 12995,
+              "percent": 1.56
+            },
+            {
+              "id": "4000371C",
+              "name": "拉哈布雷亞",
+              "amount": 2996,
+              "percent": 0.36
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -358599,6 +360521,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:07:52.946Z",
+                  "offsetSeconds": 578.08,
                   "sourceId": "40003723",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -358611,6 +360534,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:07:55.926Z",
+                  "offsetSeconds": 581.06,
                   "sourceId": "40003723",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -358623,6 +360547,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:07:58.909Z",
+                  "offsetSeconds": 584.04,
                   "sourceId": "40003723",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -358635,6 +360560,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:08:01.931Z",
+                  "offsetSeconds": 587.07,
                   "sourceId": "40003723",
                   "sourceName": "迦樓羅",
                   "targetId": "1004FD4D",
@@ -358647,6 +360573,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:08:04.912Z",
+                  "offsetSeconds": 590.05,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "1004FD4D",
@@ -358680,6 +360607,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:08:04.957Z",
+                  "offsetSeconds": 590.09,
                   "sourceId": "10088980",
                   "sourceName": "Y韭",
                   "targetId": "10061D82",
@@ -358723,6 +360651,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:08:05.046Z",
+                  "offsetSeconds": 590.18,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "1004BEF8",
@@ -358756,6 +360685,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:08:05.002Z",
+                  "offsetSeconds": 590.14,
                   "sourceId": "10088833",
                   "sourceName": "加辣更好吃",
                   "targetId": "10088980",
@@ -359358,6 +361288,63 @@
               "percent": 3.05
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 55383,
+              "percent": 40.39
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 29079,
+              "percent": 21.2
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 24125,
+              "percent": 17.59
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 18930,
+              "percent": 13.8
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 5400,
+              "percent": 3.94
+            },
+            {
+              "id": "40003723",
+              "name": "迦樓羅",
+              "amount": 2961,
+              "percent": 2.16
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 1257,
+              "percent": 0.92
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -360589,6 +362576,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:03:14.144Z",
+              "offsetSeconds": 299.28,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -360601,6 +362589,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.399Z",
+              "offsetSeconds": 302.54,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "10088980",
@@ -360613,6 +362602,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:20.024Z",
+              "offsetSeconds": 305.16,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -360625,6 +362615,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.009Z",
+              "offsetSeconds": 308.15,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10088980",
@@ -360637,6 +362628,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.857Z",
+              "offsetSeconds": 308.99,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -360690,6 +362682,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:03:14.010Z",
+              "offsetSeconds": 299.15,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -360702,6 +362695,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.043Z",
+              "offsetSeconds": 302.18,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -360714,6 +362708,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.399Z",
+              "offsetSeconds": 302.54,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "100780E3",
@@ -360726,6 +362721,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:20.024Z",
+              "offsetSeconds": 305.16,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -360738,6 +362734,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.009Z",
+              "offsetSeconds": 308.15,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -360750,6 +362747,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.857Z",
+              "offsetSeconds": 308.99,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "100780E3",
@@ -360803,6 +362801,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:03:14.055Z",
+              "offsetSeconds": 299.19,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -360815,6 +362814,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.043Z",
+              "offsetSeconds": 302.18,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -360827,6 +362827,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.399Z",
+              "offsetSeconds": 302.54,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -360839,6 +362840,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:20.069Z",
+              "offsetSeconds": 305.21,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -360851,6 +362853,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.054Z",
+              "offsetSeconds": 308.19,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -360863,6 +362866,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.857Z",
+              "offsetSeconds": 308.99,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -360916,6 +362920,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:03:13.921Z",
+              "offsetSeconds": 299.06,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -360928,6 +362933,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:16.909Z",
+              "offsetSeconds": 302.05,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004FD4D",
@@ -360940,6 +362946,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:17.399Z",
+              "offsetSeconds": 302.54,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -360952,6 +362959,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:19.935Z",
+              "offsetSeconds": 305.07,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004FD4D",
@@ -360964,6 +362972,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:22.919Z",
+              "offsetSeconds": 308.06,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "1004FD4D",
@@ -360976,6 +362985,7 @@
             },
             {
               "timestamp": "2026-06-16T14:03:23.857Z",
+              "offsetSeconds": 308.99,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -361019,6 +363029,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:04:49.833Z",
+              "offsetSeconds": 394.97,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361031,6 +363042,7 @@
             },
             {
               "timestamp": "2026-06-16T14:04:50.012Z",
+              "offsetSeconds": 395.15,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361043,6 +363055,7 @@
             },
             {
               "timestamp": "2026-06-16T14:04:53.041Z",
+              "offsetSeconds": 398.18,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361055,6 +363068,7 @@
             },
             {
               "timestamp": "2026-06-16T14:04:56.022Z",
+              "offsetSeconds": 401.16,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361067,6 +363081,7 @@
             },
             {
               "timestamp": "2026-06-16T14:04:59.005Z",
+              "offsetSeconds": 404.14,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361079,6 +363094,7 @@
             },
             {
               "timestamp": "2026-06-16T14:05:02.034Z",
+              "offsetSeconds": 407.17,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -361132,6 +363148,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:07:52.946Z",
+              "offsetSeconds": 578.08,
               "sourceId": "40003723",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -361144,6 +363161,7 @@
             },
             {
               "timestamp": "2026-06-16T14:07:55.926Z",
+              "offsetSeconds": 581.06,
               "sourceId": "40003723",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -361156,6 +363174,7 @@
             },
             {
               "timestamp": "2026-06-16T14:07:58.909Z",
+              "offsetSeconds": 584.04,
               "sourceId": "40003723",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -361168,6 +363187,7 @@
             },
             {
               "timestamp": "2026-06-16T14:08:01.931Z",
+              "offsetSeconds": 587.07,
               "sourceId": "40003723",
               "sourceName": "迦樓羅",
               "targetId": "1004FD4D",
@@ -361180,6 +363200,7 @@
             },
             {
               "timestamp": "2026-06-16T14:08:04.912Z",
+              "offsetSeconds": 590.05,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "1004FD4D",
@@ -361213,6 +363234,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:08:04.957Z",
+              "offsetSeconds": 590.09,
               "sourceId": "10088980",
               "sourceName": "Y韭",
               "targetId": "10061D82",
@@ -361256,6 +363278,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:08:05.046Z",
+              "offsetSeconds": 590.18,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "1004BEF8",
@@ -361289,6 +363312,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:08:05.002Z",
+              "offsetSeconds": 590.14,
               "sourceId": "10088833",
               "sourceName": "加辣更好吃",
               "targetId": "10088980",
@@ -362008,6 +364032,93 @@
           "percent": 9.92
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 708486,
+          "percent": 39.73
+        },
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 669536,
+          "percent": 37.55
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 131699,
+          "percent": 7.39
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 103331,
+          "percent": 5.79
+        },
+        {
+          "id": "40003723",
+          "name": "迦樓羅",
+          "amount": 65432,
+          "percent": 3.67
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 29190,
+          "percent": 1.64
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 26080,
+          "percent": 1.46
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 18995,
+          "percent": 1.07
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 18111,
+          "percent": 1.02
+        },
+        {
+          "id": "40003898",
+          "name": "火獄之楔",
+          "amount": 7974,
+          "percent": 0.45
+        },
+        {
+          "id": "4000371C",
+          "name": "拉哈布雷亞",
+          "amount": 2996,
+          "percent": 0.17
+        },
+        {
+          "id": "40003899",
+          "name": "火獄之楔",
+          "amount": 1360,
+          "percent": 0.08
+        },
+        {
+          "id": "4000389B",
+          "name": "火獄之楔",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "4000389A",
+          "name": "火獄之楔",
+          "amount": 0,
+          "percent": 0
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
@@ -429549,6 +431660,75 @@
               "percent": 9.24
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 275757,
+              "percent": 49.63
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 185076,
+              "percent": 33.31
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 36301,
+              "percent": 6.53
+            },
+            {
+              "id": "40003B56",
+              "name": "迦樓羅",
+              "amount": 30295,
+              "percent": 5.45
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 13185,
+              "percent": 2.37
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 4294,
+              "percent": 0.77
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 4025,
+              "percent": 0.72
+            },
+            {
+              "id": "E0000000",
+              "name": "",
+              "amount": 3194,
+              "percent": 0.57
+            },
+            {
+              "id": "40003BAD",
+              "name": "刺羽",
+              "amount": 3135,
+              "percent": 0.56
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 341,
+              "percent": 0.06
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -431714,6 +433894,69 @@
               "percent": 5.34
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 104047,
+              "percent": 48.2
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 51368,
+              "percent": 23.8
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 23316,
+              "percent": 10.8
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 17441,
+              "percent": 8.08
+            },
+            {
+              "id": "40003B56",
+              "name": "迦樓羅",
+              "amount": 10694,
+              "percent": 4.95
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 5972,
+              "percent": 2.77
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 1640,
+              "percent": 0.76
+            },
+            {
+              "id": "40003C38",
+              "name": "火獄之楔",
+              "amount": 1365,
+              "percent": 0.63
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 0,
+              "percent": 0
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -433173,6 +435416,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:15:53.010Z",
+                  "offsetSeconds": 298.07,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "10088980",
@@ -433185,6 +435429,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:15:56.009Z",
+                  "offsetSeconds": 301.07,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "10088980",
@@ -433248,6 +435493,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:15:53.010Z",
+                  "offsetSeconds": 298.07,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -433260,6 +435506,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:15:56.009Z",
+                  "offsetSeconds": 301.07,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "100780E3",
@@ -433323,6 +435570,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:15:53.055Z",
+                  "offsetSeconds": 298.12,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -433335,6 +435583,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:15:56.053Z",
+                  "offsetSeconds": 301.11,
                   "sourceId": "100780E3",
                   "sourceName": "米店老闆",
                   "targetId": "1004BEF8",
@@ -433398,6 +435647,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:15:52.920Z",
+                  "offsetSeconds": 297.98,
                   "sourceId": "1004FD4D",
                   "sourceName": "南天晴齊雲",
                   "targetId": "1004FD4D",
@@ -433410,6 +435660,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:15:55.919Z",
+                  "offsetSeconds": 300.98,
                   "sourceId": "1004FD4D",
                   "sourceName": "南天晴齊雲",
                   "targetId": "1004FD4D",
@@ -433854,6 +436105,63 @@
               "percent": 10.34
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 355894,
+              "percent": 48.89
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 246760,
+              "percent": 33.9
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 37939,
+              "percent": 5.21
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 36749,
+              "percent": 5.05
+            },
+            {
+              "id": "40003B56",
+              "name": "迦樓羅",
+              "amount": 16948,
+              "percent": 2.33
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 13347,
+              "percent": 1.83
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 10587,
+              "percent": 1.45
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 8260,
+              "percent": 1.13
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 1429,
+              "percent": 0.2
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "1004BEF8",
@@ -435422,6 +437730,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:21:06.835Z",
+                  "offsetSeconds": 611.9,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "10088980",
@@ -435515,6 +437824,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:21:20.561Z",
+                  "offsetSeconds": 625.62,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -435527,6 +437837,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -435539,6 +437850,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -435551,6 +437863,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.553Z",
+                  "offsetSeconds": 628.61,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -435563,6 +437876,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.953Z",
+                  "offsetSeconds": 629.01,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -435575,6 +437889,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:24.444Z",
+                  "offsetSeconds": 629.51,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -435587,6 +437902,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.410Z",
+                  "offsetSeconds": 631.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004F34F",
@@ -435599,6 +437915,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.454Z",
+                  "offsetSeconds": 631.52,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -435611,6 +437928,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:28.958Z",
+                  "offsetSeconds": 634.02,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004F34F",
@@ -435674,6 +437992,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:21:20.561Z",
+                  "offsetSeconds": 625.62,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435686,6 +438005,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -435698,6 +438018,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435710,6 +438031,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.553Z",
+                  "offsetSeconds": 628.61,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435722,6 +438044,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.953Z",
+                  "offsetSeconds": 629.01,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -435734,6 +438057,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:24.444Z",
+                  "offsetSeconds": 629.51,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435746,6 +438070,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.410Z",
+                  "offsetSeconds": 631.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435758,6 +438083,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.454Z",
+                  "offsetSeconds": 631.52,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -435770,6 +438096,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:28.958Z",
+                  "offsetSeconds": 634.02,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004FD4D",
@@ -435782,6 +438109,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:33.025Z",
+                  "offsetSeconds": 638.09,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004FD4D",
@@ -435845,6 +438173,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:21:20.561Z",
+                  "offsetSeconds": 625.62,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -435857,6 +438186,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1005A7EF",
@@ -435869,6 +438199,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -435881,6 +438212,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.553Z",
+                  "offsetSeconds": 628.61,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -435893,6 +438225,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.953Z",
+                  "offsetSeconds": 629.01,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1005A7EF",
@@ -435905,6 +438238,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:24.444Z",
+                  "offsetSeconds": 629.51,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -435917,6 +438251,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.410Z",
+                  "offsetSeconds": 631.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -435929,6 +438264,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.454Z",
+                  "offsetSeconds": 631.52,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1005A7EF",
@@ -435941,6 +438277,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:28.958Z",
+                  "offsetSeconds": 634.02,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1005A7EF",
@@ -435953,6 +438290,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:33.025Z",
+                  "offsetSeconds": 638.09,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1005A7EF",
@@ -436016,6 +438354,7 @@
               "healingBeforeDeath": [
                 {
                   "timestamp": "2026-06-16T14:21:20.561Z",
+                  "offsetSeconds": 625.62,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436028,6 +438367,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -436040,6 +438380,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:21.408Z",
+                  "offsetSeconds": 626.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436052,6 +438393,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.553Z",
+                  "offsetSeconds": 628.61,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436064,6 +438406,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.597Z",
+                  "offsetSeconds": 628.66,
                   "sourceId": "1004BEF8",
                   "sourceName": "傷心小殘",
                   "targetId": "1004BEF8",
@@ -436076,6 +438419,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:23.953Z",
+                  "offsetSeconds": 629.01,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -436088,6 +438432,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:24.444Z",
+                  "offsetSeconds": 629.51,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436100,6 +438445,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.410Z",
+                  "offsetSeconds": 631.47,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436112,6 +438458,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:26.454Z",
+                  "offsetSeconds": 631.52,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -436124,6 +438471,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:28.958Z",
+                  "offsetSeconds": 634.02,
                   "sourceId": "1004F34F",
                   "sourceName": "草灰妲",
                   "targetId": "1004BEF8",
@@ -436136,6 +438484,7 @@
                 },
                 {
                   "timestamp": "2026-06-16T14:21:33.025Z",
+                  "offsetSeconds": 638.09,
                   "sourceId": "1005A7EF",
                   "sourceName": "草莓香草可頌",
                   "targetId": "1004BEF8",
@@ -436669,6 +439018,57 @@
               "percent": 5.48
             }
           ],
+          "playerHealingWithShielding": [
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 173648,
+              "percent": 48.14
+            },
+            {
+              "id": "1005A7EF",
+              "name": "草莓香草可頌",
+              "amount": 124651,
+              "percent": 34.56
+            },
+            {
+              "id": "10088833",
+              "name": "加辣更好吃",
+              "amount": 36193,
+              "percent": 10.03
+            },
+            {
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "amount": 12534,
+              "percent": 3.47
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "amount": 5886,
+              "percent": 1.63
+            },
+            {
+              "id": "100780E3",
+              "name": "米店老闆",
+              "amount": 4740,
+              "percent": 1.31
+            },
+            {
+              "id": "40003B56",
+              "name": "迦樓羅",
+              "amount": 3045,
+              "percent": 0.84
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "amount": 0,
+              "percent": 0
+            }
+          ],
+          "playerShielding": [],
           "playerDamageTaken": [
             {
               "id": "10088833",
@@ -438004,6 +440404,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:15:53.010Z",
+              "offsetSeconds": 298.07,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "10088980",
@@ -438016,6 +440417,7 @@
             },
             {
               "timestamp": "2026-06-16T14:15:56.009Z",
+              "offsetSeconds": 301.07,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "10088980",
@@ -438079,6 +440481,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:15:53.010Z",
+              "offsetSeconds": 298.07,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -438091,6 +440494,7 @@
             },
             {
               "timestamp": "2026-06-16T14:15:56.009Z",
+              "offsetSeconds": 301.07,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "100780E3",
@@ -438154,6 +440558,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:15:53.055Z",
+              "offsetSeconds": 298.12,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -438166,6 +440571,7 @@
             },
             {
               "timestamp": "2026-06-16T14:15:56.053Z",
+              "offsetSeconds": 301.11,
               "sourceId": "100780E3",
               "sourceName": "米店老闆",
               "targetId": "1004BEF8",
@@ -438229,6 +440635,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:15:52.920Z",
+              "offsetSeconds": 297.98,
               "sourceId": "1004FD4D",
               "sourceName": "南天晴齊雲",
               "targetId": "1004FD4D",
@@ -438241,6 +440648,7 @@
             },
             {
               "timestamp": "2026-06-16T14:15:55.919Z",
+              "offsetSeconds": 300.98,
               "sourceId": "1004FD4D",
               "sourceName": "南天晴齊雲",
               "targetId": "1004FD4D",
@@ -438304,6 +440712,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:21:06.835Z",
+              "offsetSeconds": 611.9,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "10088980",
@@ -438397,6 +440806,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:21:20.561Z",
+              "offsetSeconds": 625.62,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -438409,6 +440819,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -438421,6 +440832,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -438433,6 +440845,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.553Z",
+              "offsetSeconds": 628.61,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -438445,6 +440858,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.953Z",
+              "offsetSeconds": 629.01,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -438457,6 +440871,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:24.444Z",
+              "offsetSeconds": 629.51,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -438469,6 +440884,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.410Z",
+              "offsetSeconds": 631.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004F34F",
@@ -438481,6 +440897,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.454Z",
+              "offsetSeconds": 631.52,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -438493,6 +440910,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:28.958Z",
+              "offsetSeconds": 634.02,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -438556,6 +440974,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:21:20.561Z",
+              "offsetSeconds": 625.62,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438568,6 +440987,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -438580,6 +441000,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438592,6 +441013,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.553Z",
+              "offsetSeconds": 628.61,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438604,6 +441026,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.953Z",
+              "offsetSeconds": 629.01,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -438616,6 +441039,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:24.444Z",
+              "offsetSeconds": 629.51,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438628,6 +441052,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.410Z",
+              "offsetSeconds": 631.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438640,6 +441065,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.454Z",
+              "offsetSeconds": 631.52,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -438652,6 +441078,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:28.958Z",
+              "offsetSeconds": 634.02,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004FD4D",
@@ -438664,6 +441091,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:33.025Z",
+              "offsetSeconds": 638.09,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004FD4D",
@@ -438727,6 +441155,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:21:20.561Z",
+              "offsetSeconds": 625.62,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438739,6 +441168,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -438751,6 +441181,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438763,6 +441194,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.553Z",
+              "offsetSeconds": 628.61,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438775,6 +441207,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.953Z",
+              "offsetSeconds": 629.01,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -438787,6 +441220,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:24.444Z",
+              "offsetSeconds": 629.51,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438799,6 +441233,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.410Z",
+              "offsetSeconds": 631.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438811,6 +441246,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.454Z",
+              "offsetSeconds": 631.52,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -438823,6 +441259,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:28.958Z",
+              "offsetSeconds": 634.02,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1005A7EF",
@@ -438835,6 +441272,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:33.025Z",
+              "offsetSeconds": 638.09,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1005A7EF",
@@ -438898,6 +441336,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:21:20.561Z",
+              "offsetSeconds": 625.62,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -438910,6 +441349,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -438922,6 +441362,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:21.408Z",
+              "offsetSeconds": 626.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -438934,6 +441375,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.553Z",
+              "offsetSeconds": 628.61,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -438946,6 +441388,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.597Z",
+              "offsetSeconds": 628.66,
               "sourceId": "1004BEF8",
               "sourceName": "傷心小殘",
               "targetId": "1004BEF8",
@@ -438958,6 +441401,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:23.953Z",
+              "offsetSeconds": 629.01,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -438970,6 +441414,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:24.444Z",
+              "offsetSeconds": 629.51,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -438982,6 +441427,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.410Z",
+              "offsetSeconds": 631.47,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -438994,6 +441440,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:26.454Z",
+              "offsetSeconds": 631.52,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -439006,6 +441453,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:28.958Z",
+              "offsetSeconds": 634.02,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004BEF8",
@@ -439018,6 +441466,7 @@
             },
             {
               "timestamp": "2026-06-16T14:21:33.025Z",
+              "offsetSeconds": 638.09,
               "sourceId": "1005A7EF",
               "sourceName": "草莓香草可頌",
               "targetId": "1004BEF8",
@@ -439231,6 +441680,7 @@
           "healingBeforeDeath": [
             {
               "timestamp": "2026-06-16T14:22:11.409Z",
+              "offsetSeconds": 676.47,
               "sourceId": "40003B56",
               "sourceName": "迦樓羅",
               "targetId": "1004F34F",
@@ -439243,6 +441693,7 @@
             },
             {
               "timestamp": "2026-06-16T14:22:14.397Z",
+              "offsetSeconds": 679.46,
               "sourceId": "1004F34F",
               "sourceName": "草灰妲",
               "targetId": "1004F34F",
@@ -439744,6 +442195,81 @@
           "percent": 10.23
         }
       ],
+      "playerHealingWithShielding": [
+        {
+          "id": "1005A7EF",
+          "name": "草莓香草可頌",
+          "amount": 769668,
+          "percent": 41.36
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 748295,
+          "percent": 40.21
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 103568,
+          "percent": 5.57
+        },
+        {
+          "id": "100780E3",
+          "name": "米店老闆",
+          "amount": 102296,
+          "percent": 5.5
+        },
+        {
+          "id": "40003B56",
+          "name": "迦樓羅",
+          "amount": 60982,
+          "percent": 3.28
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "amount": 23258,
+          "percent": 1.25
+        },
+        {
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "amount": 18526,
+          "percent": 1
+        },
+        {
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "amount": 13963,
+          "percent": 0.75
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "amount": 12568,
+          "percent": 0.68
+        },
+        {
+          "id": "E0000000",
+          "name": "",
+          "amount": 3194,
+          "percent": 0.17
+        },
+        {
+          "id": "40003BAD",
+          "name": "刺羽",
+          "amount": 3135,
+          "percent": 0.17
+        },
+        {
+          "id": "40003C38",
+          "name": "火獄之楔",
+          "amount": 1365,
+          "percent": 0.07
+        }
+      ],
+      "playerShielding": [],
       "playerDamageTaken": [
         {
           "id": "10088833",
