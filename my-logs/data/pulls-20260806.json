@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:19:16.453Z",
+  "generatedAt": "2026-08-17T18:43:12.712Z",
   "inputFiles": [
     "logs/Network_30205_20260806.log"
   ],
@@ -94,10 +94,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 38337725,
-      "totalHealing": 6238098,
-      "totalRawHealing": 13588605,
-      "totalOverheal": 7350507,
-      "overhealPercent": 54.09,
+      "totalHealing": 4085625,
+      "totalRawHealing": 14723169,
+      "totalOverheal": 10637544,
+      "overhealPercent": 72.25,
       "totalDamageTaken": 24405687,
       "bossDamage": 38337725,
       "addDamage": 0,
@@ -10895,8 +10895,8 @@
               "abilityId": "6508",
               "abilityName": "禮儀之鈴",
               "rawAmount": 9471,
-              "effectiveAmount": 0,
-              "overhealAmount": 9471
+              "effectiveAmount": 9471,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T16:58:43.279Z",
@@ -10908,8 +10908,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 48582,
-              "effectiveAmount": 48582,
-              "overhealAmount": 0
+              "effectiveAmount": 15933,
+              "overhealAmount": 32649
             },
             {
               "timestamp": "2026-08-05T16:58:45.022Z",
@@ -10921,8 +10921,21 @@
               "abilityId": "9095",
               "abilityName": "意氣軒昂之策",
               "rawAmount": 47542,
-              "effectiveAmount": 33380,
-              "overhealAmount": 14162
+              "effectiveAmount": 11592,
+              "overhealAmount": 35950
+            },
+            {
+              "timestamp": "2026-08-05T16:58:45.200Z",
+              "offsetSeconds": 96.54,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T16:58:47.520Z",
@@ -10934,8 +10947,21 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42335,
-              "effectiveAmount": 20099,
-              "overhealAmount": 22236
+              "effectiveAmount": 9892,
+              "overhealAmount": 32443
+            },
+            {
+              "timestamp": "2026-08-05T16:58:48.191Z",
+              "offsetSeconds": 99.53,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T16:58:50.734Z",
@@ -10947,8 +10973,21 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42559,
-              "effectiveAmount": 8518,
-              "overhealAmount": 34041
+              "effectiveAmount": 0,
+              "overhealAmount": 42559
+            },
+            {
+              "timestamp": "2026-08-05T16:58:51.225Z",
+              "offsetSeconds": 102.57,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
             }
           ]
         },
@@ -10970,7 +11009,21 @@
               "amount": 1324624
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T16:58:57.337Z",
+              "offsetSeconds": 108.68,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 42968,
+              "effectiveAmount": 0,
+              "overhealAmount": 42968
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T16:59:13.750Z",
@@ -11021,8 +11074,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 49091,
-              "effectiveAmount": 49091,
-              "overhealAmount": 0
+              "effectiveAmount": 15416,
+              "overhealAmount": 33675
             },
             {
               "timestamp": "2026-08-05T16:59:06.036Z",
@@ -11038,6 +11091,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T16:59:06.213Z",
+              "offsetSeconds": 117.55,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T16:59:06.837Z",
               "offsetSeconds": 118.18,
               "sourceId": "1004F34F",
@@ -11047,8 +11113,21 @@
               "abilityId": "40A0",
               "abilityName": "異想的祥光",
               "rawAmount": 55068,
-              "effectiveAmount": 48049,
-              "overhealAmount": 7019
+              "effectiveAmount": 17378,
+              "overhealAmount": 37690
+            },
+            {
+              "timestamp": "2026-08-05T16:59:09.203Z",
+              "offsetSeconds": 120.54,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T16:59:10.626Z",
@@ -11114,7 +11193,20 @@
               "abilityId": "DFF",
               "abilityName": "不屈不撓之策",
               "rawAmount": 51960,
-              "effectiveAmount": 51960,
+              "effectiveAmount": 24070,
+              "overhealAmount": 27890
+            },
+            {
+              "timestamp": "2026-08-05T16:59:06.258Z",
+              "offsetSeconds": 117.6,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -11127,7 +11219,20 @@
               "abilityId": "40A0",
               "abilityName": "異想的祥光",
               "rawAmount": 63708,
-              "effectiveAmount": 63708,
+              "effectiveAmount": 27682,
+              "overhealAmount": 36026
+            },
+            {
+              "timestamp": "2026-08-05T16:59:09.247Z",
+              "offsetSeconds": 120.59,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -11140,8 +11245,8 @@
               "abilityId": "DF3",
               "abilityName": "法令",
               "rawAmount": 53109,
-              "effectiveAmount": 53109,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 53109
             }
           ]
         },
@@ -11190,12 +11295,12 @@
             {
               "timestamp": "2026-08-05T16:59:16.518Z",
               "offsetSeconds": 127.86,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10060B81",
               "targetName": "幻雪喵",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 4553,
               "effectiveAmount": 0,
               "overhealAmount": 4553
@@ -11203,14 +11308,27 @@
             {
               "timestamp": "2026-08-05T16:59:19.548Z",
               "offsetSeconds": 130.89,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10060B81",
               "targetName": "幻雪喵",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 4659,
               "effectiveAmount": 4659,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:21.021Z",
+              "offsetSeconds": 132.36,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
               "overhealAmount": 0
             },
             {
@@ -11242,12 +11360,12 @@
             {
               "timestamp": "2026-08-05T16:59:22.537Z",
               "offsetSeconds": 133.88,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10060B81",
               "targetName": "幻雪喵",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 7122,
               "effectiveAmount": 7122,
               "overhealAmount": 0
@@ -11276,6 +11394,19 @@
               "abilityName": "HoT",
               "rawAmount": 10360,
               "effectiveAmount": 10360,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:24.009Z",
+              "offsetSeconds": 135.35,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
               "overhealAmount": 0
             }
           ]
@@ -11310,6 +11441,19 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T16:59:35.236Z",
+              "offsetSeconds": 146.58,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T16:59:35.414Z",
               "offsetSeconds": 146.76,
               "sourceId": "10057335",
@@ -11320,6 +11464,19 @@
               "abilityName": "HoT",
               "rawAmount": 6836,
               "effectiveAmount": 6836,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:38.221Z",
+              "offsetSeconds": 149.56,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             },
             {
@@ -11336,6 +11493,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T16:59:41.203Z",
+              "offsetSeconds": 152.54,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T16:59:41.426Z",
               "offsetSeconds": 152.77,
               "sourceId": "10057335",
@@ -11346,6 +11516,19 @@
               "abilityName": "HoT",
               "rawAmount": 6618,
               "effectiveAmount": 6618,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:44.227Z",
+              "offsetSeconds": 155.57,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             },
             {
@@ -11372,6 +11555,19 @@
               "abilityName": "剛玉之淨",
               "rawAmount": 53376,
               "effectiveAmount": 53376,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:47.207Z",
+              "offsetSeconds": 158.55,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             }
           ]
@@ -11549,6 +11745,19 @@
               "rawAmount": 6647,
               "effectiveAmount": 0,
               "overhealAmount": 6647
+            },
+            {
+              "timestamp": "2026-08-05T16:59:45.917Z",
+              "offsetSeconds": 157.26,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
             }
           ]
         },
@@ -11604,15 +11813,41 @@
             {
               "timestamp": "2026-08-05T16:59:37.776Z",
               "offsetSeconds": 149.12,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
-              "rawAmount": 37528,
-              "effectiveAmount": 25303,
-              "overhealAmount": 12225
+              "abilityId": "F3C",
+              "abilityName": "討罪",
+              "rawAmount": 18764,
+              "effectiveAmount": 12652,
+              "overhealAmount": 6112
+            },
+            {
+              "timestamp": "2026-08-05T16:59:37.776Z",
+              "offsetSeconds": 149.12,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A79",
+              "abilityName": "泰然自若",
+              "rawAmount": 9382,
+              "effectiveAmount": 6326,
+              "overhealAmount": 3056
+            },
+            {
+              "timestamp": "2026-08-05T16:59:37.776Z",
+              "offsetSeconds": 149.12,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "72B",
+              "abilityName": "極光",
+              "rawAmount": 9382,
+              "effectiveAmount": 6325,
+              "overhealAmount": 3057
             },
             {
               "timestamp": "2026-08-05T16:59:38.444Z",
@@ -11628,17 +11863,56 @@
               "overhealAmount": 10656
             },
             {
-              "timestamp": "2026-08-05T16:59:40.758Z",
-              "offsetSeconds": 152.1,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T16:59:38.444Z",
+              "offsetSeconds": 149.79,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
-              "rawAmount": 21760,
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 52632,
               "effectiveAmount": 0,
-              "overhealAmount": 21760
+              "overhealAmount": 52632
+            },
+            {
+              "timestamp": "2026-08-05T16:59:40.758Z",
+              "offsetSeconds": 152.1,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A79",
+              "abilityName": "泰然自若",
+              "rawAmount": 10880,
+              "effectiveAmount": 0,
+              "overhealAmount": 10880
+            },
+            {
+              "timestamp": "2026-08-05T16:59:40.758Z",
+              "offsetSeconds": 152.1,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "72B",
+              "abilityName": "極光",
+              "rawAmount": 10880,
+              "effectiveAmount": 0,
+              "overhealAmount": 10880
+            },
+            {
+              "timestamp": "2026-08-05T16:59:40.936Z",
+              "offsetSeconds": 152.28,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 1001,
+              "effectiveAmount": 0,
+              "overhealAmount": 1001
             },
             {
               "timestamp": "2026-08-05T16:59:41.426Z",
@@ -11654,14 +11928,27 @@
               "overhealAmount": 10574
             },
             {
-              "timestamp": "2026-08-05T16:59:43.739Z",
-              "offsetSeconds": 155.08,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T16:59:43.472Z",
+              "offsetSeconds": 154.81,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 53834,
+              "effectiveAmount": 0,
+              "overhealAmount": 53834
+            },
+            {
+              "timestamp": "2026-08-05T16:59:43.739Z",
+              "offsetSeconds": 155.08,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 10966,
               "effectiveAmount": 0,
               "overhealAmount": 10966
@@ -11682,25 +11969,38 @@
             {
               "timestamp": "2026-08-05T16:59:46.762Z",
               "offsetSeconds": 158.1,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 10840,
               "effectiveAmount": 0,
               "overhealAmount": 10840
             },
             {
-              "timestamp": "2026-08-05T16:59:49.742Z",
-              "offsetSeconds": 161.08,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T16:59:48.273Z",
+              "offsetSeconds": 159.61,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T16:59:49.742Z",
+              "offsetSeconds": 161.08,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 10779,
               "effectiveAmount": 10779,
               "overhealAmount": 0
@@ -11958,238 +12258,328 @@
       ],
       "playerHealing": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 2913433,
-          "hps": 17321.24,
-          "percent": 46.7
-        },
-        {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2292000,
-          "hps": 13626.63,
-          "percent": 36.74
+          "amount": 1639973,
+          "hps": 9750.14,
+          "percent": 40.14
         },
         {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 384930,
-          "hps": 2288.53,
-          "percent": 6.17
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 357686,
-          "hps": 2126.55,
-          "percent": 5.73
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 1440128,
+          "hps": 8562,
+          "percent": 35.25
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 236673,
-          "hps": 1407.09,
-          "percent": 3.79
+          "amount": 593174,
+          "hps": 3526.6,
+          "percent": 14.52
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 53376,
-          "hps": 317.34,
-          "percent": 0.86
+          "amount": 170518,
+          "hps": 1013.78,
+          "percent": 4.17
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 120679,
+          "hps": 717.47,
+          "percent": 2.95
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 45455,
+          "hps": 270.24,
+          "percent": 1.11
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 37158,
+          "hps": 220.92,
+          "percent": 0.91
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 26512,
+          "hps": 157.62,
+          "percent": 0.65
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 12028,
+          "hps": 71.51,
+          "percent": 0.29
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 6728211,
-          "hps": 40001.25,
-          "percent": 49.51
+          "amount": 6793692,
+          "hps": 40390.56,
+          "percent": 46.14
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 5229698,
-          "hps": 31092.14,
-          "percent": 38.49
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 782054,
-          "hps": 4649.55,
-          "percent": 5.76
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 444082,
-          "hps": 2640.2,
-          "percent": 3.27
+          "amount": 5248214,
+          "hps": 31202.22,
+          "percent": 35.65
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 295071,
-          "hps": 1754.29,
-          "percent": 2.17
+          "amount": 1137173,
+          "hps": 6760.84,
+          "percent": 7.72
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 109489,
-          "hps": 650.95,
-          "percent": 0.81
+          "amount": 611691,
+          "hps": 3636.69,
+          "percent": 4.15
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 462705,
+          "hps": 2750.92,
+          "percent": 3.14
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 354057,
+          "hps": 2104.98,
+          "percent": 2.4
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 51967,
+          "hps": 308.96,
+          "percent": 0.35
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 37158,
+          "hps": 220.92,
+          "percent": 0.25
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 26512,
+          "hps": 157.62,
+          "percent": 0.18
         }
       ],
       "playerOverheal": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 3814778,
-          "percent": 51.9
+          "amount": 5353564,
+          "percent": 50.33
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2937698,
-          "percent": 39.97
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 424368,
-          "percent": 5.77
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 59152,
-          "percent": 0.8
+          "amount": 3608241,
+          "percent": 33.92
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 58398,
-          "percent": 0.79
+          "amount": 543999,
+          "percent": 5.11
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 56113,
-          "percent": 0.76
+          "amount": 441173,
+          "percent": 4.15
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 342029,
+          "percent": 3.22
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 342026,
+          "percent": 3.22
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 6512,
+          "percent": 0.06
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 0,
+          "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 1310602,
-          "percent": 21.01
+          "amount": 1067994,
+          "percent": 26.14
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 1119077,
-          "percent": 17.94
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 791482,
-          "percent": 12.69
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 682611,
-          "percent": 10.94
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "amount": 664655,
-          "percent": 10.65
-        },
-        {
-          "id": "10067362",
-          "name": "和善的人",
-          "amount": 647794,
-          "percent": 10.38
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 598898,
-          "percent": 9.6
+          "amount": 655202,
+          "percent": 16.04
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 422979,
-          "percent": 6.78
+          "amount": 432974,
+          "percent": 10.6
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 403133,
+          "percent": 9.87
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 402747,
+          "percent": 9.86
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 401679,
+          "percent": 9.83
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 383937,
+          "percent": 9.4
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 337959,
+          "percent": 8.27
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 4554883,
-          "hps": 27080.16,
-          "percent": 57.63,
-          "estimatedRhps": 27080.16,
+          "amount": 4303658,
+          "hps": 25586.55,
+          "percent": 56.63,
+          "estimatedRhps": 25586.55,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2292000,
-          "hps": 13626.63,
-          "percent": 29,
-          "estimatedRhps": 13626.63,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 384930,
-          "hps": 2288.53,
-          "percent": 4.87,
-          "estimatedRhps": 2288.53,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 357686,
-          "hps": 2126.55,
-          "percent": 4.53,
-          "estimatedRhps": 2126.55,
+          "amount": 1639973,
+          "hps": 9750.14,
+          "percent": 21.58,
+          "estimatedRhps": 9750.14,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 236673,
-          "hps": 1407.09,
-          "percent": 2.99,
-          "estimatedRhps": 1407.09,
+          "amount": 946141,
+          "hps": 5625.1,
+          "percent": 12.45,
+          "estimatedRhps": 5625.1,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 77804,
-          "hps": 462.57,
-          "percent": 0.98,
-          "estimatedRhps": 462.57,
+          "amount": 467847,
+          "hps": 2781.49,
+          "percent": 6.16,
+          "estimatedRhps": 2781.49,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 120679,
+          "hps": 717.47,
+          "percent": 1.59,
+          "estimatedRhps": 717.47,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 45455,
+          "hps": 270.24,
+          "percent": 0.6,
+          "estimatedRhps": 270.24,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 37158,
+          "hps": 220.92,
+          "percent": 0.49,
+          "estimatedRhps": 220.92,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 26512,
+          "hps": 157.62,
+          "percent": 0.35,
+          "estimatedRhps": 157.62,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 12028,
+          "hps": 71.51,
+          "percent": 0.16,
+          "estimatedRhps": 71.51,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -12198,14 +12588,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1641450,
-          "percent": 98.53
+          "amount": 2863530,
+          "percent": 81.49
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 352967,
+          "percent": 10.05
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 24428,
-          "percent": 1.47
+          "amount": 297329,
+          "percent": 8.46
         }
       ],
       "playerDamageTaken": [
@@ -23615,10 +24011,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 30577678,
-      "totalHealing": 3956088,
-      "totalRawHealing": 8040730,
-      "totalOverheal": 4084642,
-      "overhealPercent": 50.8,
+      "totalHealing": 2598606,
+      "totalRawHealing": 8759529,
+      "totalOverheal": 6160923,
+      "overhealPercent": 70.33,
       "totalDamageTaken": 12708088,
       "bossDamage": 30577678,
       "addDamage": 0,
@@ -32194,6 +32590,19 @@
               "rawAmount": 4728,
               "effectiveAmount": 0,
               "overhealAmount": 4728
+            },
+            {
+              "timestamp": "2026-08-05T17:02:38.686Z",
+              "offsetSeconds": 92.44,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
             }
           ]
         },
@@ -32255,7 +32664,73 @@
               "amount": 1328530
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:02:38.151Z",
+              "offsetSeconds": 91.91,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 47394,
+              "effectiveAmount": 15065,
+              "overhealAmount": 32329
+            },
+            {
+              "timestamp": "2026-08-05T17:02:40.868Z",
+              "offsetSeconds": 94.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:02:43.857Z",
+              "offsetSeconds": 97.61,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:02:45.640Z",
+              "offsetSeconds": 99.4,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 47982,
+              "effectiveAmount": 14485,
+              "overhealAmount": 33497
+            },
+            {
+              "timestamp": "2026-08-05T17:02:46.889Z",
+              "offsetSeconds": 100.65,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:02:59.767Z",
@@ -32295,7 +32770,34 @@
               "amount": 126092
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:02:51.750Z",
+              "offsetSeconds": 105.51,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:02:54.784Z",
+              "offsetSeconds": 108.54,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:03:07.741Z",
@@ -32335,7 +32837,60 @@
               "amount": 94830
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:02:54.558Z",
+              "offsetSeconds": 108.31,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:02:57.586Z",
+              "offsetSeconds": 111.34,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:03:00.569Z",
+              "offsetSeconds": 114.33,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:03:03.554Z",
+              "offsetSeconds": 117.31,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:03:07.785Z",
@@ -32405,7 +32960,21 @@
               "amount": 2588988
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:03:08.231Z",
+              "offsetSeconds": 121.99,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:03:11.666Z",
@@ -32455,7 +33024,34 @@
               "amount": 131733
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:03:12.246Z",
+              "offsetSeconds": 126,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:03:15.237Z",
+              "offsetSeconds": 128.99,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            }
+          ]
         }
       ],
       "playerDamage": [
@@ -32664,208 +33260,328 @@
       ],
       "playerHealing": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 1811309,
-          "hps": 13724.12,
-          "percent": 45.79
-        },
-        {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1681455,
-          "hps": 12740.23,
-          "percent": 42.5
+          "amount": 1146611,
+          "hps": 8687.76,
+          "percent": 44.12
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 851139,
+          "hps": 6449,
+          "percent": 32.75
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 264078,
-          "hps": 2000.89,
-          "percent": 6.68
+          "amount": 192766,
+          "hps": 1460.57,
+          "percent": 7.42
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 199246,
-          "hps": 1509.67,
-          "percent": 5.04
+          "amount": 119452,
+          "hps": 905.08,
+          "percent": 4.6
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 111705,
+          "hps": 846.38,
+          "percent": 4.3
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0
+          "amount": 89005,
+          "hps": 674.38,
+          "percent": 3.43
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 50089,
+          "hps": 379.52,
+          "percent": 1.93
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 27024,
+          "hps": 204.76,
+          "percent": 1.04
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 10815,
+          "hps": 81.94,
+          "percent": 0.42
         }
       ],
       "playerRawHealing": [
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 3657029,
-          "hps": 27708.96,
-          "percent": 45.48
+          "amount": 3665241,
+          "hps": 27771.19,
+          "percent": 41.84
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2999236,
-          "hps": 22724.93,
-          "percent": 37.3
+          "amount": 3080228,
+          "hps": 23338.6,
+          "percent": 35.16
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 1038846,
-          "hps": 7871.24,
-          "percent": 12.92
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 289237,
-          "hps": 2191.52,
-          "percent": 3.6
+          "amount": 818946,
+          "hps": 6205.08,
+          "percent": 9.35
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 56382,
-          "hps": 427.2,
-          "percent": 0.7
+          "amount": 533059,
+          "hps": 4038.94,
+          "percent": 6.09
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 301088,
+          "hps": 2281.32,
+          "percent": 3.44
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 265600,
+          "hps": 2012.43,
+          "percent": 3.03
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 57528,
+          "hps": 435.88,
+          "percent": 0.66
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 27024,
+          "hps": 204.76,
+          "percent": 0.31
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 10815,
+          "hps": 81.94,
+          "percent": 0.12
         }
       ],
       "playerOverheal": [
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1975574,
-          "percent": 48.37
+          "amount": 2518630,
+          "percent": 40.88
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1187927,
-          "percent": 29.08
+          "amount": 2229089,
+          "percent": 36.18
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 774768,
-          "percent": 18.97
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 89991,
-          "percent": 2.2
+          "amount": 626180,
+          "percent": 10.16
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 56382,
-          "percent": 1.38
+          "amount": 444054,
+          "percent": 7.21
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 181636,
+          "percent": 2.95
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 153895,
+          "percent": 2.5
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 7439,
+          "percent": 0.12
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 802925,
-          "percent": 20.3
+          "amount": 605589,
+          "percent": 23.3
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 758512,
-          "percent": 19.17
+          "amount": 415611,
+          "percent": 15.99
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 496889,
-          "percent": 12.56
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 479797,
-          "percent": 12.13
+          "amount": 296622,
+          "percent": 11.41
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 453746,
-          "percent": 11.47
+          "amount": 293241,
+          "percent": 11.28
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 289224,
+          "percent": 11.13
         },
         {
           "id": "10067362",
           "name": "和善的人",
-          "amount": 410057,
-          "percent": 10.37
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 393723,
-          "percent": 9.95
+          "amount": 270882,
+          "percent": 10.42
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 160439,
-          "percent": 4.06
+          "amount": 214997,
+          "percent": 8.27
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 212440,
+          "percent": 8.18
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2959158,
-          "hps": 22421.26,
-          "percent": 57.98,
-          "estimatedRhps": 22421.26,
+          "amount": 3184261,
+          "hps": 24126.84,
+          "percent": 61.64,
+          "estimatedRhps": 24126.84,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1681455,
-          "hps": 12740.23,
-          "percent": 32.94,
-          "estimatedRhps": 12740.23,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 264078,
-          "hps": 2000.89,
-          "percent": 5.17,
-          "estimatedRhps": 2000.89,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 199246,
-          "hps": 1509.67,
-          "percent": 3.9,
-          "estimatedRhps": 1509.67,
+          "amount": 1146611,
+          "hps": 8687.76,
+          "percent": 22.19,
+          "estimatedRhps": 8687.76,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0,
-          "estimatedRhps": 0,
+          "amount": 323451,
+          "hps": 2450.76,
+          "percent": 6.26,
+          "estimatedRhps": 2450.76,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 192766,
+          "hps": 1460.57,
+          "percent": 3.73,
+          "estimatedRhps": 1460.57,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 119452,
+          "hps": 905.08,
+          "percent": 2.31,
+          "estimatedRhps": 905.08,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 111705,
+          "hps": 846.38,
+          "percent": 2.16,
+          "estimatedRhps": 846.38,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 50089,
+          "hps": 379.52,
+          "percent": 0.97,
+          "estimatedRhps": 379.52,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 27024,
+          "hps": 204.76,
+          "percent": 0.52,
+          "estimatedRhps": 204.76,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 10815,
+          "hps": 81.94,
+          "percent": 0.21,
+          "estimatedRhps": 81.94,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -32874,8 +33590,14 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1147849,
-          "percent": 100
+          "amount": 2333122,
+          "percent": 90.87
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 234446,
+          "percent": 9.13
         }
       ],
       "playerDamageTaken": [
@@ -42543,10 +43265,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 34508910,
-      "totalHealing": 5336491,
-      "totalRawHealing": 10439651,
-      "totalOverheal": 5103160,
-      "overhealPercent": 48.88,
+      "totalHealing": 3231058,
+      "totalRawHealing": 11309008,
+      "totalOverheal": 8077950,
+      "overhealPercent": 71.43,
       "totalDamageTaken": 21085686,
       "bossDamage": 34508910,
       "addDamage": 0,
@@ -52063,6 +52785,32 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:05:23.913Z",
+              "offsetSeconds": 92.68,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:25.964Z",
+              "offsetSeconds": 94.73,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 47494,
+              "effectiveAmount": 14973,
+              "overhealAmount": 32521
+            },
+            {
               "timestamp": "2026-08-05T17:05:26.636Z",
               "offsetSeconds": 95.4,
               "sourceId": "1004E7AB",
@@ -52072,7 +52820,46 @@
               "abilityId": "3E8F",
               "abilityName": "治療之華爾滋",
               "rawAmount": 41540,
-              "effectiveAmount": 41540,
+              "effectiveAmount": 14010,
+              "overhealAmount": 27530
+            },
+            {
+              "timestamp": "2026-08-05T17:05:26.904Z",
+              "offsetSeconds": 95.67,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:29.892Z",
+              "offsetSeconds": 98.66,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:32.879Z",
+              "offsetSeconds": 101.65,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             }
           ]
@@ -52097,6 +52884,71 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:05:30.428Z",
+              "offsetSeconds": 99.2,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:33.413Z",
+              "offsetSeconds": 102.18,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:36.445Z",
+              "offsetSeconds": 105.21,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:39.430Z",
+              "offsetSeconds": 108.2,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:42.417Z",
+              "offsetSeconds": 111.19,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:05:42.507Z",
               "offsetSeconds": 111.28,
               "sourceId": "10057335",
@@ -52106,8 +52958,8 @@
               "abilityId": "DF3",
               "abilityName": "法令",
               "rawAmount": 51367,
-              "effectiveAmount": 51367,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 51367
             }
           ]
         },
@@ -52154,6 +53006,32 @@
               "overhealAmount": 47589
             },
             {
+              "timestamp": "2026-08-05T17:05:49.195Z",
+              "offsetSeconds": 117.96,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:52.230Z",
+              "offsetSeconds": 121,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:05:53.923Z",
               "offsetSeconds": 122.69,
               "sourceId": "10057335",
@@ -52163,8 +53041,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 51616,
-              "effectiveAmount": 51616,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 51616
             },
             {
               "timestamp": "2026-08-05T17:05:54.013Z",
@@ -52176,8 +53054,8 @@
               "abilityId": "9098",
               "abilityName": "降臨之章",
               "rawAmount": 41876,
-              "effectiveAmount": 36691,
-              "overhealAmount": 5185
+              "effectiveAmount": 0,
+              "overhealAmount": 41876
             }
           ]
         },
@@ -52237,6 +53115,19 @@
               "overhealAmount": 48100
             },
             {
+              "timestamp": "2026-08-05T17:05:53.567Z",
+              "offsetSeconds": 122.34,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:05:53.923Z",
               "offsetSeconds": 122.69,
               "sourceId": "10057335",
@@ -52246,8 +53137,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 3171,
-              "effectiveAmount": 3171,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 3171
             },
             {
               "timestamp": "2026-08-05T17:05:54.013Z",
@@ -52259,8 +53150,8 @@
               "abilityId": "9098",
               "abilityName": "降臨之章",
               "rawAmount": 44472,
-              "effectiveAmount": 44472,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 44472
             }
           ]
         },
@@ -52303,7 +53194,46 @@
               "abilityId": "DF3",
               "abilityName": "法令",
               "rawAmount": 51950,
-              "effectiveAmount": 51950,
+              "effectiveAmount": 24080,
+              "overhealAmount": 27870
+            },
+            {
+              "timestamp": "2026-08-05T17:05:43.622Z",
+              "offsetSeconds": 112.39,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:46.614Z",
+              "offsetSeconds": 115.38,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:49.596Z",
+              "offsetSeconds": 118.36,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -52316,7 +53246,20 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42348,
-              "effectiveAmount": 42348,
+              "effectiveAmount": 9879,
+              "overhealAmount": 32469
+            },
+            {
+              "timestamp": "2026-08-05T17:05:52.631Z",
+              "offsetSeconds": 121.4,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -52329,8 +53272,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 949,
-              "effectiveAmount": 949,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 949
             },
             {
               "timestamp": "2026-08-05T17:05:54.013Z",
@@ -52342,8 +53285,8 @@
               "abilityId": "9098",
               "abilityName": "降臨之章",
               "rawAmount": 44137,
-              "effectiveAmount": 44137,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 44137
             }
           ]
         },
@@ -52386,7 +53329,46 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42337,
-              "effectiveAmount": 42337,
+              "effectiveAmount": 9882,
+              "overhealAmount": 32455
+            },
+            {
+              "timestamp": "2026-08-05T17:05:47.859Z",
+              "offsetSeconds": 116.63,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:50.847Z",
+              "offsetSeconds": 119.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:05:53.835Z",
+              "offsetSeconds": 122.6,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             },
             {
@@ -52399,8 +53381,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42384,
-              "effectiveAmount": 42384,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 42384
             },
             {
               "timestamp": "2026-08-05T17:05:53.923Z",
@@ -52412,8 +53394,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 51229,
-              "effectiveAmount": 51229,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 51229
             },
             {
               "timestamp": "2026-08-05T17:05:54.013Z",
@@ -52425,8 +53407,8 @@
               "abilityId": "9098",
               "abilityName": "降臨之章",
               "rawAmount": 52611,
-              "effectiveAmount": 52611,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 52611
             }
           ]
         },
@@ -52473,6 +53455,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T17:05:57.308Z",
+              "offsetSeconds": 126.08,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:05:57.532Z",
               "offsetSeconds": 126.3,
               "sourceId": "1005B36E",
@@ -52482,8 +53477,8 @@
               "abilityId": "1CDC",
               "abilityName": "擺脫",
               "rawAmount": 41507,
-              "effectiveAmount": 41507,
-              "overhealAmount": 0
+              "effectiveAmount": 14045,
+              "overhealAmount": 27462
             },
             {
               "timestamp": "2026-08-05T17:05:58.961Z",
@@ -52495,8 +53490,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 52783,
-              "effectiveAmount": 34749,
-              "overhealAmount": 18034
+              "effectiveAmount": 3868,
+              "overhealAmount": 48915
             },
             {
               "timestamp": "2026-08-05T17:05:59.094Z",
@@ -52508,8 +53503,8 @@
               "abilityId": "777",
               "abilityName": "HoT",
               "rawAmount": 6684,
-              "effectiveAmount": 0,
-              "overhealAmount": 6684
+              "effectiveAmount": 6684,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T17:05:59.406Z",
@@ -52527,12 +53522,12 @@
             {
               "timestamp": "2026-08-05T17:05:59.406Z",
               "offsetSeconds": 128.17,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10057335",
               "targetName": "傑夫垢垢",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 13844,
               "effectiveAmount": 13844,
               "overhealAmount": 0
@@ -52551,6 +53546,19 @@
               "overhealAmount": 7696
             },
             {
+              "timestamp": "2026-08-05T17:06:00.301Z",
+              "offsetSeconds": 129.07,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:06:02.446Z",
               "offsetSeconds": 131.21,
               "sourceId": "10057335",
@@ -52566,12 +53574,12 @@
             {
               "timestamp": "2026-08-05T17:06:02.446Z",
               "offsetSeconds": 131.21,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10057335",
               "targetName": "傑夫垢垢",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 11445,
               "effectiveAmount": 11445,
               "overhealAmount": 0
@@ -52586,7 +53594,20 @@
               "abilityId": "9098",
               "abilityName": "降臨之章",
               "rawAmount": 43237,
-              "effectiveAmount": 43237,
+              "effectiveAmount": 15387,
+              "overhealAmount": 27850
+            },
+            {
+              "timestamp": "2026-08-05T17:06:03.291Z",
+              "offsetSeconds": 132.06,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
               "overhealAmount": 0
             },
             {
@@ -52599,8 +53620,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 64615,
-              "effectiveAmount": 53236,
-              "overhealAmount": 11379
+              "effectiveAmount": 37849,
+              "overhealAmount": 26766
             },
             {
               "timestamp": "2026-08-05T17:06:04.452Z",
@@ -52631,12 +53652,12 @@
             {
               "timestamp": "2026-08-05T17:06:05.434Z",
               "offsetSeconds": 134.2,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "10057335",
               "targetName": "傑夫垢垢",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 11430,
               "effectiveAmount": 0,
               "overhealAmount": 11430
@@ -52692,7 +53713,20 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42673,
-              "effectiveAmount": 42673,
+              "effectiveAmount": 9546,
+              "overhealAmount": 33127
+            },
+            {
+              "timestamp": "2026-08-05T17:06:31.613Z",
+              "offsetSeconds": 160.38,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
               "overhealAmount": 0
             }
           ]
@@ -52729,15 +53763,28 @@
             {
               "timestamp": "2026-08-05T17:06:22.777Z",
               "offsetSeconds": 151.54,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "F3C",
+              "abilityName": "討罪",
               "rawAmount": 15712,
               "effectiveAmount": 0,
               "overhealAmount": 15712
+            },
+            {
+              "timestamp": "2026-08-05T17:06:24.026Z",
+              "offsetSeconds": 152.79,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "2A",
+              "abilityName": "暴風斬",
+              "rawAmount": 44712,
+              "effectiveAmount": 0,
+              "overhealAmount": 44712
             },
             {
               "timestamp": "2026-08-05T17:06:27.951Z",
@@ -52749,7 +53796,46 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 49098,
-              "effectiveAmount": 49098,
+              "effectiveAmount": 15409,
+              "overhealAmount": 33689
+            },
+            {
+              "timestamp": "2026-08-05T17:06:28.621Z",
+              "offsetSeconds": 157.39,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:06:31.613Z",
+              "offsetSeconds": 160.38,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:06:34.606Z",
+              "offsetSeconds": 163.37,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
               "overhealAmount": 0
             }
           ]
@@ -52963,236 +54049,326 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 3116813,
-          "hps": 18800.9,
-          "percent": 58.41
+          "amount": 1279845,
+          "hps": 7720.14,
+          "percent": 39.61
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1717254,
-          "hps": 10358.63,
-          "percent": 32.18
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 282426,
-          "hps": 1703.62,
-          "percent": 5.29
+          "amount": 1256894,
+          "hps": 7581.7,
+          "percent": 38.9
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 131047,
-          "hps": 790.49,
-          "percent": 2.46
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 88951,
-          "hps": 536.56,
-          "percent": 1.67
+          "amount": 444055,
+          "hps": 2678.58,
+          "percent": 13.74
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0
+          "amount": 77930,
+          "hps": 470.08,
+          "percent": 2.41
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 70694,
+          "hps": 426.43,
+          "percent": 2.19
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 37292,
+          "hps": 224.95,
+          "percent": 1.15
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 23646,
+          "hps": 142.63,
+          "percent": 0.73
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 21851,
+          "hps": 131.81,
+          "percent": 0.68
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18851,
+          "hps": 113.71,
+          "percent": 0.58
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 5322575,
-          "hps": 32106.26,
-          "percent": 50.98
+          "amount": 5433833,
+          "hps": 32777.37,
+          "percent": 48.05
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 4024508,
-          "hps": 24276.2,
-          "percent": 38.55
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 716741,
-          "hps": 4323.45,
-          "percent": 6.87
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 171499,
-          "hps": 1034.5,
-          "percent": 1.64
+          "amount": 4041481,
+          "hps": 24378.58,
+          "percent": 35.74
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 147342,
-          "hps": 888.78,
-          "percent": 1.41
+          "amount": 828746,
+          "hps": 4999.07,
+          "percent": 7.33
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 56986,
-          "hps": 343.74,
-          "percent": 0.55
+          "amount": 404346,
+          "hps": 2439.05,
+          "percent": 3.58
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 301468,
+          "hps": 1818.48,
+          "percent": 2.67
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 210438,
+          "hps": 1269.38,
+          "percent": 1.86
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 46199,
+          "hps": 278.68,
+          "percent": 0.41
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 23646,
+          "hps": 142.63,
+          "percent": 0.21
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18851,
+          "hps": 113.71,
+          "percent": 0.17
         }
       ],
       "playerOverheal": [
         {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 2307254,
-          "percent": 45.21
-        },
-        {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2205762,
-          "percent": 43.22
+          "amount": 4153988,
+          "percent": 51.42
         },
         {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 434315,
-          "percent": 8.51
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 82548,
-          "percent": 1.62
-        },
-        {
-          "id": "100695E8",
-          "name": "果子狸水魚鞭",
-          "amount": 56986,
-          "percent": 1.12
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 2784587,
+          "percent": 34.47
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 16295,
-          "percent": 0.32
+          "amount": 384691,
+          "percent": 4.76
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 326416,
+          "percent": 4.04
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 279617,
+          "percent": 3.46
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 139744,
+          "percent": 1.73
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 8907,
+          "percent": 0.11
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 0,
+          "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 1332859,
-          "percent": 24.98
+          "amount": 1049679,
+          "percent": 32.49
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1062088,
-          "percent": 19.9
+          "amount": 523675,
+          "percent": 16.21
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 804942,
-          "percent": 15.08
+          "amount": 405510,
+          "percent": 12.55
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 652993,
-          "percent": 12.24
+          "amount": 399032,
+          "percent": 12.35
         },
         {
           "id": "10067362",
           "name": "和善的人",
-          "amount": 464863,
-          "percent": 8.71
+          "amount": 234471,
+          "percent": 7.26
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 375374,
-          "percent": 7.03
-        },
-        {
-          "id": "100695E8",
-          "name": "果子狸水魚鞭",
-          "amount": 343515,
-          "percent": 6.44
+          "amount": 222476,
+          "percent": 6.89
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 299857,
-          "percent": 5.62
+          "amount": 198127,
+          "percent": 6.13
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 198088,
+          "percent": 6.13
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 6255500,
-          "hps": 37733.74,
-          "percent": 73.81,
-          "estimatedRhps": 37733.74,
+          "amount": 5427684,
+          "hps": 32740.28,
+          "percent": 69.54,
+          "estimatedRhps": 32740.28,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1717254,
-          "hps": 10358.63,
-          "percent": 20.26,
-          "estimatedRhps": 10358.63,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 282426,
-          "hps": 1703.62,
-          "percent": 3.33,
-          "estimatedRhps": 1703.62,
+          "amount": 1256894,
+          "hps": 7581.7,
+          "percent": 16.1,
+          "estimatedRhps": 7581.7,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 131047,
-          "hps": 790.49,
-          "percent": 1.55,
-          "estimatedRhps": 790.49,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 88951,
-          "hps": 536.56,
-          "percent": 1.05,
-          "estimatedRhps": 536.56,
+          "amount": 603767,
+          "hps": 3641.98,
+          "percent": 7.74,
+          "estimatedRhps": 3641.98,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0,
-          "estimatedRhps": 0,
+          "amount": 344950,
+          "hps": 2080.77,
+          "percent": 4.42,
+          "estimatedRhps": 2080.77,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 70694,
+          "hps": 426.43,
+          "percent": 0.91,
+          "estimatedRhps": 426.43,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 37292,
+          "hps": 224.95,
+          "percent": 0.48,
+          "estimatedRhps": 224.95,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 23646,
+          "hps": 142.63,
+          "percent": 0.3,
+          "estimatedRhps": 142.63,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 21851,
+          "hps": 131.81,
+          "percent": 0.28,
+          "estimatedRhps": 131.81,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18851,
+          "hps": 113.71,
+          "percent": 0.24,
+          "estimatedRhps": 113.71,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -53201,8 +54377,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 3138687,
-          "percent": 100
+          "amount": 4147839,
+          "percent": 90.67
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 267020,
+          "percent": 5.84
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 159712,
+          "percent": 3.49
         }
       ],
       "playerDamageTaken": [
@@ -63621,10 +64809,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 39813543,
-      "totalHealing": 3836243,
-      "totalRawHealing": 9647852,
-      "totalOverheal": 5811609,
-      "overhealPercent": 60.24,
+      "totalHealing": 2869443,
+      "totalRawHealing": 11693876,
+      "totalOverheal": 8824433,
+      "overhealPercent": 75.46,
       "totalDamageTaken": 21635664,
       "bossDamage": 39813543,
       "addDamage": 0,
@@ -74549,8 +75737,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42296,
-              "effectiveAmount": 42296,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 42296
             }
           ]
         },
@@ -74603,8 +75791,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 52219,
-              "effectiveAmount": 52219,
-              "overhealAmount": 0
+              "effectiveAmount": 24325,
+              "overhealAmount": 27894
             },
             {
               "timestamp": "2026-08-05T17:10:19.277Z",
@@ -74616,8 +75804,8 @@
               "abilityId": "8C",
               "abilityName": "天賜祝福",
               "rawAmount": 186594,
-              "effectiveAmount": 86540,
-              "overhealAmount": 100054
+              "effectiveAmount": 0,
+              "overhealAmount": 186594
             }
           ]
         },
@@ -74670,7 +75858,33 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42364,
-              "effectiveAmount": 42364,
+              "effectiveAmount": 9863,
+              "overhealAmount": 32501
+            },
+            {
+              "timestamp": "2026-08-05T17:10:13.637Z",
+              "offsetSeconds": 117.38,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:16.638Z",
+              "offsetSeconds": 120.38,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -74708,6 +75922,19 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:10:22.766Z",
+              "offsetSeconds": 126.51,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:10:22.946Z",
               "offsetSeconds": 126.69,
               "sourceId": "1005B36E",
@@ -74717,20 +75944,33 @@
               "abilityId": "1CDC",
               "abilityName": "擺脫",
               "rawAmount": 49683,
-              "effectiveAmount": 49683,
-              "overhealAmount": 0
+              "effectiveAmount": 22253,
+              "overhealAmount": 27430
             },
             {
               "timestamp": "2026-08-05T17:10:25.720Z",
               "offsetSeconds": 129.46,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1007141D",
               "targetName": "啃蘋果無尾熊",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
               "rawAmount": 4754,
               "effectiveAmount": 4754,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:25.765Z",
+              "offsetSeconds": 129.51,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
               "overhealAmount": 0
             }
           ]
@@ -74767,27 +76007,79 @@
             {
               "timestamp": "2026-08-05T17:10:43.755Z",
               "offsetSeconds": 147.5,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "F3C",
+              "abilityName": "討罪",
               "rawAmount": 13376,
               "effectiveAmount": 13376,
               "overhealAmount": 0
             },
             {
-              "timestamp": "2026-08-05T17:10:46.752Z",
-              "offsetSeconds": 150.49,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:10:45.008Z",
+              "offsetSeconds": 148.75,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:46.752Z",
+              "offsetSeconds": 150.49,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "F3C",
+              "abilityName": "討罪",
               "rawAmount": 14412,
               "effectiveAmount": 14412,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:48.004Z",
+              "offsetSeconds": 151.75,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:51.003Z",
+              "offsetSeconds": 154.75,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:54.002Z",
+              "offsetSeconds": 157.74,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
               "overhealAmount": 0
             }
           ]
@@ -74832,55 +76124,146 @@
           ],
           "healingBeforeDeath": [
             {
-              "timestamp": "2026-08-05T17:10:46.572Z",
-              "offsetSeconds": 150.31,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:10:44.873Z",
+              "offsetSeconds": 148.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
               "targetId": "100695E8",
               "targetName": "果子狸水魚鞭",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2935,
+              "effectiveAmount": 2935,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:44.873Z",
+              "offsetSeconds": 148.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 41173,
+              "effectiveAmount": 9006,
+              "overhealAmount": 32167
+            },
+            {
+              "timestamp": "2026-08-05T17:10:46.572Z",
+              "offsetSeconds": 150.31,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 13619,
               "effectiveAmount": 13619,
               "overhealAmount": 0
             },
             {
-              "timestamp": "2026-08-05T17:10:49.570Z",
-              "offsetSeconds": 153.31,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:10:47.869Z",
+              "offsetSeconds": 151.61,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
               "targetId": "100695E8",
               "targetName": "果子狸水魚鞭",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:49.570Z",
+              "offsetSeconds": 153.31,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 14295,
               "effectiveAmount": 14295,
               "overhealAmount": 0
             },
             {
-              "timestamp": "2026-08-05T17:10:52.571Z",
-              "offsetSeconds": 156.31,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:10:50.869Z",
+              "offsetSeconds": 154.61,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
               "targetId": "100695E8",
               "targetName": "果子狸水魚鞭",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:52.571Z",
+              "offsetSeconds": 156.31,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 21602,
               "effectiveAmount": 21602,
               "overhealAmount": 0
             },
             {
-              "timestamp": "2026-08-05T17:10:55.570Z",
-              "offsetSeconds": 159.31,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:10:52.661Z",
+              "offsetSeconds": 156.4,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
               "targetId": "100695E8",
               "targetName": "果子狸水魚鞭",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 46157,
+              "effectiveAmount": 14262,
+              "overhealAmount": 31895
+            },
+            {
+              "timestamp": "2026-08-05T17:10:53.868Z",
+              "offsetSeconds": 157.61,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:55.570Z",
+              "offsetSeconds": 159.31,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "72B",
+              "abilityName": "極光",
               "rawAmount": 14173,
               "effectiveAmount": 14173,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:56.867Z",
+              "offsetSeconds": 160.61,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
               "overhealAmount": 0
             }
           ]
@@ -74903,7 +76286,60 @@
               "amount": 118880
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:10:49.256Z",
+              "offsetSeconds": 153,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:52.257Z",
+              "offsetSeconds": 156,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:55.256Z",
+              "offsetSeconds": 159,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:58.255Z",
+              "offsetSeconds": 162,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:11:04.559Z",
@@ -74933,7 +76369,47 @@
               "amount": 2765471
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:10:49.973Z",
+              "offsetSeconds": 153.72,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "54",
+              "abilityName": "浴血",
+              "rawAmount": 38647,
+              "effectiveAmount": 0,
+              "overhealAmount": 38647
+            },
+            {
+              "timestamp": "2026-08-05T17:10:56.644Z",
+              "offsetSeconds": 160.39,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:10:59.641Z",
+              "offsetSeconds": 163.38,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            }
+          ]
         }
       ],
       "playerDamage": [
@@ -75120,208 +76596,328 @@
       ],
       "playerHealing": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 1922543,
-          "hps": 11423.31,
-          "percent": 50.12
-        },
-        {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1162129,
-          "hps": 6905.1,
-          "percent": 30.29
+          "amount": 831094,
+          "hps": 4938.17,
+          "percent": 28.96
         },
         {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 584078,
-          "hps": 3470.46,
-          "percent": 15.23
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 825452,
+          "hps": 4904.65,
+          "percent": 28.77
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 109797,
-          "hps": 652.39,
-          "percent": 2.86
+          "amount": 507513,
+          "hps": 3015.53,
+          "percent": 17.69
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 57696,
-          "hps": 342.82,
-          "percent": 1.5
+          "amount": 250865,
+          "hps": 1490.58,
+          "percent": 8.74
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 230616,
+          "hps": 1370.27,
+          "percent": 8.04
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 150755,
+          "hps": 895.75,
+          "percent": 5.25
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 38625,
+          "hps": 229.5,
+          "percent": 1.35
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 17633,
+          "hps": 104.77,
+          "percent": 0.61
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 16890,
+          "hps": 100.36,
+          "percent": 0.59
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 4162746,
-          "hps": 24734.08,
-          "percent": 43.15
+          "amount": 4242292,
+          "hps": 25206.73,
+          "percent": 36.28
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 3272893,
-          "hps": 19446.78,
-          "percent": 33.92
+          "amount": 3291409,
+          "hps": 19556.8,
+          "percent": 28.15
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 1834645,
-          "hps": 10901.04,
-          "percent": 19.02
+          "amount": 1382715,
+          "hps": 8215.78,
+          "percent": 11.82
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 238765,
-          "hps": 1418.69,
-          "percent": 2.47
+          "amount": 996624,
+          "hps": 5921.71,
+          "percent": 8.52
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 942440,
+          "hps": 5599.76,
+          "percent": 8.06
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 138803,
-          "hps": 824.74,
-          "percent": 1.44
+          "amount": 765248,
+          "hps": 4546.93,
+          "percent": 6.54
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 38625,
+          "hps": 229.5,
+          "percent": 0.33
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 17633,
+          "hps": 104.77,
+          "percent": 0.15
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 16890,
+          "hps": 100.36,
+          "percent": 0.14
         }
       ],
       "playerOverheal": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2240203,
-          "percent": 38.55
+          "amount": 3416840,
+          "percent": 38.72
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2110764,
-          "percent": 36.32
+          "amount": 2460315,
+          "percent": 27.88
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 1250567,
-          "percent": 21.52
+          "amount": 1152099,
+          "percent": 13.06
         },
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "amount": 128968,
-          "percent": 2.22
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 791685,
+          "percent": 8.97
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 81107,
-          "percent": 1.4
+          "amount": 514383,
+          "percent": 5.83
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 489111,
+          "percent": 5.54
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 0,
+          "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 1021896,
-          "percent": 26.64
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 516548,
-          "percent": 13.46
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "amount": 417217,
-          "percent": 10.88
+          "amount": 926337,
+          "percent": 32.28
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 405368,
-          "percent": 10.57
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 393943,
-          "percent": 10.27
-        },
-        {
-          "id": "10067362",
-          "name": "和善的人",
-          "amount": 372110,
-          "percent": 9.7
+          "amount": 405857,
+          "percent": 14.14
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 357376,
-          "percent": 9.32
+          "amount": 336385,
+          "percent": 11.72
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 279427,
+          "percent": 9.74
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 277556,
+          "percent": 9.67
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 227193,
+          "percent": 7.92
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 351785,
-          "percent": 9.17
+          "amount": 220547,
+          "percent": 7.69
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 196141,
+          "percent": 6.84
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 3539927,
-          "hps": 21033.43,
-          "percent": 64.91,
-          "estimatedRhps": 21050.54,
-          "healingBuffGiven": 2878.36,
+          "amount": 3425462,
+          "hps": 20353.31,
+          "percent": 58.34,
+          "estimatedRhps": 20384.33,
+          "healingBuffGiven": 5220.18,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1162129,
-          "hps": 6905.1,
-          "percent": 21.31,
-          "estimatedRhps": 6888,
+          "amount": 831094,
+          "hps": 4938.17,
+          "percent": 14.15,
+          "estimatedRhps": 4922.52,
           "healingBuffGiven": 0,
-          "healingBuffTaken": 2878.36
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 584078,
-          "hps": 3470.46,
-          "percent": 10.71,
-          "estimatedRhps": 3470.46,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
+          "healingBuffTaken": 2633.82
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 109797,
-          "hps": 652.39,
-          "percent": 2.01,
-          "estimatedRhps": 652.39,
+          "amount": 654952,
+          "hps": 3891.57,
+          "percent": 11.15,
+          "estimatedRhps": 3876.21,
           "healingBuffGiven": 0,
-          "healingBuffTaken": 0
+          "healingBuffTaken": 2586.36
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 57696,
-          "hps": 342.82,
-          "percent": 1.06,
-          "estimatedRhps": 342.82,
+          "amount": 505742,
+          "hps": 3005,
+          "percent": 8.61,
+          "estimatedRhps": 3005,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 230616,
+          "hps": 1370.27,
+          "percent": 3.93,
+          "estimatedRhps": 1370.27,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 150755,
+          "hps": 895.75,
+          "percent": 2.57,
+          "estimatedRhps": 895.75,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 38625,
+          "hps": 229.5,
+          "percent": 0.66,
+          "estimatedRhps": 229.5,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 17633,
+          "hps": 104.77,
+          "percent": 0.3,
+          "estimatedRhps": 104.77,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 16890,
+          "hps": 100.36,
+          "percent": 0.29,
+          "estimatedRhps": 100.36,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -75330,8 +76926,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1617384,
-          "percent": 100
+          "amount": 2600010,
+          "percent": 86.6
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 254877,
+          "percent": 8.49
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 147439,
+          "percent": 4.91
         }
       ],
       "playerDamageTaken": [
@@ -86693,10 +88301,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 33436834,
-      "totalHealing": 3745966,
-      "totalRawHealing": 9585528,
-      "totalOverheal": 5839562,
-      "overhealPercent": 60.92,
+      "totalHealing": 2440529,
+      "totalRawHealing": 10471610,
+      "totalOverheal": 8031081,
+      "overhealPercent": 76.69,
       "totalDamageTaken": 10014935,
       "bossDamage": 33436834,
       "addDamage": 0,
@@ -95767,6 +97375,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T17:13:12.528Z",
+              "offsetSeconds": 82.36,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:13:13.687Z",
               "offsetSeconds": 83.52,
               "sourceId": "1004F34F",
@@ -95815,8 +97436,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 48949,
-              "effectiveAmount": 48949,
-              "overhealAmount": 0
+              "effectiveAmount": 15566,
+              "overhealAmount": 33383
             },
             {
               "timestamp": "2026-08-05T17:13:22.726Z",
@@ -95945,8 +97566,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42685,
-              "effectiveAmount": 42685,
-              "overhealAmount": 0
+              "effectiveAmount": 9542,
+              "overhealAmount": 33143
             },
             {
               "timestamp": "2026-08-05T17:13:29.431Z",
@@ -95962,6 +97583,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T17:13:31.085Z",
+              "offsetSeconds": 100.92,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:13:32.158Z",
               "offsetSeconds": 101.99,
               "sourceId": "10057335",
@@ -95971,8 +97605,47 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 53013,
-              "effectiveAmount": 43645,
-              "overhealAmount": 9368
+              "effectiveAmount": 23531,
+              "overhealAmount": 29482
+            },
+            {
+              "timestamp": "2026-08-05T17:13:34.083Z",
+              "offsetSeconds": 103.92,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:37.082Z",
+              "offsetSeconds": 106.92,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:40.082Z",
+              "offsetSeconds": 109.92,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
             }
           ]
         },
@@ -96064,7 +97737,60 @@
               "amount": 80970
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:13:36.099Z",
+              "offsetSeconds": 105.93,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:39.098Z",
+              "offsetSeconds": 108.93,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:42.095Z",
+              "offsetSeconds": 111.93,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:45.093Z",
+              "offsetSeconds": 114.93,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:13:53.103Z",
@@ -96086,6 +97812,32 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:13:43.078Z",
+              "offsetSeconds": 112.91,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:46.076Z",
+              "offsetSeconds": 115.91,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:13:47.242Z",
               "offsetSeconds": 117.08,
               "sourceId": "1007141D",
@@ -96095,7 +97847,20 @@
               "abilityId": "1D75",
               "abilityName": "內丹",
               "rawAmount": 60368,
-              "effectiveAmount": 60368,
+              "effectiveAmount": 26667,
+              "overhealAmount": 33701
+            },
+            {
+              "timestamp": "2026-08-05T17:13:49.076Z",
+              "offsetSeconds": 118.91,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
               "overhealAmount": 0
             }
           ]
@@ -96148,7 +97913,60 @@
               "amount": 212803
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:13:42.944Z",
+              "offsetSeconds": 112.78,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:45.941Z",
+              "offsetSeconds": 115.78,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:48.942Z",
+              "offsetSeconds": 118.78,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:13:51.940Z",
+              "offsetSeconds": 121.78,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:13:57.750Z",
@@ -96157,7 +97975,21 @@
           "sourceId": "E0000000",
           "sourceName": "",
           "eventsBeforeDeath": [],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:13:55.338Z",
+              "offsetSeconds": 125.17,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:14:31.045Z",
@@ -96187,7 +98019,60 @@
               "amount": 1828167
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:14:17.775Z",
+              "offsetSeconds": 147.61,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2935,
+              "effectiveAmount": 2935,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:14:20.769Z",
+              "offsetSeconds": 150.6,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2935,
+              "effectiveAmount": 2935,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:14:23.762Z",
+              "offsetSeconds": 153.6,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:14:26.756Z",
+              "offsetSeconds": 156.59,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            }
+          ]
         }
       ],
       "playerDamage": [
@@ -96396,268 +98281,328 @@
       ],
       "playerHealing": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 1473897,
-          "hps": 9161.47,
-          "percent": 39.35
-        },
-        {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1190916,
-          "hps": 7402.51,
-          "percent": 31.79
+          "amount": 843530,
+          "hps": 5243.22,
+          "percent": 34.56
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 696516,
+          "hps": 4329.41,
+          "percent": 28.54
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 363173,
-          "hps": 2257.42,
-          "percent": 9.7
+          "amount": 531718,
+          "hps": 3305.06,
+          "percent": 21.79
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 328832,
-          "hps": 2043.96,
-          "percent": 8.78
+          "amount": 146190,
+          "hps": 908.69,
+          "percent": 5.99
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 328780,
-          "hps": 2043.64,
-          "percent": 8.78
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "amount": 60368,
-          "hps": 375.24,
-          "percent": 1.61
+          "amount": 123990,
+          "hps": 770.7,
+          "percent": 5.08
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0
+          "amount": 45274,
+          "hps": 281.41,
+          "percent": 1.86
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 41868,
+          "hps": 260.24,
+          "percent": 1.72
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 6808,
+          "hps": 42.32,
+          "percent": 0.28
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 4635,
+          "hps": 28.81,
+          "percent": 0.19
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 3785934,
-          "hps": 23532.66,
-          "percent": 39.5
+          "amount": 3877211,
+          "hps": 24100.02,
+          "percent": 37.03
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 3541248,
-          "hps": 22011.74,
-          "percent": 36.94
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 1245693,
-          "hps": 7742.99,
-          "percent": 13
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 488246,
-          "hps": 3034.85,
-          "percent": 5.09
+          "amount": 3556678,
+          "hps": 22107.65,
+          "percent": 33.96
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 408615,
-          "hps": 2539.87,
-          "percent": 4.26
+          "amount": 1539312,
+          "hps": 9568.08,
+          "percent": 14.7
         },
         {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "amount": 60368,
-          "hps": 375.24,
-          "percent": 0.63
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 510255,
+          "hps": 3171.65,
+          "percent": 4.87
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 441847,
+          "hps": 2746.44,
+          "percent": 4.22
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 55424,
-          "hps": 344.51,
-          "percent": 0.58
+          "amount": 385775,
+          "hps": 2397.91,
+          "percent": 3.68
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 80328,
+          "hps": 499.3,
+          "percent": 0.77
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 75569,
+          "hps": 469.72,
+          "percent": 0.72
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 4635,
+          "hps": 28.81,
+          "percent": 0.04
         }
       ],
       "playerOverheal": [
         {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 2350332,
-          "percent": 40.25
-        },
-        {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2312037,
-          "percent": 39.59
+          "amount": 3180695,
+          "percent": 39.6
         },
         {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 916861,
-          "percent": 15.7
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 159466,
-          "percent": 2.73
-        },
-        {
-          "id": "100695E8",
-          "name": "果子狸水魚鞭",
-          "amount": 55424,
-          "percent": 0.95
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 2713148,
+          "percent": 33.78
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 45442,
-          "percent": 0.78
+          "amount": 1007594,
+          "percent": 12.55
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 386265,
+          "percent": 4.81
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 340501,
+          "percent": 4.24
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 295657,
+          "percent": 3.68
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 73520,
+          "percent": 0.92
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
+          "amount": 33701,
+          "percent": 0.42
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
           "amount": 0,
           "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 741220,
-          "percent": 19.79
-        },
-        {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 738987,
-          "percent": 19.73
+          "amount": 737852,
+          "percent": 30.23
+        },
+        {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 396527,
+          "percent": 16.25
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 599301,
-          "percent": 16
+          "amount": 320912,
+          "percent": 13.15
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 416405,
-          "percent": 11.12
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 410922,
-          "percent": 10.97
+          "amount": 230219,
+          "percent": 9.43
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 380856,
-          "percent": 10.17
+          "amount": 207814,
+          "percent": 8.52
         },
         {
-          "id": "10067362",
-          "name": "和善的人",
-          "amount": 278215,
-          "percent": 7.43
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 197063,
+          "percent": 8.07
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 180060,
-          "percent": 4.81
+          "amount": 196182,
+          "percent": 8.04
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 153960,
+          "percent": 6.31
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2560252,
-          "hps": 15914.05,
-          "percent": 52.98,
-          "estimatedRhps": 15929.45,
-          "healingBuffGiven": 2477.73,
+          "amount": 2507158,
+          "hps": 15584.03,
+          "percent": 52.26,
+          "estimatedRhps": 15624.29,
+          "healingBuffGiven": 6478,
           "healingBuffTaken": 0
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 1190916,
-          "hps": 7402.51,
-          "percent": 24.64,
-          "estimatedRhps": 7387.11,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 2477.73
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 363173,
-          "hps": 2257.42,
-          "percent": 7.52,
-          "estimatedRhps": 2257.42,
+          "amount": 859565,
+          "hps": 5342.9,
+          "percent": 17.92,
+          "estimatedRhps": 5318.03,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 4000.27
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 843530,
+          "hps": 5243.22,
+          "percent": 17.58,
+          "estimatedRhps": 5227.82,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 2477.73
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 263895,
+          "hps": 1640.32,
+          "percent": 5.5,
+          "estimatedRhps": 1640.32,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 328832,
-          "hps": 2043.96,
-          "percent": 6.8,
-          "estimatedRhps": 2043.96,
+          "amount": 146190,
+          "hps": 908.69,
+          "percent": 3.05,
+          "estimatedRhps": 908.69,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 328780,
-          "hps": 2043.64,
-          "percent": 6.8,
-          "estimatedRhps": 2043.64,
+          "amount": 123990,
+          "hps": 770.7,
+          "percent": 2.58,
+          "estimatedRhps": 770.7,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 60368,
-          "hps": 375.24,
-          "percent": 1.25,
-          "estimatedRhps": 375.24,
+          "amount": 41868,
+          "hps": 260.24,
+          "percent": 0.87,
+          "estimatedRhps": 260.24,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
-          "id": "100695E8",
-          "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0,
-          "estimatedRhps": 0,
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 6808,
+          "hps": 42.32,
+          "percent": 0.14,
+          "estimatedRhps": 42.32,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 4635,
+          "hps": 28.81,
+          "percent": 0.1,
+          "estimatedRhps": 28.81,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -96666,8 +98611,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1086355,
-          "percent": 100
+          "amount": 1810642,
+          "percent": 76.82
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 327847,
+          "percent": 13.91
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 218621,
+          "percent": 9.27
         }
       ],
       "playerDamageTaken": [
@@ -106954,10 +108911,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 43515995,
-      "totalHealing": 6134781,
-      "totalRawHealing": 12651848,
-      "totalOverheal": 6517067,
-      "overhealPercent": 51.51,
+      "totalHealing": 4255265,
+      "totalRawHealing": 14435340,
+      "totalOverheal": 10180075,
+      "overhealPercent": 70.52,
       "totalDamageTaken": 24433669,
       "bossDamage": 43515995,
       "addDamage": 0,
@@ -119070,7 +121027,20 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42310,
-              "effectiveAmount": 42310,
+              "effectiveAmount": 9917,
+              "overhealAmount": 32393
+            },
+            {
+              "timestamp": "2026-08-05T17:16:59.058Z",
+              "offsetSeconds": 121.63,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
               "overhealAmount": 0
             },
             {
@@ -119083,8 +121053,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 1053,
-              "effectiveAmount": 1053,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 1053
             }
           ]
         },
@@ -119117,6 +121087,19 @@
             }
           ],
           "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:17:25.189Z",
+              "offsetSeconds": 147.76,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
             {
               "timestamp": "2026-08-05T17:17:25.591Z",
               "offsetSeconds": 148.16,
@@ -119153,8 +121136,8 @@
               "abilityId": "B9",
               "abilityName": "鼓舞激勵之策",
               "rawAmount": 62654,
-              "effectiveAmount": 10741,
-              "overhealAmount": 51913
+              "effectiveAmount": 8296,
+              "overhealAmount": 54358
             },
             {
               "timestamp": "2026-08-05T17:17:28.134Z",
@@ -119166,8 +121149,21 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 43595,
-              "effectiveAmount": 10741,
-              "overhealAmount": 32854
+              "effectiveAmount": 0,
+              "overhealAmount": 43595
+            },
+            {
+              "timestamp": "2026-08-05T17:17:28.179Z",
+              "offsetSeconds": 150.75,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T17:17:29.434Z",
@@ -119181,6 +121177,19 @@
               "rawAmount": 6616,
               "effectiveAmount": 0,
               "overhealAmount": 6616
+            },
+            {
+              "timestamp": "2026-08-05T17:17:36.145Z",
+              "offsetSeconds": 158.72,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 41063,
+              "effectiveAmount": 0,
+              "overhealAmount": 41063
             }
           ]
         },
@@ -119223,8 +121232,8 @@
               "abilityId": "1D75",
               "abilityName": "內丹",
               "rawAmount": 62498,
-              "effectiveAmount": 11777,
-              "overhealAmount": 50721
+              "effectiveAmount": 1109,
+              "overhealAmount": 61389
             },
             {
               "timestamp": "2026-08-05T17:17:26.437Z",
@@ -119236,8 +121245,8 @@
               "abilityId": "777",
               "abilityName": "HoT",
               "rawAmount": 10668,
-              "effectiveAmount": 0,
-              "overhealAmount": 10668
+              "effectiveAmount": 10668,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T17:17:29.434Z",
@@ -119251,6 +121260,19 @@
               "rawAmount": 6640,
               "effectiveAmount": 0,
               "overhealAmount": 6640
+            },
+            {
+              "timestamp": "2026-08-05T17:17:37.354Z",
+              "offsetSeconds": 159.92,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
             }
           ]
         },
@@ -119319,7 +121341,20 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42361,
-              "effectiveAmount": 42361,
+              "effectiveAmount": 9858,
+              "overhealAmount": 32503
+            },
+            {
+              "timestamp": "2026-08-05T17:17:37.398Z",
+              "offsetSeconds": 159.97,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
               "overhealAmount": 0
             }
           ]
@@ -119352,7 +121387,34 @@
               "amount": 3634759
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:17:39.544Z",
+              "offsetSeconds": 162.11,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:17:42.544Z",
+              "offsetSeconds": 165.11,
+              "sourceId": "1004F34F",
+              "sourceName": "草灰妲",
+              "targetId": "1004F34F",
+              "targetName": "草灰妲",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1536,
+              "effectiveAmount": 1536,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:17:45.902Z",
@@ -119393,8 +121455,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 48840,
-              "effectiveAmount": 42608,
-              "overhealAmount": 6232
+              "effectiveAmount": 0,
+              "overhealAmount": 48840
             }
           ]
         },
@@ -119426,7 +121488,21 @@
               "amount": 1683269
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:17:46.125Z",
+              "offsetSeconds": 168.7,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:17:50.775Z",
@@ -119466,7 +121542,21 @@
               "amount": 3517849
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:17:48.003Z",
+              "offsetSeconds": 170.57,
+              "sourceId": "10057335",
+              "sourceName": "傑夫垢垢",
+              "targetId": "10057335",
+              "targetName": "傑夫垢垢",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1543,
+              "effectiveAmount": 1543,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:17:50.775Z",
@@ -119508,6 +121598,19 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:17:37.532Z",
+              "offsetSeconds": 160.1,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:17:40.260Z",
               "offsetSeconds": 162.83,
               "sourceId": "1004F34F",
@@ -119517,8 +121620,47 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 48560,
-              "effectiveAmount": 32040,
-              "overhealAmount": 16520
+              "effectiveAmount": 15947,
+              "overhealAmount": 32613
+            },
+            {
+              "timestamp": "2026-08-05T17:17:40.529Z",
+              "offsetSeconds": 163.1,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:17:43.530Z",
+              "offsetSeconds": 166.1,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:17:46.528Z",
+              "offsetSeconds": 169.1,
+              "sourceId": "10067362",
+              "sourceName": "和善的人",
+              "targetId": "10067362",
+              "targetName": "和善的人",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1545,
+              "effectiveAmount": 1545,
+              "overhealAmount": 0
             }
           ]
         }
@@ -119729,238 +121871,328 @@
       ],
       "playerHealing": [
         {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 2788420,
-          "hps": 16085.49,
-          "percent": 45.45
-        },
-        {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2209974,
-          "hps": 12748.62,
-          "percent": 36.02
+          "amount": 1611499,
+          "hps": 9296.22,
+          "percent": 37.87
         },
         {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 801358,
-          "hps": 4622.77,
-          "percent": 13.06
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 1234914,
+          "hps": 7123.82,
+          "percent": 29.02
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 276646,
-          "hps": 1595.88,
-          "percent": 4.51
+          "amount": 527998,
+          "hps": 3045.85,
+          "percent": 12.41
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 488013,
+          "hps": 2815.19,
+          "percent": 11.47
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 154954,
+          "hps": 893.88,
+          "percent": 3.64
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 46606,
-          "hps": 268.85,
+          "amount": 145150,
+          "hps": 837.32,
+          "percent": 3.41
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 32445,
+          "hps": 187.16,
           "percent": 0.76
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 30402,
+          "hps": 175.38,
+          "percent": 0.71
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 11777,
-          "hps": 67.94,
-          "percent": 0.19
+          "amount": 29890,
+          "hps": 172.43,
+          "percent": 0.7
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 5391678,
-          "hps": 31102.84,
-          "percent": 42.62
+          "amount": 5456311,
+          "hps": 31475.69,
+          "percent": 37.8
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 5019098,
-          "hps": 28953.55,
-          "percent": 39.67
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 1731404,
-          "hps": 9987.91,
-          "percent": 13.68
+          "amount": 5036627,
+          "hps": 29054.67,
+          "percent": 34.89
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 276646,
-          "hps": 1595.88,
-          "percent": 2.19
+          "amount": 1107246,
+          "hps": 6387.34,
+          "percent": 7.67
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 1105800,
+          "hps": 6379,
+          "percent": 7.66
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 899200,
+          "hps": 5187.19,
+          "percent": 6.23
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 170524,
-          "hps": 983.7,
-          "percent": 1.35
+          "amount": 676030,
+          "hps": 3899.8,
+          "percent": 4.68
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 62498,
-          "hps": 360.53,
-          "percent": 0.49
+          "amount": 91279,
+          "hps": 526.56,
+          "percent": 0.63
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 32445,
+          "hps": 187.16,
+          "percent": 0.22
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 30402,
+          "hps": 175.38,
+          "percent": 0.21
         }
       ],
       "playerOverheal": [
         {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "amount": 2809124,
-          "percent": 43.1
-        },
-        {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2603258,
-          "percent": 39.95
+          "amount": 4221397,
+          "percent": 41.47
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "amount": 3425128,
+          "percent": 33.65
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 744246,
+          "percent": 7.31
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 930046,
-          "percent": 14.27
-        },
-        {
-          "id": "100695E8",
-          "name": "果子狸水魚鞭",
-          "amount": 123918,
-          "percent": 1.9
-        },
-        {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 50721,
-          "percent": 0.78
+          "amount": 617787,
+          "percent": 6.07
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
+          "amount": 579248,
+          "percent": 5.69
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 530880,
+          "percent": 5.21
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 61389,
+          "percent": 0.6
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
           "amount": 0,
           "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "amount": 1068877,
-          "percent": 17.42
-        },
-        {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 1038708,
-          "percent": 16.93
+          "amount": 816530,
+          "percent": 19.19
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 937800,
-          "percent": 15.29
+          "amount": 712680,
+          "percent": 16.75
         },
         {
-          "id": "1004E7AB",
-          "name": "醬爆",
-          "amount": 736718,
-          "percent": 12.01
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 616885,
+          "percent": 14.5
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 708306,
-          "percent": 11.55
+          "amount": 529077,
+          "percent": 12.43
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 607134,
-          "percent": 9.9
+          "amount": 441023,
+          "percent": 10.36
         },
         {
-          "id": "10067362",
-          "name": "和善的人",
-          "amount": 531060,
-          "percent": 8.66
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 412836,
+          "percent": 9.7
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 506178,
-          "percent": 8.25
+          "amount": 365591,
+          "percent": 8.59
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 360643,
+          "percent": 8.48
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 4241896,
-          "hps": 24470.12,
-          "percent": 55.9,
-          "estimatedRhps": 24477.37,
-          "healingBuffGiven": 1256.55,
+          "amount": 3985021,
+          "hps": 22988.3,
+          "percent": 50.57,
+          "estimatedRhps": 23028.19,
+          "healingBuffGiven": 6915.36,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2209974,
-          "hps": 12748.62,
-          "percent": 29.12,
-          "estimatedRhps": 12741.38,
+          "amount": 1611499,
+          "hps": 9296.22,
+          "percent": 20.45,
+          "estimatedRhps": 9288.97,
           "healingBuffGiven": 0,
           "healingBuffTaken": 1256.55
         },
         {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 801358,
-          "hps": 4622.77,
-          "percent": 10.56,
-          "estimatedRhps": 4622.77,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 276646,
-          "hps": 1595.88,
-          "percent": 3.65,
-          "estimatedRhps": 1595.88,
+          "amount": 775636,
+          "hps": 4474.39,
+          "percent": 9.84,
+          "estimatedRhps": 4441.75,
           "healingBuffGiven": 0,
-          "healingBuffTaken": 0
+          "healingBuffTaken": 5658.82
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 46606,
-          "hps": 268.85,
-          "percent": 0.61,
-          "estimatedRhps": 268.85,
+          "amount": 772180,
+          "hps": 4454.46,
+          "percent": 9.8,
+          "estimatedRhps": 4454.46,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 488013,
+          "hps": 2815.19,
+          "percent": 6.19,
+          "estimatedRhps": 2815.19,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 154954,
+          "hps": 893.88,
+          "percent": 1.97,
+          "estimatedRhps": 893.88,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 32445,
+          "hps": 187.16,
+          "percent": 0.41,
+          "estimatedRhps": 187.16,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 30402,
+          "hps": 175.38,
+          "percent": 0.39,
+          "estimatedRhps": 175.38,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 11777,
-          "hps": 67.94,
-          "percent": 0.16,
-          "estimatedRhps": 67.94,
+          "amount": 29890,
+          "hps": 172.43,
+          "percent": 0.38,
+          "estimatedRhps": 172.43,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -119969,8 +122201,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1453476,
-          "percent": 100
+          "amount": 2750107,
+          "percent": 75.87
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 627030,
+          "percent": 17.3
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 247638,
+          "percent": 6.83
         }
       ],
       "playerDamageTaken": [
@@ -132507,10 +134751,10 @@
       "result": "wipe",
       "confidence": "high",
       "totalDamage": 61606450,
-      "totalHealing": 9634879,
-      "totalRawHealing": 22483788,
-      "totalOverheal": 12848909,
-      "overhealPercent": 57.15,
+      "totalHealing": 6501994,
+      "totalRawHealing": 24236979,
+      "totalOverheal": 17734985,
+      "overhealPercent": 73.17,
       "totalDamageTaken": 24720761,
       "bossDamage": 61606450,
       "addDamage": 0,
@@ -150156,8 +152400,21 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 49071,
-              "effectiveAmount": 26508,
-              "overhealAmount": 22563
+              "effectiveAmount": 15444,
+              "overhealAmount": 33627
+            },
+            {
+              "timestamp": "2026-08-05T17:21:03.574Z",
+              "offsetSeconds": 161.85,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
             }
           ]
         },
@@ -150189,7 +152446,21 @@
               "amount": 2038419
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:21:07.245Z",
+              "offsetSeconds": 165.53,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "3F0B",
+              "abilityName": "殘暴彈",
+              "rawAmount": 42977,
+              "effectiveAmount": 0,
+              "overhealAmount": 42977
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:21:15.208Z",
@@ -150219,7 +152490,21 @@
               "amount": 3532695
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:21:12.567Z",
+              "offsetSeconds": 170.85,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:21:28.136Z",
@@ -150241,6 +152526,19 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:21:23.711Z",
+              "offsetSeconds": 181.99,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:21:25.498Z",
               "offsetSeconds": 183.78,
               "sourceId": "1004F34F",
@@ -150250,8 +152548,8 @@
               "abilityId": "322",
               "abilityName": "仙光的擁抱",
               "rawAmount": 42322,
-              "effectiveAmount": 42322,
-              "overhealAmount": 0
+              "effectiveAmount": 0,
+              "overhealAmount": 42322
             },
             {
               "timestamp": "2026-08-05T17:21:25.723Z",
@@ -150483,6 +152781,32 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:22:28.014Z",
+              "offsetSeconds": 246.3,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:31.007Z",
+              "offsetSeconds": 249.29,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:22:31.186Z",
               "offsetSeconds": 249.47,
               "sourceId": "10057335",
@@ -150505,7 +152829,20 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 51372,
-              "effectiveAmount": 51372,
+              "effectiveAmount": 0,
+              "overhealAmount": 51372
+            },
+            {
+              "timestamp": "2026-08-05T17:22:34.003Z",
+              "offsetSeconds": 252.28,
+              "sourceId": "1007141D",
+              "sourceName": "啃蘋果無尾熊",
+              "targetId": "1007141D",
+              "targetName": "啃蘋果無尾熊",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1689,
+              "effectiveAmount": 1689,
               "overhealAmount": 0
             }
           ]
@@ -150597,6 +152934,19 @@
           ],
           "healingBeforeDeath": [
             {
+              "timestamp": "2026-08-05T17:22:26.942Z",
+              "offsetSeconds": 245.22,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:22:28.816Z",
               "offsetSeconds": 247.1,
               "sourceId": "10057335",
@@ -150623,6 +152973,19 @@
               "overhealAmount": 0
             },
             {
+              "timestamp": "2026-08-05T17:22:29.932Z",
+              "offsetSeconds": 248.21,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
+            },
+            {
               "timestamp": "2026-08-05T17:22:31.186Z",
               "offsetSeconds": 249.47,
               "sourceId": "10057335",
@@ -150632,8 +152995,21 @@
               "abilityId": "DF3",
               "abilityName": "法令",
               "rawAmount": 53067,
-              "effectiveAmount": 43175,
-              "overhealAmount": 9892
+              "effectiveAmount": 23477,
+              "overhealAmount": 29590
+            },
+            {
+              "timestamp": "2026-08-05T17:22:32.927Z",
+              "offsetSeconds": 251.21,
+              "sourceId": "1004E7AB",
+              "sourceName": "醬爆",
+              "targetId": "1004E7AB",
+              "targetName": "醬爆",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1693,
+              "effectiveAmount": 1693,
+              "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T17:22:33.645Z",
@@ -150645,8 +153021,8 @@
               "abilityId": "4096",
               "abilityName": "狂喜之心",
               "rawAmount": 51221,
-              "effectiveAmount": 18005,
-              "overhealAmount": 33216
+              "effectiveAmount": 0,
+              "overhealAmount": 51221
             }
           ]
         },
@@ -150672,14 +153048,66 @@
             {
               "timestamp": "2026-08-05T17:22:34.539Z",
               "offsetSeconds": 252.82,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
               "targetId": "10060B81",
               "targetName": "幻雪喵",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "F0E",
+              "abilityName": "通天眼",
               "rawAmount": 13798,
               "effectiveAmount": 13798,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:35.389Z",
+              "offsetSeconds": 253.67,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:38.390Z",
+              "offsetSeconds": 256.67,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:41.386Z",
+              "offsetSeconds": 259.67,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:44.428Z",
+              "offsetSeconds": 262.71,
+              "sourceId": "10060B81",
+              "sourceName": "幻雪喵",
+              "targetId": "10060B81",
+              "targetName": "幻雪喵",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 1702,
+              "effectiveAmount": 1702,
               "overhealAmount": 0
             }
           ]
@@ -150702,7 +153130,60 @@
               "amount": 24599
             }
           ],
-          "healingBeforeDeath": []
+          "healingBeforeDeath": [
+            {
+              "timestamp": "2026-08-05T17:22:49.347Z",
+              "offsetSeconds": 267.63,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:52.342Z",
+              "offsetSeconds": 270.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:55.339Z",
+              "offsetSeconds": 273.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:22:58.336Z",
+              "offsetSeconds": 276.62,
+              "sourceId": "100695E8",
+              "sourceName": "果子狸水魚鞭",
+              "targetId": "100695E8",
+              "targetName": "果子狸水魚鞭",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2445,
+              "effectiveAmount": 2445,
+              "overhealAmount": 0
+            }
+          ]
         },
         {
           "timestamp": "2026-08-05T17:23:16.389Z",
@@ -150734,16 +153215,107 @@
           ],
           "healingBeforeDeath": [
             {
-              "timestamp": "2026-08-05T17:23:10.759Z",
-              "offsetSeconds": 289.04,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "timestamp": "2026-08-05T17:23:01.955Z",
+              "offsetSeconds": 280.24,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:23:02.536Z",
+              "offsetSeconds": 280.82,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 50535,
+              "effectiveAmount": 18076,
+              "overhealAmount": 32459
+            },
+            {
+              "timestamp": "2026-08-05T17:23:04.994Z",
+              "offsetSeconds": 283.27,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:23:05.039Z",
+              "offsetSeconds": 283.32,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 63059,
+              "effectiveAmount": 30120,
+              "overhealAmount": 32939
+            },
+            {
+              "timestamp": "2026-08-05T17:23:07.542Z",
+              "offsetSeconds": 285.82,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "A76",
+              "abilityName": "原初的血氣",
+              "rawAmount": 63459,
+              "effectiveAmount": 29720,
+              "overhealAmount": 33739
+            },
+            {
+              "timestamp": "2026-08-05T17:23:07.988Z",
+              "offsetSeconds": 286.27,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:23:10.759Z",
+              "offsetSeconds": 289.04,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "F3C",
+              "abilityName": "討罪",
               "rawAmount": 13881,
               "effectiveAmount": 13881,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:23:10.983Z",
+              "offsetSeconds": 289.26,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2446,
+              "effectiveAmount": 2446,
               "overhealAmount": 0
             },
             {
@@ -150756,20 +153328,33 @@
               "abilityId": "1CDC",
               "abilityName": "擺脫",
               "rawAmount": 46533,
-              "effectiveAmount": 46533,
+              "effectiveAmount": 13886,
+              "overhealAmount": 32647
+            },
+            {
+              "timestamp": "2026-08-05T17:23:13.754Z",
+              "offsetSeconds": 292.04,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "F3C",
+              "abilityName": "討罪",
+              "rawAmount": 17706,
+              "effectiveAmount": 17706,
               "overhealAmount": 0
             },
             {
               "timestamp": "2026-08-05T17:23:13.754Z",
               "offsetSeconds": 292.04,
-              "sourceId": "UNATTRIBUTED_HOT",
-              "sourceName": "無法歸屬的持續治療",
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
               "targetId": "1005B36E",
               "targetName": "Dseven",
-              "abilityId": "0",
-              "abilityName": "HoT",
-              "rawAmount": 22132,
-              "effectiveAmount": 22132,
+              "abilityId": "83C",
+              "abilityName": "持續擺脫",
+              "rawAmount": 4426,
+              "effectiveAmount": 4426,
               "overhealAmount": 0
             },
             {
@@ -150783,6 +153368,19 @@
               "abilityName": "戰慄",
               "rawAmount": 26286,
               "effectiveAmount": 26286,
+              "overhealAmount": 0
+            },
+            {
+              "timestamp": "2026-08-05T17:23:13.978Z",
+              "offsetSeconds": 292.26,
+              "sourceId": "1005B36E",
+              "sourceName": "Dseven",
+              "targetId": "1005B36E",
+              "targetName": "Dseven",
+              "abilityId": "516",
+              "abilityName": "生命再生",
+              "rawAmount": 2935,
+              "effectiveAmount": 2935,
               "overhealAmount": 0
             }
           ]
@@ -150996,206 +153594,326 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 6016115,
-          "hps": 20416.45,
-          "percent": 62.44
+          "amount": 2829935,
+          "hps": 9603.74,
+          "percent": 43.52
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2794589,
-          "hps": 9483.79,
-          "percent": 29
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 555153,
-          "hps": 1883.98,
-          "percent": 5.76
+          "amount": 1904886,
+          "hps": 6464.47,
+          "percent": 29.3
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 269022,
-          "hps": 912.96,
-          "percent": 2.79
+          "amount": 899894,
+          "hps": 3053.9,
+          "percent": 13.84
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 417123,
+          "hps": 1415.56,
+          "percent": 6.42
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0
+          "amount": 218542,
+          "hps": 741.65,
+          "percent": 3.36
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 152202,
+          "hps": 516.52,
+          "percent": 2.34
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 32091,
+          "hps": 108.9,
+          "percent": 0.49
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 28781,
+          "hps": 97.67,
+          "percent": 0.44
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18540,
+          "hps": 62.92,
+          "percent": 0.29
         }
       ],
       "playerRawHealing": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 12049810,
-          "hps": 40892.56,
-          "percent": 53.59
+          "amount": 11390831,
+          "hps": 38656.23,
+          "percent": 47
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 7465442,
-          "hps": 25334.92,
-          "percent": 33.2
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 2307967,
-          "hps": 7832.38,
-          "percent": 10.27
+          "amount": 7514818,
+          "hps": 25502.49,
+          "percent": 31.01
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 513597,
-          "hps": 1742.96,
-          "percent": 2.28
+          "amount": 2123779,
+          "hps": 7207.31,
+          "percent": 8.76
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 1921364,
+          "hps": 6520.39,
+          "percent": 7.93
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 146972,
-          "hps": 498.77,
-          "percent": 0.65
+          "amount": 1039716,
+          "hps": 3528.41,
+          "percent": 4.29
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 167059,
+          "hps": 566.94,
+          "percent": 0.69
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 32091,
+          "hps": 108.9,
+          "percent": 0.13
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 28781,
+          "hps": 97.67,
+          "percent": 0.12
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18540,
+          "hps": 62.92,
+          "percent": 0.08
         }
       ],
       "playerOverheal": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 6033695,
-          "percent": 46.96
+          "amount": 8560896,
+          "percent": 48.27
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 4670853,
-          "percent": 36.35
+          "amount": 5609932,
+          "percent": 31.63
         },
         {
           "id": "UNATTRIBUTED_HOT",
           "name": "無法歸屬的持續治療",
-          "amount": 1752814,
-          "percent": 13.64
+          "amount": 1504241,
+          "percent": 8.48
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 244575,
-          "percent": 1.9
+          "amount": 1223885,
+          "percent": 6.9
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 146972,
-          "percent": 1.14
+          "amount": 821174,
+          "percent": 4.63
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 14857,
+          "percent": 0.08
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 0,
+          "percent": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 0,
+          "percent": 0
         }
       ],
       "playerHealingReceived": [
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 2032987,
-          "percent": 21.1
+          "amount": 1550492,
+          "percent": 23.85
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 1590158,
-          "percent": 16.5
+          "amount": 943444,
+          "percent": 14.51
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1465645,
-          "percent": 15.21
+          "amount": 903508,
+          "percent": 13.9
         },
         {
           "id": "10060B81",
           "name": "幻雪喵",
-          "amount": 1327398,
-          "percent": 13.78
+          "amount": 828059,
+          "percent": 12.74
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 1073682,
-          "percent": 11.14
+          "amount": 791590,
+          "percent": 12.17
         },
         {
           "id": "1007141D",
           "name": "啃蘋果無尾熊",
-          "amount": 926976,
-          "percent": 9.62
+          "amount": 549131,
+          "percent": 8.45
         },
         {
           "id": "1004E7AB",
           "name": "醬爆",
-          "amount": 688285,
-          "percent": 7.14
+          "amount": 533509,
+          "percent": 8.21
         },
         {
           "id": "10067362",
           "name": "和善的人",
-          "amount": 529748,
-          "percent": 5.5
+          "amount": 402261,
+          "percent": 6.19
         }
       ],
       "playerHealingWithShielding": [
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 8956724,
-          "hps": 30395.78,
-          "percent": 71.22,
-          "estimatedRhps": 30395.78,
+          "amount": 7879021,
+          "hps": 26738.46,
+          "percent": 63.71,
+          "estimatedRhps": 26738.46,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "10057335",
           "name": "傑夫垢垢",
-          "amount": 2794589,
-          "hps": 9483.79,
-          "percent": 22.22,
-          "estimatedRhps": 9483.79,
-          "healingBuffGiven": 0,
-          "healingBuffTaken": 0
-        },
-        {
-          "id": "UNATTRIBUTED_HOT",
-          "name": "無法歸屬的持續治療",
-          "amount": 555153,
-          "hps": 1883.98,
-          "percent": 4.41,
-          "estimatedRhps": 1883.98,
+          "amount": 1904886,
+          "hps": 6464.47,
+          "percent": 15.4,
+          "estimatedRhps": 6464.47,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
-          "amount": 269022,
-          "hps": 912.96,
-          "percent": 2.14,
-          "estimatedRhps": 912.96,
+          "amount": 1431604,
+          "hps": 4858.33,
+          "percent": 11.58,
+          "estimatedRhps": 4858.33,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
-          "amount": 0,
-          "hps": 0,
-          "percent": 0,
-          "estimatedRhps": 0,
+          "amount": 503051,
+          "hps": 1707.17,
+          "percent": 4.07,
+          "estimatedRhps": 1707.17,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "UNATTRIBUTED_HOT",
+          "name": "無法歸屬的持續治療",
+          "amount": 417123,
+          "hps": 1415.56,
+          "percent": 3.37,
+          "estimatedRhps": 1415.56,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "amount": 152202,
+          "hps": 516.52,
+          "percent": 1.23,
+          "estimatedRhps": 516.52,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "amount": 32091,
+          "hps": 108.9,
+          "percent": 0.26,
+          "estimatedRhps": 108.9,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "1004E7AB",
+          "name": "醬爆",
+          "amount": 28781,
+          "hps": 97.67,
+          "percent": 0.23,
+          "estimatedRhps": 97.67,
+          "healingBuffGiven": 0,
+          "healingBuffTaken": 0
+        },
+        {
+          "id": "10067362",
+          "name": "和善的人",
+          "amount": 18540,
+          "hps": 62.92,
+          "percent": 0.15,
+          "estimatedRhps": 62.92,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         }
@@ -151204,8 +153922,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 2940609,
-          "percent": 100
+          "amount": 5049086,
+          "percent": 86.08
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "amount": 531710,
+          "percent": 9.07
+        },
+        {
+          "id": "100695E8",
+          "name": "果子狸水魚鞭",
+          "amount": 284509,
+          "percent": 4.85
         }
       ],
       "playerDamageTaken": [
