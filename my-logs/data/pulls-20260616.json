@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:43:08.084Z",
+  "generatedAt": "2026-08-21T07:09:35.683Z",
   "inputFiles": [
     "logs/Network_30202_20260616.log"
   ],
@@ -29,20 +29,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -50,11 +36,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -64,11 +50,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -83,6 +69,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "40002863",
@@ -24842,7 +24842,7 @@
           "start": "2026-06-16T13:10:17.449Z",
           "end": "2026-06-16T13:12:47.209Z",
           "durationSeconds": 149.76,
-          "eventCount": 1560,
+          "eventCount": 1575,
           "combatEventCount": 1403,
           "playerNames": [
             "南天晴齊雲",
@@ -24856,20 +24856,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -24877,11 +24863,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -24891,11 +24877,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -24910,6 +24896,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002863",
@@ -25493,10 +25493,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 418830,
-              "hps": 2796.67,
-              "percent": 55.35,
-              "estimatedRhps": 2760.14,
+              "amount": 471546,
+              "hps": 3148.68,
+              "percent": 58.26,
+              "estimatedRhps": 3112.15,
               "healingBuffGiven": 0,
               "healingBuffTaken": 5470.83
             },
@@ -25505,7 +25505,7 @@
               "name": "草莓香草可頌",
               "amount": 152851,
               "hps": 1020.64,
-              "percent": 20.2,
+              "percent": 18.89,
               "estimatedRhps": 1001.76,
               "healingBuffGiven": 0,
               "healingBuffTaken": 2826.71
@@ -25515,7 +25515,7 @@
               "name": "加辣更好吃",
               "amount": 118239,
               "hps": 789.52,
-              "percent": 15.63,
+              "percent": 14.61,
               "estimatedRhps": 822.64,
               "healingBuffGiven": 4959.32,
               "healingBuffTaken": 0
@@ -25525,7 +25525,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 30729,
               "hps": 205.19,
-              "percent": 4.06,
+              "percent": 3.8,
               "estimatedRhps": 205.19,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -25535,7 +25535,7 @@
               "name": "米店老闆",
               "amount": 25127,
               "hps": 167.78,
-              "percent": 3.32,
+              "percent": 3.1,
               "estimatedRhps": 167.78,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -25545,7 +25545,7 @@
               "name": "南天晴齊雲",
               "amount": 3132,
               "hps": 20.91,
-              "percent": 0.41,
+              "percent": 0.39,
               "estimatedRhps": 43.2,
               "healingBuffGiven": 3338.22,
               "healingBuffTaken": 0
@@ -25555,7 +25555,7 @@
               "name": "傷心小殘",
               "amount": 2895,
               "hps": 19.33,
-              "percent": 0.38,
+              "percent": 0.36,
               "estimatedRhps": 19.33,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -25565,7 +25565,7 @@
               "name": "米米帽帽",
               "amount": 2752,
               "hps": 18.38,
-              "percent": 0.36,
+              "percent": 0.34,
               "estimatedRhps": 18.38,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -25575,7 +25575,7 @@
               "name": "Y韭",
               "amount": 2079,
               "hps": 13.88,
-              "percent": 0.27,
+              "percent": 0.26,
               "estimatedRhps": 13.88,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -25583,22 +25583,22 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 66468,
+              "percent": 65.13
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 49.11
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 13752,
-              "percent": 27.87
+              "percent": 23.74
             },
             {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 11356,
-              "percent": 23.02
+              "percent": 11.13
             }
           ],
           "playerDamageTaken": [
@@ -27121,7 +27121,7 @@
           "start": "2026-06-16T13:12:47.209Z",
           "end": "2026-06-16T13:15:01.639Z",
           "durationSeconds": 134.43,
-          "eventCount": 1117,
+          "eventCount": 1125,
           "combatEventCount": 1014,
           "playerNames": [
             "南天晴齊雲",
@@ -27135,20 +27135,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -27156,11 +27142,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -27170,11 +27156,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -27189,6 +27175,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002862",
@@ -27769,10 +27769,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 245902,
-              "hps": 1829.22,
-              "percent": 62.57,
-              "estimatedRhps": 1829.22,
+              "amount": 265298,
+              "hps": 1973.5,
+              "percent": 64.33,
+              "estimatedRhps": 1973.5,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -27781,7 +27781,7 @@
               "name": "草莓香草可頌",
               "amount": 79806,
               "hps": 593.66,
-              "percent": 20.31,
+              "percent": 19.35,
               "estimatedRhps": 593.66,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27791,7 +27791,7 @@
               "name": "加辣更好吃",
               "amount": 49872,
               "hps": 370.99,
-              "percent": 12.69,
+              "percent": 12.09,
               "estimatedRhps": 370.99,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27801,7 +27801,7 @@
               "name": "Y韭",
               "amount": 4914,
               "hps": 36.55,
-              "percent": 1.25,
+              "percent": 1.19,
               "estimatedRhps": 36.55,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27811,7 +27811,7 @@
               "name": "米米帽帽",
               "amount": 3732,
               "hps": 27.76,
-              "percent": 0.95,
+              "percent": 0.9,
               "estimatedRhps": 27.76,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27821,7 +27821,7 @@
               "name": "米店老闆",
               "amount": 3203,
               "hps": 23.83,
-              "percent": 0.82,
+              "percent": 0.78,
               "estimatedRhps": 23.83,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27831,7 +27831,7 @@
               "name": "南天晴齊雲",
               "amount": 2871,
               "hps": 21.36,
-              "percent": 0.73,
+              "percent": 0.7,
               "estimatedRhps": 21.36,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27841,7 +27841,7 @@
               "name": "傷心小殘",
               "amount": 2702,
               "hps": 20.1,
-              "percent": 0.69,
+              "percent": 0.66,
               "estimatedRhps": 20.1,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -27862,13 +27862,13 @@
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 20306,
-              "percent": 99.68
+              "percent": 51.06
             },
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 65,
-              "percent": 0.32
+              "amount": 19461,
+              "percent": 48.94
             }
           ],
           "playerDamageTaken": [
@@ -29122,20 +29122,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -29143,11 +29129,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -29157,11 +29143,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -29176,6 +29162,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "4000285E",
@@ -34277,10 +34277,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 859840,
-          "hps": 2009.68,
-          "percent": 55.56,
-          "estimatedRhps": 1983.39,
+          "amount": 931952,
+          "hps": 2178.22,
+          "percent": 57.54,
+          "estimatedRhps": 2151.93,
           "healingBuffGiven": 0,
           "healingBuffTaken": 11247.46
         },
@@ -34289,7 +34289,7 @@
           "name": "草莓香草可頌",
           "amount": 295308,
           "hps": 690.21,
-          "percent": 19.08,
+          "percent": 18.23,
           "estimatedRhps": 678.52,
           "healingBuffGiven": 0,
           "healingBuffTaken": 5002.29
@@ -34299,7 +34299,7 @@
           "name": "加辣更好吃",
           "amount": 232287,
           "hps": 542.92,
-          "percent": 15.01,
+          "percent": 14.34,
           "estimatedRhps": 566.34,
           "healingBuffGiven": 10020.32,
           "healingBuffTaken": 0
@@ -34309,7 +34309,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 59605,
           "hps": 139.31,
-          "percent": 3.85,
+          "percent": 3.68,
           "estimatedRhps": 139.31,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -34319,7 +34319,7 @@
           "name": "米店老闆",
           "amount": 48401,
           "hps": 113.13,
-          "percent": 3.13,
+          "percent": 2.99,
           "estimatedRhps": 112.65,
           "healingBuffGiven": 0,
           "healingBuffTaken": 202.3
@@ -34329,7 +34329,7 @@
           "name": "Y韭",
           "amount": 17487,
           "hps": 40.87,
-          "percent": 1.13,
+          "percent": 1.08,
           "estimatedRhps": 40.87,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -34339,7 +34339,7 @@
           "name": "米米帽帽",
           "amount": 13385,
           "hps": 31.28,
-          "percent": 0.86,
+          "percent": 0.83,
           "estimatedRhps": 31.28,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -34349,7 +34349,7 @@
           "name": "傷心小殘",
           "amount": 11370,
           "hps": 26.57,
-          "percent": 0.73,
+          "percent": 0.7,
           "estimatedRhps": 26.57,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -34359,7 +34359,7 @@
           "name": "南天晴齊雲",
           "amount": 9918,
           "hps": 23.18,
-          "percent": 0.64,
+          "percent": 0.61,
           "estimatedRhps": 38.21,
           "healingBuffGiven": 6431.74,
           "healingBuffTaken": 0
@@ -34367,22 +34367,22 @@
       ],
       "playerShielding": [
         {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 85929,
+          "percent": 53
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 64839,
-          "percent": 72.03
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 13817,
-          "percent": 15.35
+          "percent": 39.99
         },
         {
           "id": "1005A7EF",
           "name": "草莓香草可頌",
           "amount": 11356,
-          "percent": 12.62
+          "percent": 7
         }
       ],
       "playerDamageTaken": [
@@ -60652,20 +60652,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -60673,11 +60659,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -60687,11 +60673,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -60706,6 +60692,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "40002B78",
@@ -88683,8 +88683,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F0D",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -88696,8 +88696,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F0F",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -88709,8 +88709,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F0B",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -88722,8 +88722,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F10",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -88735,8 +88735,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F0E",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -88748,8 +88748,8 @@
         {
           "timestamp": "2026-06-16T13:25:49.418Z",
           "offsetSeconds": 468.35,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40002F0C",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -94533,7 +94533,7 @@
           "start": "2026-06-16T13:18:01.071Z",
           "end": "2026-06-16T13:20:40.491Z",
           "durationSeconds": 159.42,
-          "eventCount": 1638,
+          "eventCount": 1653,
           "combatEventCount": 1461,
           "playerNames": [
             "南天晴齊雲",
@@ -94547,20 +94547,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -94568,11 +94554,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -94582,11 +94568,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -94601,6 +94587,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B7E",
@@ -95308,10 +95308,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 433638,
-              "hps": 2720.1,
-              "percent": 56.77,
-              "estimatedRhps": 2688.18,
+              "amount": 515819,
+              "hps": 3235.6,
+              "percent": 60.97,
+              "estimatedRhps": 3203.68,
               "healingBuffGiven": 0,
               "healingBuffTaken": 5087.56
             },
@@ -95320,7 +95320,7 @@
               "name": "草莓香草可頌",
               "amount": 150074,
               "hps": 941.37,
-              "percent": 19.65,
+              "percent": 17.74,
               "estimatedRhps": 923.11,
               "healingBuffGiven": 0,
               "healingBuffTaken": 2912.55
@@ -95330,7 +95330,7 @@
               "name": "加辣更好吃",
               "amount": 98167,
               "hps": 615.78,
-              "percent": 12.85,
+              "percent": 11.6,
               "estimatedRhps": 650.04,
               "healingBuffGiven": 5462.76,
               "healingBuffTaken": 0
@@ -95340,7 +95340,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 37533,
               "hps": 235.43,
-              "percent": 4.91,
+              "percent": 4.44,
               "estimatedRhps": 235.43,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -95350,7 +95350,7 @@
               "name": "米店老闆",
               "amount": 19175,
               "hps": 120.28,
-              "percent": 2.51,
+              "percent": 2.27,
               "estimatedRhps": 120.28,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -95360,7 +95360,7 @@
               "name": "Y韭",
               "amount": 13886,
               "hps": 87.1,
-              "percent": 1.82,
+              "percent": 1.64,
               "estimatedRhps": 87.1,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -95370,7 +95370,7 @@
               "name": "南天晴齊雲",
               "amount": 4959,
               "hps": 31.11,
-              "percent": 0.65,
+              "percent": 0.59,
               "estimatedRhps": 47.02,
               "healingBuffGiven": 2537.35,
               "healingBuffTaken": 0
@@ -95380,7 +95380,7 @@
               "name": "傷心小殘",
               "amount": 3860,
               "hps": 24.21,
-              "percent": 0.51,
+              "percent": 0.46,
               "estimatedRhps": 24.21,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -95390,7 +95390,7 @@
               "name": "米米帽帽",
               "amount": 2580,
               "hps": 16.18,
-              "percent": 0.34,
+              "percent": 0.3,
               "estimatedRhps": 16.18,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -95400,14 +95400,14 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 28900,
-              "percent": 54.4
+              "amount": 111081,
+              "percent": 82.09
             },
             {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 45.6
+              "percent": 17.91
             }
           ],
           "playerDamageTaken": [
@@ -96918,7 +96918,7 @@
           "start": "2026-06-16T13:20:40.491Z",
           "end": "2026-06-16T13:22:57.051Z",
           "durationSeconds": 136.56,
-          "eventCount": 1156,
+          "eventCount": 1165,
           "combatEventCount": 1047,
           "playerNames": [
             "南天晴齊雲",
@@ -96932,20 +96932,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -96953,11 +96939,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -96967,11 +96953,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -96986,6 +96972,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B7D",
@@ -97566,10 +97566,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 198079,
-              "hps": 1450.49,
-              "percent": 47.7,
-              "estimatedRhps": 1450.49,
+              "amount": 245805,
+              "hps": 1799.98,
+              "percent": 53.09,
+              "estimatedRhps": 1799.98,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -97578,7 +97578,7 @@
               "name": "草莓香草可頌",
               "amount": 90637,
               "hps": 663.72,
-              "percent": 21.83,
+              "percent": 19.58,
               "estimatedRhps": 663.72,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97588,7 +97588,7 @@
               "name": "加辣更好吃",
               "amount": 72165,
               "hps": 528.45,
-              "percent": 17.38,
+              "percent": 15.59,
               "estimatedRhps": 528.45,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97598,7 +97598,7 @@
               "name": "米店老闆",
               "amount": 21917,
               "hps": 160.49,
-              "percent": 5.28,
+              "percent": 4.73,
               "estimatedRhps": 160.49,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97608,7 +97608,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 21136,
               "hps": 154.77,
-              "percent": 5.09,
+              "percent": 4.57,
               "estimatedRhps": 154.77,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97618,7 +97618,7 @@
               "name": "南天晴齊雲",
               "amount": 4437,
               "hps": 32.49,
-              "percent": 1.07,
+              "percent": 0.96,
               "estimatedRhps": 32.49,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97628,7 +97628,7 @@
               "name": "Y韭",
               "amount": 3405,
               "hps": 24.93,
-              "percent": 0.82,
+              "percent": 0.74,
               "estimatedRhps": 24.93,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97638,7 +97638,7 @@
               "name": "傷心小殘",
               "amount": 1930,
               "hps": 14.13,
-              "percent": 0.46,
+              "percent": 0.42,
               "estimatedRhps": 14.13,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97648,7 +97648,7 @@
               "name": "米米帽帽",
               "amount": 1548,
               "hps": 11.34,
-              "percent": 0.37,
+              "percent": 0.33,
               "estimatedRhps": 11.34,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -97656,22 +97656,22 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 62176,
+              "percent": 69.14
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 20306,
-              "percent": 48.12
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 14450,
-              "percent": 34.24
+              "percent": 22.58
             },
             {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 7440,
-              "percent": 17.63
+              "percent": 8.27
             }
           ],
           "playerDamageTaken": [
@@ -98920,7 +98920,7 @@
           "start": "2026-06-16T13:22:57.051Z",
           "end": "2026-06-16T13:27:10.891Z",
           "durationSeconds": 253.84,
-          "eventCount": 1869,
+          "eventCount": 1895,
           "combatEventCount": 1660,
           "playerNames": [
             "南天晴齊雲",
@@ -98934,20 +98934,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -98955,11 +98941,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -98969,11 +98955,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -98988,6 +98974,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B79",
@@ -99018,18 +99018,6 @@
           "phases": [],
           "raidBuffContributions": [
             {
-              "playerId": "10061D82",
-              "playerName": "米米帽帽",
-              "damage": 617067,
-              "buffGiven": 30052.42,
-              "buffTaken": 29141.29,
-              "netGain": 911.13,
-              "estimatedRdps": 2434.52,
-              "attributedDamageEvents": 249,
-              "attributionConfidence": "low",
-              "attributionModel": "mixed"
-            },
-            {
               "playerId": "1004BEF8",
               "playerName": "傷心小殘",
               "damage": 340688,
@@ -99040,6 +99028,30 @@
               "attributedDamageEvents": 237,
               "attributionConfidence": "low",
               "attributionModel": "mixed"
+            },
+            {
+              "playerId": "10061D82",
+              "playerName": "米米帽帽",
+              "damage": 325296,
+              "buffGiven": 30052.42,
+              "buffTaken": 29141.29,
+              "netGain": 911.13,
+              "estimatedRdps": 1285.09,
+              "attributedDamageEvents": 249,
+              "attributionConfidence": "low",
+              "attributionModel": "mixed"
+            },
+            {
+              "playerId": "limit-break",
+              "playerName": "Limit Break",
+              "damage": 291771,
+              "buffGiven": 0,
+              "buffTaken": 0,
+              "netGain": 0,
+              "estimatedRdps": 1149.43,
+              "attributedDamageEvents": 0,
+              "attributionConfidence": "none",
+              "attributionModel": "none"
             },
             {
               "playerId": "10088980",
@@ -99502,28 +99514,6 @@
           ],
           "playerDamage": [
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "amount": 617067,
-              "hits": 97,
-              "critHits": 35,
-              "directHits": 28,
-              "critDirectHits": 14,
-              "dps": 2430.93,
-              "percent": 30.38,
-              "critRate": 36.08,
-              "directRate": 28.87,
-              "critDirectRate": 14.43,
-              "casts": 89,
-              "cpm": 21.04,
-              "estimatedRdps": 2434.52,
-              "raidBuffGiven": 30052.42,
-              "raidBuffTaken": 29141.29,
-              "raidBuffNet": 911.13,
-              "raidBuffAttributionConfidence": "low",
-              "raidBuffAttributionModel": "mixed"
-            },
-            {
               "id": "1004BEF8",
               "name": "傷心小殘",
               "amount": 340688,
@@ -99544,6 +99534,50 @@
               "raidBuffNet": 1934.6,
               "raidBuffAttributionConfidence": "low",
               "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 325296,
+              "hits": 91,
+              "critHits": 35,
+              "directHits": 28,
+              "critDirectHits": 14,
+              "dps": 1281.5,
+              "percent": 16.01,
+              "critRate": 38.46,
+              "directRate": 30.77,
+              "critDirectRate": 15.38,
+              "casts": 89,
+              "cpm": 21.04,
+              "estimatedRdps": 1285.09,
+              "raidBuffGiven": 30052.42,
+              "raidBuffTaken": 29141.29,
+              "raidBuffNet": 911.13,
+              "raidBuffAttributionConfidence": "low",
+              "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "limit-break",
+              "name": "Limit Break",
+              "amount": 291771,
+              "hits": 6,
+              "critHits": 0,
+              "directHits": 0,
+              "critDirectHits": 0,
+              "dps": 1149.43,
+              "percent": 14.36,
+              "critRate": 0,
+              "directRate": 0,
+              "critDirectRate": 0,
+              "casts": 0,
+              "cpm": 0,
+              "estimatedRdps": 1149.43,
+              "raidBuffGiven": 0,
+              "raidBuffTaken": 0,
+              "raidBuffNet": 0,
+              "raidBuffAttributionConfidence": "none",
+              "raidBuffAttributionModel": "none"
             },
             {
               "id": "100780E3",
@@ -99942,31 +99976,31 @@
           ],
           "playerHealingWithShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 332581,
+              "hps": 1310.2,
+              "percent": 37.48,
+              "estimatedRhps": 1294.06,
+              "healingBuffGiven": 0,
+              "healingBuffTaken": 4097.19
+            },
+            {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 295883,
               "hps": 1165.63,
-              "percent": 36.31,
+              "percent": 33.34,
               "estimatedRhps": 1152.79,
               "healingBuffGiven": 0,
               "healingBuffTaken": 3258.48
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 258516,
-              "hps": 1018.42,
-              "percent": 31.72,
-              "estimatedRhps": 1002.28,
-              "healingBuffGiven": 0,
-              "healingBuffTaken": 4097.19
             },
             {
               "id": "UNATTRIBUTED_HOT",
               "name": "無法歸屬的持續治療",
               "amount": 111186,
               "hps": 438.02,
-              "percent": 13.64,
+              "percent": 12.53,
               "estimatedRhps": 438.02,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -99974,10 +100008,10 @@
             {
               "id": "10088833",
               "name": "加辣更好吃",
-              "amount": 99714,
-              "hps": 392.82,
-              "percent": 12.24,
-              "estimatedRhps": 413.74,
+              "amount": 98092,
+              "hps": 386.43,
+              "percent": 11.05,
+              "estimatedRhps": 407.35,
               "healingBuffGiven": 5310.19,
               "healingBuffTaken": 0
             },
@@ -99986,7 +100020,7 @@
               "name": "米店老闆",
               "amount": 30617,
               "hps": 120.62,
-              "percent": 3.76,
+              "percent": 3.45,
               "estimatedRhps": 120.32,
               "healingBuffGiven": 0,
               "healingBuffTaken": 75.13
@@ -99996,7 +100030,7 @@
               "name": "傷心小殘",
               "amount": 7896,
               "hps": 31.11,
-              "percent": 0.97,
+              "percent": 0.89,
               "estimatedRhps": 31.11,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -100006,7 +100040,7 @@
               "name": "米米帽帽",
               "amount": 3956,
               "hps": 15.58,
-              "percent": 0.49,
+              "percent": 0.45,
               "estimatedRhps": 15.58,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -100016,7 +100050,7 @@
               "name": "南天晴齊雲",
               "amount": 3654,
               "hps": 14.39,
-              "percent": 0.45,
+              "percent": 0.41,
               "estimatedRhps": 22.75,
               "healingBuffGiven": 2120.61,
               "healingBuffTaken": 0
@@ -100026,7 +100060,7 @@
               "name": "Y韭",
               "amount": 3523,
               "hps": 13.88,
-              "percent": 0.43,
+              "percent": 0.4,
               "estimatedRhps": 13.88,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -100034,10 +100068,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 74065,
+              "percent": 63.98
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
-              "amount": 43311,
-              "percent": 100
+              "amount": 41689,
+              "percent": 36.02
             }
           ],
           "playerDamageTaken": [
@@ -101428,20 +101468,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -101449,11 +101475,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -101463,11 +101489,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -101482,6 +101508,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40002B78",
@@ -104799,11 +104839,11 @@
         {
           "playerId": "10061D82",
           "playerName": "米米帽帽",
-          "damage": 1430776,
+          "damage": 1139005,
           "buffGiven": 81798.58,
           "buffTaken": 86715.48,
           "netGain": -4916.9,
-          "estimatedRdps": 2206.49,
+          "estimatedRdps": 1754.98,
           "attributedDamageEvents": 694,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
@@ -104891,6 +104931,18 @@
           "attributedDamageEvents": 36,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
+        },
+        {
+          "playerId": "limit-break",
+          "playerName": "Limit Break",
+          "damage": 291771,
+          "buffGiven": 0,
+          "buffTaken": 0,
+          "netGain": 0,
+          "estimatedRdps": 451.51,
+          "attributedDamageEvents": 0,
+          "attributionConfidence": "none",
+          "attributionModel": "none"
         },
         {
           "playerId": "E0000000",
@@ -106934,19 +106986,19 @@
         {
           "id": "10061D82",
           "name": "米米帽帽",
-          "amount": 1430776,
-          "hits": 327,
+          "amount": 1139005,
+          "hits": 321,
           "critHits": 110,
           "directHits": 101,
           "critDirectHits": 47,
-          "dps": 2214.1,
-          "percent": 21.66,
-          "critRate": 33.64,
-          "directRate": 30.89,
-          "critDirectRate": 14.37,
+          "dps": 1762.59,
+          "percent": 17.24,
+          "critRate": 34.27,
+          "directRate": 31.46,
+          "critDirectRate": 14.64,
           "casts": 268,
           "cpm": 24.88,
-          "estimatedRdps": 2206.49,
+          "estimatedRdps": 1754.98,
           "raidBuffGiven": 81798.58,
           "raidBuffTaken": 86715.48,
           "raidBuffNet": -4916.9,
@@ -107110,6 +107162,28 @@
           "raidBuffNet": 98522.07,
           "raidBuffAttributionConfidence": "low",
           "raidBuffAttributionModel": "mixed"
+        },
+        {
+          "id": "limit-break",
+          "name": "Limit Break",
+          "amount": 291771,
+          "hits": 6,
+          "critHits": 0,
+          "directHits": 0,
+          "critDirectHits": 0,
+          "dps": 451.51,
+          "percent": 4.42,
+          "critRate": 0,
+          "directRate": 0,
+          "critDirectRate": 0,
+          "casts": 0,
+          "cpm": 0,
+          "estimatedRdps": 451.51,
+          "raidBuffGiven": 0,
+          "raidBuffTaken": 0,
+          "raidBuffNet": 0,
+          "raidBuffAttributionConfidence": "none",
+          "raidBuffAttributionModel": "none"
         },
         {
           "id": "E0000000",
@@ -107374,10 +107448,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1019961,
-          "hps": 1578.37,
-          "percent": 43.93,
-          "estimatedRhps": 1559.96,
+          "amount": 1223933,
+          "hps": 1894.02,
+          "percent": 48.49,
+          "estimatedRhps": 1875.6,
           "healingBuffGiven": 0,
           "healingBuffTaken": 11900.66
         },
@@ -107386,7 +107460,7 @@
           "name": "草莓香草可頌",
           "amount": 593732,
           "hps": 918.79,
-          "percent": 25.57,
+          "percent": 23.52,
           "estimatedRhps": 908.99,
           "healingBuffGiven": 0,
           "healingBuffTaken": 6333.29
@@ -107394,10 +107468,10 @@
         {
           "id": "10088833",
           "name": "加辣更好吃",
-          "amount": 335312,
-          "hps": 518.89,
-          "percent": 14.44,
-          "estimatedRhps": 537.11,
+          "amount": 333690,
+          "hps": 516.38,
+          "percent": 13.22,
+          "estimatedRhps": 534.6,
           "healingBuffGiven": 11775.21,
           "healingBuffTaken": 0
         },
@@ -107406,7 +107480,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 210845,
           "hps": 326.28,
-          "percent": 9.08,
+          "percent": 8.35,
           "estimatedRhps": 326.28,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -107416,7 +107490,7 @@
           "name": "米店老闆",
           "amount": 80822,
           "hps": 125.07,
-          "percent": 3.48,
+          "percent": 3.2,
           "estimatedRhps": 124.95,
           "healingBuffGiven": 0,
           "healingBuffTaken": 75.13
@@ -107426,7 +107500,7 @@
           "name": "Y韭",
           "amount": 33543,
           "hps": 51.91,
-          "percent": 1.44,
+          "percent": 1.33,
           "estimatedRhps": 51.91,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -107436,7 +107510,7 @@
           "name": "傷心小殘",
           "amount": 21157,
           "hps": 32.74,
-          "percent": 0.91,
+          "percent": 0.84,
           "estimatedRhps": 32.74,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -107446,7 +107520,7 @@
           "name": "南天晴齊雲",
           "amount": 17351,
           "hps": 26.85,
-          "percent": 0.75,
+          "percent": 0.69,
           "estimatedRhps": 36.96,
           "healingBuffGiven": 6533.87,
           "healingBuffTaken": 0
@@ -107456,7 +107530,7 @@
           "name": "米米帽帽",
           "amount": 8944,
           "hps": 13.84,
-          "percent": 0.39,
+          "percent": 0.35,
           "estimatedRhps": 13.84,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -107464,22 +107538,22 @@
       ],
       "playerShielding": [
         {
-          "id": "10088833",
-          "name": "加辣更好吃",
-          "amount": 112071,
-          "percent": 68.81
-        },
-        {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 43350,
-          "percent": 26.62
+          "amount": 247322,
+          "percent": 67.72
+        },
+        {
+          "id": "10088833",
+          "name": "加辣更好吃",
+          "amount": 110449,
+          "percent": 30.24
         },
         {
           "id": "1005A7EF",
           "name": "草莓香草可頌",
           "amount": 7440,
-          "percent": 4.57
+          "percent": 2.04
         }
       ],
       "playerDamageTaken": [
@@ -142066,20 +142140,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -142087,11 +142147,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -142101,11 +142161,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -142120,6 +142180,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "40003042",
@@ -164352,7 +164426,7 @@
           "start": "2026-06-16T13:30:10.653Z",
           "end": "2026-06-16T13:32:49.283Z",
           "durationSeconds": 158.63,
-          "eventCount": 1635,
+          "eventCount": 1644,
           "combatEventCount": 1492,
           "playerNames": [
             "南天晴齊雲",
@@ -164366,20 +164440,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -164387,11 +164447,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -164401,11 +164461,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -164420,6 +164480,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003042",
@@ -165003,10 +165077,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 454097,
-              "hps": 2862.62,
-              "percent": 58.75,
-              "estimatedRhps": 2826.28,
+              "amount": 526364,
+              "hps": 3318.19,
+              "percent": 62.27,
+              "estimatedRhps": 3281.85,
               "healingBuffGiven": 0,
               "healingBuffTaken": 5763.91
             },
@@ -165015,7 +165089,7 @@
               "name": "加辣更好吃",
               "amount": 115844,
               "hps": 730.28,
-              "percent": 14.99,
+              "percent": 13.71,
               "estimatedRhps": 755.76,
               "healingBuffGiven": 4042.83,
               "healingBuffTaken": 0
@@ -165025,7 +165099,7 @@
               "name": "草莓香草可頌",
               "amount": 108873,
               "hps": 686.33,
-              "percent": 14.08,
+              "percent": 12.88,
               "estimatedRhps": 678.83,
               "healingBuffGiven": 0,
               "healingBuffTaken": 1190.74
@@ -165035,7 +165109,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 60615,
               "hps": 382.12,
-              "percent": 7.84,
+              "percent": 7.17,
               "estimatedRhps": 382.12,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -165045,7 +165119,7 @@
               "name": "米店老闆",
               "amount": 17263,
               "hps": 108.83,
-              "percent": 2.23,
+              "percent": 2.04,
               "estimatedRhps": 108.83,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -165055,7 +165129,7 @@
               "name": "米米帽帽",
               "amount": 5870,
               "hps": 37,
-              "percent": 0.76,
+              "percent": 0.69,
               "estimatedRhps": 37,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -165065,7 +165139,7 @@
               "name": "南天晴齊雲",
               "amount": 4698,
               "hps": 29.62,
-              "percent": 0.61,
+              "percent": 0.56,
               "estimatedRhps": 47.97,
               "healingBuffGiven": 2911.83,
               "healingBuffTaken": 0
@@ -165075,7 +165149,7 @@
               "name": "Y韭",
               "amount": 3024,
               "hps": 19.06,
-              "percent": 0.39,
+              "percent": 0.36,
               "estimatedRhps": 19.06,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -165085,7 +165159,7 @@
               "name": "傷心小殘",
               "amount": 2702,
               "hps": 17.03,
-              "percent": 0.35,
+              "percent": 0.32,
               "estimatedRhps": 17.03,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -165095,14 +165169,14 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 27720,
-              "percent": 53.36
+              "amount": 99987,
+              "percent": 80.5
             },
             {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 46.64
+              "percent": 19.5
             }
           ],
           "playerDamageTaken": [
@@ -166637,7 +166711,7 @@
           "start": "2026-06-16T13:32:49.283Z",
           "end": "2026-06-16T13:35:05.613Z",
           "durationSeconds": 136.33,
-          "eventCount": 1133,
+          "eventCount": 1146,
           "combatEventCount": 1026,
           "playerNames": [
             "南天晴齊雲",
@@ -166651,20 +166725,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -166672,11 +166732,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -166686,11 +166746,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -166705,6 +166765,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003041",
@@ -167285,10 +167359,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 280461,
-              "hps": 2057.22,
-              "percent": 62.35,
-              "estimatedRhps": 2057.22,
+              "amount": 323679,
+              "hps": 2374.23,
+              "percent": 65.65,
+              "estimatedRhps": 2374.23,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -167297,7 +167371,7 @@
               "name": "加辣更好吃",
               "amount": 70234,
               "hps": 515.18,
-              "percent": 15.61,
+              "percent": 14.25,
               "estimatedRhps": 515.18,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167307,7 +167381,7 @@
               "name": "草莓香草可頌",
               "amount": 53352,
               "hps": 391.34,
-              "percent": 11.86,
+              "percent": 10.82,
               "estimatedRhps": 390.43,
               "healingBuffGiven": 0,
               "healingBuffTaken": 124.7
@@ -167317,7 +167391,7 @@
               "name": "米店老闆",
               "amount": 21321,
               "hps": 156.39,
-              "percent": 4.74,
+              "percent": 4.32,
               "estimatedRhps": 156.39,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167327,7 +167401,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 11851,
               "hps": 86.93,
-              "percent": 2.63,
+              "percent": 2.4,
               "estimatedRhps": 86.93,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167337,7 +167411,7 @@
               "name": "傷心小殘",
               "amount": 3667,
               "hps": 26.9,
-              "percent": 0.82,
+              "percent": 0.74,
               "estimatedRhps": 26.9,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167347,7 +167421,7 @@
               "name": "南天晴齊雲",
               "amount": 3654,
               "hps": 26.8,
-              "percent": 0.81,
+              "percent": 0.74,
               "estimatedRhps": 27.72,
               "healingBuffGiven": 124.7,
               "healingBuffTaken": 0
@@ -167357,7 +167431,7 @@
               "name": "Y韭",
               "amount": 3024,
               "hps": 22.18,
-              "percent": 0.67,
+              "percent": 0.61,
               "estimatedRhps": 22.18,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167367,7 +167441,7 @@
               "name": "米米帽帽",
               "amount": 2236,
               "hps": 16.4,
-              "percent": 0.5,
+              "percent": 0.45,
               "estimatedRhps": 16.4,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -167375,16 +167449,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 57078,
+              "percent": 73.76
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 20306,
-              "percent": 59.43
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 13860,
-              "percent": 40.57
+              "percent": 26.24
             }
           ],
           "playerDamageTaken": [
@@ -168617,20 +168691,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -168638,11 +168698,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -168652,11 +168712,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -168671,6 +168731,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "4000303D",
@@ -173262,10 +173336,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 832097,
-          "hps": 2303.64,
-          "percent": 59.56,
-          "estimatedRhps": 2281.23,
+          "amount": 947582,
+          "hps": 2623.35,
+          "percent": 62.64,
+          "estimatedRhps": 2600.94,
           "healingBuffGiven": 0,
           "healingBuffTaken": 8095.61
         },
@@ -173274,7 +173348,7 @@
           "name": "加辣更好吃",
           "amount": 191134,
           "hps": 529.15,
-          "percent": 13.68,
+          "percent": 12.64,
           "estimatedRhps": 550.84,
           "healingBuffGiven": 7833.7,
           "healingBuffTaken": 0
@@ -173284,7 +173358,7 @@
           "name": "草莓香草可頌",
           "amount": 181369,
           "hps": 502.12,
-          "percent": 12.98,
+          "percent": 11.99,
           "estimatedRhps": 493.11,
           "healingBuffGiven": 0,
           "healingBuffTaken": 3251.61
@@ -173294,7 +173368,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 85361,
           "hps": 236.32,
-          "percent": 6.11,
+          "percent": 5.64,
           "estimatedRhps": 236.32,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -173304,7 +173378,7 @@
           "name": "米店老闆",
           "amount": 63838,
           "hps": 176.73,
-          "percent": 4.57,
+          "percent": 4.22,
           "estimatedRhps": 176.73,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -173314,7 +173388,7 @@
           "name": "Y韭",
           "amount": 12230,
           "hps": 33.86,
-          "percent": 0.88,
+          "percent": 0.81,
           "estimatedRhps": 33.86,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -173324,7 +173398,7 @@
           "name": "米米帽帽",
           "amount": 10858,
           "hps": 30.06,
-          "percent": 0.78,
+          "percent": 0.72,
           "estimatedRhps": 30.06,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -173334,7 +173408,7 @@
           "name": "傷心小殘",
           "amount": 10714,
           "hps": 29.66,
-          "percent": 0.77,
+          "percent": 0.71,
           "estimatedRhps": 29.66,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -173344,7 +173418,7 @@
           "name": "南天晴齊雲",
           "amount": 9579,
           "hps": 26.52,
-          "percent": 0.69,
+          "percent": 0.63,
           "estimatedRhps": 36.25,
           "healingBuffGiven": 3513.52,
           "healingBuffTaken": 0
@@ -173352,16 +173426,16 @@
       ],
       "playerShielding": [
         {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 157065,
+          "percent": 77.91
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 44533,
-          "percent": 51.71
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 41580,
-          "percent": 48.29
+          "percent": 22.09
         }
       ],
       "playerDamageTaken": [
@@ -197418,20 +197492,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -197439,11 +197499,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -197453,11 +197513,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -197472,6 +197532,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "40003144",
@@ -219512,7 +219586,7 @@
           "start": "2026-06-16T13:40:19.720Z",
           "end": "2026-06-16T13:42:58.230Z",
           "durationSeconds": 158.51,
-          "eventCount": 1616,
+          "eventCount": 1629,
           "combatEventCount": 1463,
           "playerNames": [
             "南天晴齊雲",
@@ -219526,20 +219600,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -219547,11 +219607,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -219561,11 +219621,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -219580,6 +219640,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003144",
@@ -220163,10 +220237,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 389679,
-              "hps": 2458.39,
-              "percent": 55.41,
-              "estimatedRhps": 2432.46,
+              "amount": 432064,
+              "hps": 2725.78,
+              "percent": 57.94,
+              "estimatedRhps": 2699.86,
               "healingBuffGiven": 0,
               "healingBuffTaken": 4109.22
             },
@@ -220175,7 +220249,7 @@
               "name": "草莓香草可頌",
               "amount": 120440,
               "hps": 759.83,
-              "percent": 17.13,
+              "percent": 16.15,
               "estimatedRhps": 750.85,
               "healingBuffGiven": 0,
               "healingBuffTaken": 1422.65
@@ -220185,7 +220259,7 @@
               "name": "加辣更好吃",
               "amount": 117966,
               "hps": 744.22,
-              "percent": 16.77,
+              "percent": 15.82,
               "estimatedRhps": 766.8,
               "healingBuffGiven": 3579.91,
               "healingBuffTaken": 0
@@ -220195,7 +220269,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 39556,
               "hps": 249.55,
-              "percent": 5.62,
+              "percent": 5.3,
               "estimatedRhps": 249.55,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -220205,7 +220279,7 @@
               "name": "米店老闆",
               "amount": 20503,
               "hps": 129.35,
-              "percent": 2.92,
+              "percent": 2.75,
               "estimatedRhps": 129.35,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -220215,7 +220289,7 @@
               "name": "傷心小殘",
               "amount": 4632,
               "hps": 29.22,
-              "percent": 0.66,
+              "percent": 0.62,
               "estimatedRhps": 29.22,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -220225,7 +220299,7 @@
               "name": "南天晴齊雲",
               "amount": 4176,
               "hps": 26.35,
-              "percent": 0.59,
+              "percent": 0.56,
               "estimatedRhps": 38.66,
               "healingBuffGiven": 1951.96,
               "healingBuffTaken": 0
@@ -220235,7 +220309,7 @@
               "name": "Y韭",
               "amount": 3232,
               "hps": 20.39,
-              "percent": 0.46,
+              "percent": 0.43,
               "estimatedRhps": 20.39,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -220245,7 +220319,7 @@
               "name": "米米帽帽",
               "amount": 3096,
               "hps": 19.53,
-              "percent": 0.44,
+              "percent": 0.42,
               "estimatedRhps": 19.53,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -220253,22 +220327,22 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 54495,
+              "percent": 66.98
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 62.17
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 12110,
-              "percent": 31.07
+              "percent": 29.78
             },
             {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 2635,
-              "percent": 6.76
+              "percent": 3.24
             }
           ],
           "playerDamageTaken": [
@@ -221797,7 +221871,7 @@
           "start": "2026-06-16T13:42:58.230Z",
           "end": "2026-06-16T13:45:09.510Z",
           "durationSeconds": 131.28,
-          "eventCount": 1067,
+          "eventCount": 1079,
           "combatEventCount": 961,
           "playerNames": [
             "南天晴齊雲",
@@ -221811,20 +221885,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -221832,11 +221892,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -221846,11 +221906,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -221865,6 +221925,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003143",
@@ -222445,10 +222519,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 164792,
-              "hps": 1255.27,
-              "percent": 43.25,
-              "estimatedRhps": 1255.27,
+              "amount": 199748,
+              "hps": 1521.54,
+              "percent": 48.02,
+              "estimatedRhps": 1521.54,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -222457,7 +222531,7 @@
               "name": "加辣更好吃",
               "amount": 71240,
               "hps": 542.66,
-              "percent": 18.7,
+              "percent": 17.13,
               "estimatedRhps": 542.66,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222467,7 +222541,7 @@
               "name": "草莓香草可頌",
               "amount": 59746,
               "hps": 455.1,
-              "percent": 15.68,
+              "percent": 14.36,
               "estimatedRhps": 455.1,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222477,7 +222551,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 47177,
               "hps": 359.36,
-              "percent": 12.38,
+              "percent": 11.34,
               "estimatedRhps": 359.36,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222487,7 +222561,7 @@
               "name": "米店老闆",
               "amount": 24231,
               "hps": 184.57,
-              "percent": 6.36,
+              "percent": 5.82,
               "estimatedRhps": 184.57,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222497,7 +222571,7 @@
               "name": "米米帽帽",
               "amount": 6034,
               "hps": 45.96,
-              "percent": 1.58,
+              "percent": 1.45,
               "estimatedRhps": 45.96,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222507,7 +222581,7 @@
               "name": "Y韭",
               "amount": 4079,
               "hps": 31.07,
-              "percent": 1.07,
+              "percent": 0.98,
               "estimatedRhps": 31.07,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222517,7 +222591,7 @@
               "name": "傷心小殘",
               "amount": 2179,
               "hps": 16.6,
-              "percent": 0.57,
+              "percent": 0.52,
               "estimatedRhps": 16.6,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222527,7 +222601,7 @@
               "name": "南天晴齊雲",
               "amount": 1566,
               "hps": 11.93,
-              "percent": 0.41,
+              "percent": 0.38,
               "estimatedRhps": 11.93,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -222535,16 +222609,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 41011,
+              "percent": 66.88
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 20306,
-              "percent": 77.03
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 6055,
-              "percent": 22.97
+              "percent": 33.12
             }
           ],
           "playerDamageTaken": [
@@ -223771,20 +223845,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -223792,11 +223852,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -223806,11 +223866,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -223825,6 +223885,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "4000313F",
@@ -228520,10 +228594,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 650088,
-          "hps": 1828.3,
-          "percent": 51.61,
-          "estimatedRhps": 1811.29,
+          "amount": 727429,
+          "hps": 2045.81,
+          "percent": 54.41,
+          "estimatedRhps": 2028.8,
           "healingBuffGiven": 0,
           "healingBuffTaken": 6047.22
         },
@@ -228532,7 +228606,7 @@
           "name": "草莓香草可頌",
           "amount": 201040,
           "hps": 565.4,
-          "percent": 15.96,
+          "percent": 15.04,
           "estimatedRhps": 557.37,
           "healingBuffGiven": 0,
           "healingBuffTaken": 2856.13
@@ -228542,7 +228616,7 @@
           "name": "加辣更好吃",
           "amount": 195781,
           "hps": 550.61,
-          "percent": 15.54,
+          "percent": 14.64,
           "estimatedRhps": 569.38,
           "healingBuffGiven": 6673.43,
           "healingBuffTaken": 0
@@ -228552,7 +228626,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 94534,
           "hps": 265.87,
-          "percent": 7.5,
+          "percent": 7.07,
           "estimatedRhps": 265.87,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -228562,7 +228636,7 @@
           "name": "米店老闆",
           "amount": 69055,
           "hps": 194.21,
-          "percent": 5.48,
+          "percent": 5.16,
           "estimatedRhps": 194.21,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -228572,7 +228646,7 @@
           "name": "Y韭",
           "amount": 15893,
           "hps": 44.7,
-          "percent": 1.26,
+          "percent": 1.19,
           "estimatedRhps": 44.7,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -228582,7 +228656,7 @@
           "name": "米米帽帽",
           "amount": 15146,
           "hps": 42.6,
-          "percent": 1.2,
+          "percent": 1.13,
           "estimatedRhps": 42.6,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -228592,7 +228666,7 @@
           "name": "傷心小殘",
           "amount": 10808,
           "hps": 30.4,
-          "percent": 0.86,
+          "percent": 0.81,
           "estimatedRhps": 30.4,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -228602,7 +228676,7 @@
           "name": "南天晴齊雲",
           "amount": 7308,
           "hps": 20.55,
-          "percent": 0.58,
+          "percent": 0.55,
           "estimatedRhps": 26.82,
           "healingBuffGiven": 2229.91,
           "healingBuffTaken": 0
@@ -228610,22 +228684,22 @@
       ],
       "playerShielding": [
         {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 95506,
+          "percent": 66.94
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 44533,
-          "percent": 68.16
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 18165,
-          "percent": 27.8
+          "percent": 31.21
         },
         {
           "id": "1005A7EF",
           "name": "草莓香草可頌",
           "amount": 2635,
-          "percent": 4.03
+          "percent": 1.85
         }
       ],
       "playerDamageTaken": [
@@ -252068,20 +252142,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -252089,11 +252149,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -252103,11 +252163,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -252122,6 +252182,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "400031CB",
@@ -279300,8 +279374,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003411",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -279313,8 +279387,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "4000340F",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -279326,8 +279400,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003410",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -279339,8 +279413,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003413",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -279352,8 +279426,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003412",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -279365,8 +279439,8 @@
         {
           "timestamp": "2026-06-16T13:54:30.084Z",
           "offsetSeconds": 459.37,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003414",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -284179,7 +284253,7 @@
           "start": "2026-06-16T13:46:50.717Z",
           "end": "2026-06-16T13:49:22.977Z",
           "durationSeconds": 152.26,
-          "eventCount": 1554,
+          "eventCount": 1567,
           "combatEventCount": 1396,
           "playerNames": [
             "南天晴齊雲",
@@ -284193,20 +284267,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -284214,11 +284274,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -284228,11 +284288,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -284247,6 +284307,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "400031D1",
@@ -284830,10 +284904,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 475527,
-              "hps": 3123.12,
-              "percent": 61.7,
-              "estimatedRhps": 3081.94,
+              "amount": 552316,
+              "hps": 3627.45,
+              "percent": 65.17,
+              "estimatedRhps": 3586.27,
               "healingBuffGiven": 0,
               "healingBuffTaken": 6271.04
             },
@@ -284842,7 +284916,7 @@
               "name": "草莓香草可頌",
               "amount": 144583,
               "hps": 949.58,
-              "percent": 18.76,
+              "percent": 17.06,
               "estimatedRhps": 938.79,
               "healingBuffGiven": 0,
               "healingBuffTaken": 1643.09
@@ -284852,7 +284926,7 @@
               "name": "加辣更好吃",
               "amount": 86814,
               "hps": 570.17,
-              "percent": 11.26,
+              "percent": 10.24,
               "estimatedRhps": 598.99,
               "healingBuffGiven": 4388.74,
               "healingBuffTaken": 0
@@ -284862,7 +284936,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 33045,
               "hps": 217.03,
-              "percent": 4.29,
+              "percent": 3.9,
               "estimatedRhps": 217.03,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -284872,7 +284946,7 @@
               "name": "米店老闆",
               "amount": 18534,
               "hps": 121.73,
-              "percent": 2.4,
+              "percent": 2.19,
               "estimatedRhps": 121.73,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -284882,7 +284956,7 @@
               "name": "Y韭",
               "amount": 3213,
               "hps": 21.1,
-              "percent": 0.42,
+              "percent": 0.38,
               "estimatedRhps": 21.1,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -284892,7 +284966,7 @@
               "name": "米米帽帽",
               "amount": 3096,
               "hps": 20.33,
-              "percent": 0.4,
+              "percent": 0.37,
               "estimatedRhps": 20.33,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -284902,7 +284976,7 @@
               "name": "傷心小殘",
               "amount": 3088,
               "hps": 20.28,
-              "percent": 0.4,
+              "percent": 0.36,
               "estimatedRhps": 20.28,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -284912,7 +284986,7 @@
               "name": "南天晴齊雲",
               "amount": 2834,
               "hps": 18.61,
-              "percent": 0.37,
+              "percent": 0.33,
               "estimatedRhps": 41.77,
               "healingBuffGiven": 3525.39,
               "healingBuffTaken": 0
@@ -284920,16 +284994,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 99445,
+              "percent": 80.41
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 51.68
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 22656,
-              "percent": 48.32
+              "percent": 19.59
             }
           ],
           "playerDamageTaken": [
@@ -286422,7 +286496,7 @@
           "start": "2026-06-16T13:49:22.977Z",
           "end": "2026-06-16T13:51:35.427Z",
           "durationSeconds": 132.45,
-          "eventCount": 1110,
+          "eventCount": 1122,
           "combatEventCount": 1009,
           "playerNames": [
             "南天晴齊雲",
@@ -286436,20 +286510,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -286457,11 +286517,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -286471,11 +286531,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -286490,6 +286550,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "400031D0",
@@ -287070,10 +287144,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 185440,
-              "hps": 1400.08,
-              "percent": 46.14,
-              "estimatedRhps": 1400.08,
+              "amount": 229460,
+              "hps": 1732.43,
+              "percent": 51.45,
+              "estimatedRhps": 1732.43,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -287082,7 +287156,7 @@
               "name": "草莓香草可頌",
               "amount": 71446,
               "hps": 539.42,
-              "percent": 17.78,
+              "percent": 16.02,
               "estimatedRhps": 539.42,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287092,7 +287166,7 @@
               "name": "加辣更好吃",
               "amount": 65409,
               "hps": 493.84,
-              "percent": 16.27,
+              "percent": 14.67,
               "estimatedRhps": 493.84,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287102,7 +287176,7 @@
               "name": "米店老闆",
               "amount": 35015,
               "hps": 264.36,
-              "percent": 8.71,
+              "percent": 7.85,
               "estimatedRhps": 264.36,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287112,7 +287186,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 29258,
               "hps": 220.9,
-              "percent": 7.28,
+              "percent": 6.56,
               "estimatedRhps": 220.9,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287122,7 +287196,7 @@
               "name": "米米帽帽",
               "amount": 7248,
               "hps": 54.72,
-              "percent": 1.8,
+              "percent": 1.63,
               "estimatedRhps": 54.72,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287132,7 +287206,7 @@
               "name": "傷心小殘",
               "amount": 3088,
               "hps": 23.31,
-              "percent": 0.77,
+              "percent": 0.69,
               "estimatedRhps": 23.31,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287142,7 +287216,7 @@
               "name": "Y韭",
               "amount": 2559,
               "hps": 19.32,
-              "percent": 0.64,
+              "percent": 0.57,
               "estimatedRhps": 19.32,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287152,7 +287226,7 @@
               "name": "南天晴齊雲",
               "amount": 2472,
               "hps": 18.66,
-              "percent": 0.62,
+              "percent": 0.55,
               "estimatedRhps": 18.66,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -287160,16 +287234,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 55348,
+              "percent": 73.68
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 19772,
-              "percent": 63.58
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 11328,
-              "percent": 36.42
+              "percent": 26.32
             }
           ],
           "playerDamageTaken": [
@@ -288382,7 +288456,7 @@
           "start": "2026-06-16T13:51:35.427Z",
           "end": "2026-06-16T13:55:52.507Z",
           "durationSeconds": 257.08,
-          "eventCount": 1982,
+          "eventCount": 1985,
           "combatEventCount": 1750,
           "playerNames": [
             "南天晴齊雲",
@@ -288396,20 +288470,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -288417,11 +288477,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -288431,11 +288491,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -288450,6 +288510,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "400031CC",
@@ -288482,11 +288556,11 @@
             {
               "playerId": "10061D82",
               "playerName": "米米帽帽",
-              "damage": 606310,
+              "damage": 325831,
               "buffGiven": 29183.11,
               "buffTaken": 27334.09,
               "netGain": 1849.02,
-              "estimatedRdps": 2365.64,
+              "estimatedRdps": 1274.62,
               "attributedDamageEvents": 256,
               "attributionConfidence": "low",
               "attributionModel": "mixed"
@@ -288502,6 +288576,18 @@
               "attributedDamageEvents": 266,
               "attributionConfidence": "low",
               "attributionModel": "mixed"
+            },
+            {
+              "playerId": "limit-break",
+              "playerName": "Limit Break",
+              "damage": 280479,
+              "buffGiven": 0,
+              "buffTaken": 0,
+              "netGain": 0,
+              "estimatedRdps": 1091.02,
+              "attributedDamageEvents": 0,
+              "attributionConfidence": "none",
+              "attributionModel": "none"
             },
             {
               "playerId": "100780E3",
@@ -289003,24 +289089,46 @@
             {
               "id": "10061D82",
               "name": "米米帽帽",
-              "amount": 606310,
-              "hits": 101,
+              "amount": 325831,
+              "hits": 95,
               "critHits": 38,
               "directHits": 33,
               "critDirectHits": 14,
-              "dps": 2358.45,
-              "percent": 30.16,
-              "critRate": 37.62,
-              "directRate": 32.67,
-              "critDirectRate": 13.86,
+              "dps": 1267.43,
+              "percent": 16.21,
+              "critRate": 40,
+              "directRate": 34.74,
+              "critDirectRate": 14.74,
               "casts": 94,
               "cpm": 21.94,
-              "estimatedRdps": 2365.64,
+              "estimatedRdps": 1274.62,
               "raidBuffGiven": 29183.11,
               "raidBuffTaken": 27334.09,
               "raidBuffNet": 1849.02,
               "raidBuffAttributionConfidence": "low",
               "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "limit-break",
+              "name": "Limit Break",
+              "amount": 280479,
+              "hits": 6,
+              "critHits": 0,
+              "directHits": 0,
+              "critDirectHits": 0,
+              "dps": 1091.02,
+              "percent": 13.95,
+              "critRate": 0,
+              "directRate": 0,
+              "critDirectRate": 0,
+              "casts": 0,
+              "cpm": 0,
+              "estimatedRdps": 1091.02,
+              "raidBuffGiven": 0,
+              "raidBuffTaken": 0,
+              "raidBuffNet": 0,
+              "raidBuffAttributionConfidence": "none",
+              "raidBuffAttributionModel": "none"
             },
             {
               "id": "10088980",
@@ -289443,10 +289551,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 374595,
-              "hps": 1457.11,
-              "percent": 45.43,
-              "estimatedRhps": 1434.03,
+              "amount": 385923,
+              "hps": 1501.18,
+              "percent": 46.17,
+              "estimatedRhps": 1478.1,
               "healingBuffGiven": 0,
               "healingBuffTaken": 5933.81
             },
@@ -289455,7 +289563,7 @@
               "name": "草莓香草可頌",
               "amount": 280602,
               "hps": 1091.5,
-              "percent": 34.03,
+              "percent": 33.57,
               "estimatedRhps": 1073.09,
               "healingBuffGiven": 0,
               "healingBuffTaken": 4732.36
@@ -289465,7 +289573,7 @@
               "name": "加辣更好吃",
               "amount": 78928,
               "hps": 307.02,
-              "percent": 9.57,
+              "percent": 9.44,
               "estimatedRhps": 342.72,
               "healingBuffGiven": 9179.61,
               "healingBuffTaken": 0
@@ -289475,7 +289583,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 66335,
               "hps": 258.03,
-              "percent": 8.05,
+              "percent": 7.94,
               "estimatedRhps": 258.03,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -289485,7 +289593,7 @@
               "name": "傷心小殘",
               "amount": 6507,
               "hps": 25.31,
-              "percent": 0.79,
+              "percent": 0.78,
               "estimatedRhps": 25.31,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -289495,7 +289603,7 @@
               "name": "米店老闆",
               "amount": 5466,
               "hps": 21.26,
-              "percent": 0.66,
+              "percent": 0.65,
               "estimatedRhps": 21.26,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -289505,7 +289613,7 @@
               "name": "米米帽帽",
               "amount": 5462,
               "hps": 21.25,
-              "percent": 0.66,
+              "percent": 0.65,
               "estimatedRhps": 21.25,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -289525,7 +289633,7 @@
               "name": "Y韭",
               "amount": 3213,
               "hps": 12.5,
-              "percent": 0.39,
+              "percent": 0.38,
               "estimatedRhps": 12.5,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -289536,13 +289644,13 @@
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 40556,
-              "percent": 95.22
+              "percent": 75.22
             },
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 2035,
-              "percent": 4.78
+              "amount": 13363,
+              "percent": 24.78
             }
           ],
           "playerDamageTaken": [
@@ -290933,20 +291041,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -290954,11 +291048,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -290968,11 +291062,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -290987,6 +291081,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "400031CB",
@@ -292899,11 +293007,11 @@
         {
           "playerId": "10061D82",
           "playerName": "米米帽帽",
-          "damage": 1375736,
+          "damage": 1095257,
           "buffGiven": 86331.75,
           "buffTaken": 85015.76,
           "netGain": 1315.99,
-          "estimatedRdps": 2222.02,
+          "estimatedRdps": 1769.44,
           "attributedDamageEvents": 705,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
@@ -292991,6 +293099,18 @@
           "attributedDamageEvents": 35,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
+        },
+        {
+          "playerId": "limit-break",
+          "playerName": "Limit Break",
+          "damage": 280479,
+          "buffGiven": 0,
+          "buffTaken": 0,
+          "netGain": 0,
+          "estimatedRdps": 452.58,
+          "attributedDamageEvents": 0,
+          "attributionConfidence": "none",
+          "attributionModel": "none"
         },
         {
           "playerId": "E0000000",
@@ -293915,19 +294035,19 @@
         {
           "id": "10061D82",
           "name": "米米帽帽",
-          "amount": 1375736,
-          "hits": 314,
+          "amount": 1095257,
+          "hits": 308,
           "critHits": 112,
           "directHits": 117,
           "critDirectHits": 44,
-          "dps": 2219.9,
-          "percent": 21.32,
-          "critRate": 35.67,
-          "directRate": 37.26,
-          "critDirectRate": 14.01,
+          "dps": 1767.31,
+          "percent": 16.98,
+          "critRate": 36.36,
+          "directRate": 37.99,
+          "critDirectRate": 14.29,
           "casts": 260,
           "cpm": 25.17,
-          "estimatedRdps": 2222.02,
+          "estimatedRdps": 1769.44,
           "raidBuffGiven": 86331.75,
           "raidBuffTaken": 85015.76,
           "raidBuffNet": 1315.99,
@@ -294091,6 +294211,28 @@
           "raidBuffNet": 106474.47,
           "raidBuffAttributionConfidence": "low",
           "raidBuffAttributionModel": "mixed"
+        },
+        {
+          "id": "limit-break",
+          "name": "Limit Break",
+          "amount": 280479,
+          "hits": 6,
+          "critHits": 0,
+          "directHits": 0,
+          "critDirectHits": 0,
+          "dps": 452.58,
+          "percent": 4.35,
+          "critRate": 0,
+          "directRate": 0,
+          "critDirectRate": 0,
+          "casts": 0,
+          "cpm": 0,
+          "estimatedRdps": 452.58,
+          "raidBuffGiven": 0,
+          "raidBuffTaken": 0,
+          "raidBuffNet": 0,
+          "raidBuffAttributionConfidence": "none",
+          "raidBuffAttributionModel": "none"
         },
         {
           "id": "E0000000",
@@ -294355,10 +294497,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1160280,
-          "hps": 1872.23,
-          "percent": 52.29,
-          "estimatedRhps": 1849.37,
+          "amount": 1292417,
+          "hps": 2085.45,
+          "percent": 54.97,
+          "estimatedRhps": 2062.58,
           "healingBuffGiven": 0,
           "healingBuffTaken": 14172.86
         },
@@ -294367,7 +294509,7 @@
           "name": "草莓香草可頌",
           "amount": 515878,
           "hps": 832.42,
-          "percent": 23.25,
+          "percent": 21.94,
           "estimatedRhps": 820.58,
           "healingBuffGiven": 0,
           "healingBuffTaken": 7337.41
@@ -294377,7 +294519,7 @@
           "name": "加辣更好吃",
           "amount": 277154,
           "hps": 447.22,
-          "percent": 12.49,
+          "percent": 11.79,
           "estimatedRhps": 472.89,
           "healingBuffGiven": 15908.22,
           "healingBuffTaken": 0
@@ -294387,7 +294529,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 139788,
           "hps": 225.56,
-          "percent": 6.3,
+          "percent": 5.95,
           "estimatedRhps": 225.56,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -294397,7 +294539,7 @@
           "name": "米店老闆",
           "amount": 77085,
           "hps": 124.38,
-          "percent": 3.47,
+          "percent": 3.28,
           "estimatedRhps": 124.38,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -294407,7 +294549,7 @@
           "name": "米米帽帽",
           "amount": 16114,
           "hps": 26,
-          "percent": 0.73,
+          "percent": 0.69,
           "estimatedRhps": 26,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -294417,7 +294559,7 @@
           "name": "傷心小殘",
           "amount": 13455,
           "hps": 21.71,
-          "percent": 0.61,
+          "percent": 0.57,
           "estimatedRhps": 21.71,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -294427,7 +294569,7 @@
           "name": "Y韭",
           "amount": 9552,
           "hps": 15.41,
-          "percent": 0.43,
+          "percent": 0.41,
           "estimatedRhps": 15.41,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -294437,7 +294579,7 @@
           "name": "南天晴齊雲",
           "amount": 9482,
           "hps": 15.3,
-          "percent": 0.43,
+          "percent": 0.4,
           "estimatedRhps": 24.34,
           "healingBuffGiven": 5602.04,
           "healingBuffTaken": 0
@@ -294445,16 +294587,16 @@
       ],
       "playerShielding": [
         {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 168156,
+          "percent": 61.35
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 105925,
-          "percent": 74.62
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 36019,
-          "percent": 25.38
+          "percent": 38.65
         }
       ],
       "playerDamageTaken": [
@@ -327800,20 +327942,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -327821,11 +327949,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -327835,11 +327963,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -327854,6 +327982,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "4000371D",
@@ -355209,8 +355351,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A7D",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -355222,8 +355364,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A7F",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -355235,8 +355377,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A7E",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -355248,8 +355390,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A81",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -355261,8 +355403,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A80",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -355274,8 +355416,8 @@
         {
           "timestamp": "2026-06-16T14:06:02.639Z",
           "offsetSeconds": 467.78,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003A82",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -359207,7 +359349,7 @@
           "start": "2026-06-16T13:58:14.864Z",
           "end": "2026-06-16T14:00:48.254Z",
           "durationSeconds": 153.39,
-          "eventCount": 1634,
+          "eventCount": 1641,
           "combatEventCount": 1471,
           "playerNames": [
             "南天晴齊雲",
@@ -359221,20 +359363,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -359242,11 +359370,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -359256,11 +359384,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -359275,6 +359403,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003723",
@@ -359858,10 +360000,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 410418,
-              "hps": 2675.65,
-              "percent": 55.67,
-              "estimatedRhps": 2629.38,
+              "amount": 436528,
+              "hps": 2845.87,
+              "percent": 57.19,
+              "estimatedRhps": 2799.6,
               "healingBuffGiven": 0,
               "healingBuffTaken": 7097.86
             },
@@ -359870,7 +360012,7 @@
               "name": "草莓香草可頌",
               "amount": 150440,
               "hps": 980.77,
-              "percent": 20.41,
+              "percent": 19.71,
               "estimatedRhps": 960.61,
               "healingBuffGiven": 0,
               "healingBuffTaken": 3091.42
@@ -359880,7 +360022,7 @@
               "name": "加辣更好吃",
               "amount": 94977,
               "hps": 619.19,
-              "percent": 12.88,
+              "percent": 12.44,
               "estimatedRhps": 672.71,
               "healingBuffGiven": 8209.41,
               "healingBuffTaken": 0
@@ -359890,7 +360032,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 55536,
               "hps": 362.06,
-              "percent": 7.53,
+              "percent": 7.28,
               "estimatedRhps": 362.06,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -359900,7 +360042,7 @@
               "name": "米店老闆",
               "amount": 14399,
               "hps": 93.87,
-              "percent": 1.95,
+              "percent": 1.89,
               "estimatedRhps": 93.87,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -359910,7 +360052,7 @@
               "name": "南天晴齊雲",
               "amount": 3654,
               "hps": 23.82,
-              "percent": 0.5,
+              "percent": 0.48,
               "estimatedRhps": 36.73,
               "healingBuffGiven": 1979.87,
               "healingBuffTaken": 0
@@ -359920,7 +360062,7 @@
               "name": "傷心小殘",
               "amount": 3088,
               "hps": 20.13,
-              "percent": 0.42,
+              "percent": 0.4,
               "estimatedRhps": 20.13,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -359930,7 +360072,7 @@
               "name": "Y韭",
               "amount": 2835,
               "hps": 18.48,
-              "percent": 0.38,
+              "percent": 0.37,
               "estimatedRhps": 18.48,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -359940,7 +360082,7 @@
               "name": "米米帽帽",
               "amount": 1848,
               "hps": 12.05,
-              "percent": 0.25,
+              "percent": 0.24,
               "estimatedRhps": 12.05,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -359948,16 +360090,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 33570,
+              "percent": 58.35
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 23960,
-              "percent": 76.26
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 7460,
-              "percent": 23.74
+              "percent": 41.65
             }
           ],
           "playerDamageTaken": [
@@ -361500,20 +361642,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -361521,11 +361649,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -361535,11 +361663,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -361554,6 +361682,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003722",
@@ -363546,7 +363688,7 @@
           "start": "2026-06-16T14:03:02.024Z",
           "end": "2026-06-16T14:07:23.664Z",
           "durationSeconds": 261.64,
-          "eventCount": 1895,
+          "eventCount": 1912,
           "combatEventCount": 1627,
           "playerNames": [
             "南天晴齊雲",
@@ -363560,20 +363702,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -363581,11 +363709,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -363595,11 +363723,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -363614,6 +363742,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "4000371E",
@@ -363644,18 +363786,6 @@
           "phases": [],
           "raidBuffContributions": [
             {
-              "playerId": "10061D82",
-              "playerName": "米米帽帽",
-              "damage": 633252,
-              "buffGiven": 22777.46,
-              "buffTaken": 21532.02,
-              "netGain": 1245.44,
-              "estimatedRdps": 2425.08,
-              "attributedDamageEvents": 205,
-              "attributionConfidence": "low",
-              "attributionModel": "mixed"
-            },
-            {
               "playerId": "1004BEF8",
               "playerName": "傷心小殘",
               "damage": 367158,
@@ -363664,6 +363794,30 @@
               "netGain": 1831.68,
               "estimatedRdps": 1410.3,
               "attributedDamageEvents": 195,
+              "attributionConfidence": "low",
+              "attributionModel": "mixed"
+            },
+            {
+              "playerId": "limit-break",
+              "playerName": "Limit Break",
+              "damage": 331909,
+              "buffGiven": 0,
+              "buffTaken": 0,
+              "netGain": 0,
+              "estimatedRdps": 1268.57,
+              "attributedDamageEvents": 0,
+              "attributionConfidence": "none",
+              "attributionModel": "none"
+            },
+            {
+              "playerId": "10061D82",
+              "playerName": "米米帽帽",
+              "damage": 301343,
+              "buffGiven": 22777.46,
+              "buffTaken": 21532.02,
+              "netGain": 1245.44,
+              "estimatedRdps": 1156.51,
+              "attributedDamageEvents": 205,
               "attributionConfidence": "low",
               "attributionModel": "mixed"
             },
@@ -364367,28 +364521,6 @@
           ],
           "playerDamage": [
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "amount": 633252,
-              "hits": 96,
-              "critHits": 20,
-              "directHits": 34,
-              "critDirectHits": 6,
-              "dps": 2420.32,
-              "percent": 31.38,
-              "critRate": 20.83,
-              "directRate": 35.42,
-              "critDirectRate": 6.25,
-              "casts": 87,
-              "cpm": 19.95,
-              "estimatedRdps": 2425.08,
-              "raidBuffGiven": 22777.46,
-              "raidBuffTaken": 21532.02,
-              "raidBuffNet": 1245.44,
-              "raidBuffAttributionConfidence": "low",
-              "raidBuffAttributionModel": "mixed"
-            },
-            {
               "id": "1004BEF8",
               "name": "傷心小殘",
               "amount": 367158,
@@ -364407,6 +364539,50 @@
               "raidBuffGiven": 22036.25,
               "raidBuffTaken": 20204.57,
               "raidBuffNet": 1831.68,
+              "raidBuffAttributionConfidence": "low",
+              "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "limit-break",
+              "name": "Limit Break",
+              "amount": 331909,
+              "hits": 6,
+              "critHits": 0,
+              "directHits": 0,
+              "critDirectHits": 0,
+              "dps": 1268.57,
+              "percent": 16.45,
+              "critRate": 0,
+              "directRate": 0,
+              "critDirectRate": 0,
+              "casts": 0,
+              "cpm": 0,
+              "estimatedRdps": 1268.57,
+              "raidBuffGiven": 0,
+              "raidBuffTaken": 0,
+              "raidBuffNet": 0,
+              "raidBuffAttributionConfidence": "none",
+              "raidBuffAttributionModel": "none"
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 301343,
+              "hits": 90,
+              "critHits": 20,
+              "directHits": 34,
+              "critDirectHits": 6,
+              "dps": 1151.75,
+              "percent": 14.93,
+              "critRate": 22.22,
+              "directRate": 37.78,
+              "critDirectRate": 6.67,
+              "casts": 87,
+              "cpm": 19.95,
+              "estimatedRdps": 1156.51,
+              "raidBuffGiven": 22777.46,
+              "raidBuffTaken": 21532.02,
+              "raidBuffNet": 1245.44,
               "raidBuffAttributionConfidence": "low",
               "raidBuffAttributionModel": "mixed"
             },
@@ -364809,10 +364985,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 415401,
-              "hps": 1587.68,
-              "percent": 45.07,
-              "estimatedRhps": 1555.92,
+              "amount": 440615,
+              "hps": 1684.05,
+              "percent": 46.53,
+              "estimatedRhps": 1652.29,
               "healingBuffGiven": 0,
               "healingBuffTaken": 8309.99
             },
@@ -364821,7 +364997,7 @@
               "name": "草莓香草可頌",
               "amount": 274243,
               "hps": 1048.17,
-              "percent": 29.76,
+              "percent": 28.96,
               "estimatedRhps": 1034.11,
               "healingBuffGiven": 0,
               "healingBuffTaken": 3678.3
@@ -364831,7 +365007,7 @@
               "name": "加辣更好吃",
               "amount": 124269,
               "hps": 474.96,
-              "percent": 13.48,
+              "percent": 13.12,
               "estimatedRhps": 513.77,
               "healingBuffGiven": 10153.33,
               "healingBuffTaken": 0
@@ -364841,7 +365017,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 63067,
               "hps": 241.04,
-              "percent": 6.84,
+              "percent": 6.66,
               "estimatedRhps": 241.04,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -364851,7 +365027,7 @@
               "name": "米店老闆",
               "amount": 24208,
               "hps": 92.52,
-              "percent": 2.63,
+              "percent": 2.56,
               "estimatedRhps": 92.52,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -364861,7 +365037,7 @@
               "name": "傷心小殘",
               "amount": 9194,
               "hps": 35.14,
-              "percent": 1,
+              "percent": 0.97,
               "estimatedRhps": 35.14,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -364871,7 +365047,7 @@
               "name": "米米帽帽",
               "amount": 3968,
               "hps": 15.17,
-              "percent": 0.43,
+              "percent": 0.42,
               "estimatedRhps": 15.17,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -364881,7 +365057,7 @@
               "name": "南天晴齊雲",
               "amount": 3714,
               "hps": 14.2,
-              "percent": 0.4,
+              "percent": 0.39,
               "estimatedRhps": 21.21,
               "healingBuffGiven": 1834.96,
               "healingBuffTaken": 0
@@ -364891,7 +365067,7 @@
               "name": "Y韭",
               "amount": 3591,
               "hps": 13.72,
-              "percent": 0.39,
+              "percent": 0.38,
               "estimatedRhps": 13.72,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -364902,19 +365078,19 @@
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 47920,
-              "percent": 85.99
+              "percent": 59.2
+            },
+            {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 28944,
+              "percent": 35.76
             },
             {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 4080,
-              "percent": 7.32
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 3730,
-              "percent": 6.69
+              "percent": 5.04
             }
           ],
           "playerDamageTaken": [
@@ -366261,7 +366437,7 @@
           "start": "2026-06-16T14:07:23.664Z",
           "end": "2026-06-16T14:08:49.914Z",
           "durationSeconds": 86.25,
-          "eventCount": 425,
+          "eventCount": 432,
           "combatEventCount": 376,
           "playerNames": [
             "南天晴齊雲",
@@ -366275,20 +366451,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -366296,11 +366458,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -366310,11 +366472,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -366329,6 +366491,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "4000371D",
@@ -367442,10 +367618,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 100444,
-              "hps": 1164.57,
-              "percent": 49.55,
-              "estimatedRhps": 1120.91,
+              "amount": 126554,
+              "hps": 1467.29,
+              "percent": 55.31,
+              "estimatedRhps": 1423.63,
               "healingBuffGiven": 0,
               "healingBuffTaken": 3765.65
             },
@@ -367454,7 +367630,7 @@
               "name": "加辣更好吃",
               "amount": 58717,
               "hps": 680.78,
-              "percent": 28.97,
+              "percent": 25.66,
               "estimatedRhps": 710.38,
               "healingBuffGiven": 2553.39,
               "healingBuffTaken": 0
@@ -367464,7 +367640,7 @@
               "name": "草莓香草可頌",
               "amount": 22327,
               "hps": 258.86,
-              "percent": 11.01,
+              "percent": 9.76,
               "estimatedRhps": 251.25,
               "healingBuffGiven": 0,
               "healingBuffTaken": 656.35
@@ -367474,7 +367650,7 @@
               "name": "米店老闆",
               "amount": 10326,
               "hps": 119.72,
-              "percent": 5.09,
+              "percent": 4.51,
               "estimatedRhps": 119.72,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -367484,7 +367660,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 8788,
               "hps": 101.89,
-              "percent": 4.34,
+              "percent": 3.84,
               "estimatedRhps": 101.89,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -367494,7 +367670,7 @@
               "name": "南天晴齊雲",
               "amount": 1566,
               "hps": 18.16,
-              "percent": 0.77,
+              "percent": 0.68,
               "estimatedRhps": 39.82,
               "healingBuffGiven": 1868.61,
               "healingBuffTaken": 0
@@ -367504,7 +367680,7 @@
               "name": "傷心小殘",
               "amount": 193,
               "hps": 2.24,
-              "percent": 0.1,
+              "percent": 0.08,
               "estimatedRhps": 2.24,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -367514,7 +367690,7 @@
               "name": "Y韭",
               "amount": 189,
               "hps": 2.19,
-              "percent": 0.09,
+              "percent": 0.08,
               "estimatedRhps": 2.19,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -367524,7 +367700,7 @@
               "name": "米米帽帽",
               "amount": 154,
               "hps": 1.79,
-              "percent": 0.08,
+              "percent": 0.07,
               "estimatedRhps": 1.79,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -367532,16 +367708,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 29239,
+              "percent": 58.08
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 21103,
-              "percent": 87.09
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 3129,
-              "percent": 12.91
+              "percent": 41.92
             }
           ],
           "playerDamageTaken": [
@@ -368622,11 +368798,11 @@
         {
           "playerId": "10061D82",
           "playerName": "米米帽帽",
-          "damage": 1369083,
+          "damage": 1037174,
           "buffGiven": 79396.9,
           "buffTaken": 77741.43,
           "netGain": 1655.47,
-          "estimatedRdps": 2158.47,
+          "estimatedRdps": 1635.82,
           "attributedDamageEvents": 646,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
@@ -368714,6 +368890,18 @@
           "attributedDamageEvents": 47,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
+        },
+        {
+          "playerId": "limit-break",
+          "playerName": "Limit Break",
+          "damage": 331909,
+          "buffGiven": 0,
+          "buffTaken": 0,
+          "netGain": 0,
+          "estimatedRdps": 522.65,
+          "attributedDamageEvents": 0,
+          "attributionConfidence": "none",
+          "attributionModel": "none"
         },
         {
           "playerId": "E0000000",
@@ -370014,19 +370202,19 @@
         {
           "id": "10061D82",
           "name": "米米帽帽",
-          "amount": 1369083,
-          "hits": 303,
+          "amount": 1037174,
+          "hits": 297,
           "critHits": 93,
           "directHits": 108,
           "critDirectHits": 33,
-          "dps": 2155.87,
-          "percent": 21.96,
-          "critRate": 30.69,
-          "directRate": 35.64,
-          "critDirectRate": 10.89,
+          "dps": 1633.22,
+          "percent": 16.64,
+          "critRate": 31.31,
+          "directRate": 36.36,
+          "critDirectRate": 11.11,
           "casts": 254,
           "cpm": 24,
-          "estimatedRdps": 2158.47,
+          "estimatedRdps": 1635.82,
           "raidBuffGiven": 79396.9,
           "raidBuffTaken": 77741.43,
           "raidBuffNet": 1655.47,
@@ -370168,6 +370356,28 @@
           "raidBuffNet": -25479.93,
           "raidBuffAttributionConfidence": "low",
           "raidBuffAttributionModel": "mixed"
+        },
+        {
+          "id": "limit-break",
+          "name": "Limit Break",
+          "amount": 331909,
+          "hits": 6,
+          "critHits": 0,
+          "directHits": 0,
+          "critDirectHits": 0,
+          "dps": 522.65,
+          "percent": 5.32,
+          "critRate": 0,
+          "directRate": 0,
+          "critDirectRate": 0,
+          "casts": 0,
+          "cpm": 0,
+          "estimatedRdps": 522.65,
+          "raidBuffGiven": 0,
+          "raidBuffTaken": 0,
+          "raidBuffNet": 0,
+          "raidBuffAttributionConfidence": "none",
+          "raidBuffAttributionModel": "none"
         },
         {
           "id": "1004F34F",
@@ -370454,10 +370664,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1106554,
-          "hps": 1742.47,
-          "percent": 48.9,
-          "estimatedRhps": 1710.38,
+          "amount": 1183988,
+          "hps": 1864.4,
+          "percent": 50.59,
+          "estimatedRhps": 1832.31,
           "healingBuffGiven": 0,
           "healingBuffTaken": 20376.66
         },
@@ -370466,7 +370676,7 @@
           "name": "草莓香草可頌",
           "amount": 517178,
           "hps": 814.39,
-          "percent": 22.85,
+          "percent": 22.1,
           "estimatedRhps": 802.37,
           "healingBuffGiven": 0,
           "healingBuffTaken": 7635.57
@@ -370476,7 +370686,7 @@
           "name": "加辣更好吃",
           "amount": 344140,
           "hps": 541.91,
-          "percent": 15.21,
+          "percent": 14.7,
           "estimatedRhps": 577.07,
           "healingBuffGiven": 22328.8,
           "healingBuffTaken": 0
@@ -370486,7 +370696,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 173085,
           "hps": 272.55,
-          "percent": 7.65,
+          "percent": 7.4,
           "estimatedRhps": 272.55,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -370496,7 +370706,7 @@
           "name": "米店老闆",
           "amount": 70963,
           "hps": 111.74,
-          "percent": 3.14,
+          "percent": 3.03,
           "estimatedRhps": 111.74,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -370506,7 +370716,7 @@
           "name": "傷心小殘",
           "amount": 16593,
           "hps": 26.13,
-          "percent": 0.73,
+          "percent": 0.71,
           "estimatedRhps": 26.13,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -370516,7 +370726,7 @@
           "name": "南天晴齊雲",
           "amount": 13583,
           "hps": 21.39,
-          "percent": 0.6,
+          "percent": 0.58,
           "estimatedRhps": 30.34,
           "healingBuffGiven": 5683.43,
           "healingBuffTaken": 0
@@ -370526,7 +370736,7 @@
           "name": "Y韭",
           "amount": 11340,
           "hps": 17.86,
-          "percent": 0.5,
+          "percent": 0.48,
           "estimatedRhps": 17.86,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -370536,7 +370746,7 @@
           "name": "米米帽帽",
           "amount": 9614,
           "hps": 15.14,
-          "percent": 0.42,
+          "percent": 0.41,
           "estimatedRhps": 15.14,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -370547,19 +370757,19 @@
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 113022,
-          "percent": 86
+          "percent": 54.12
         },
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 14319,
-          "percent": 10.9
+          "amount": 91753,
+          "percent": 43.93
         },
         {
           "id": "1005A7EF",
           "name": "草莓香草可頌",
           "amount": 4080,
-          "percent": 3.1
+          "percent": 1.95
         }
       ],
       "playerDamageTaken": [
@@ -403380,20 +403590,6 @@
       ],
       "players": [
         {
-          "id": "10088980",
-          "name": "Y韭",
-          "jobId": 38,
-          "jobName": "舞者",
-          "role": "dps"
-        },
-        {
-          "id": "1004BEF8",
-          "name": "傷心小殘",
-          "jobId": 22,
-          "jobName": "龍騎士",
-          "role": "dps"
-        },
-        {
           "id": "10088833",
           "name": "加辣更好吃",
           "jobId": 21,
@@ -403401,11 +403597,11 @@
           "role": "tank"
         },
         {
-          "id": "1004FD4D",
-          "name": "南天晴齊雲",
-          "jobId": 19,
-          "jobName": "聖騎士",
-          "role": "tank"
+          "id": "10061D82",
+          "name": "米米帽帽",
+          "jobId": 35,
+          "jobName": "赤魔法師",
+          "role": "dps"
         },
         {
           "id": "100780E3",
@@ -403415,11 +403611,11 @@
           "role": "dps"
         },
         {
-          "id": "10061D82",
-          "name": "米米帽帽",
-          "jobId": 35,
-          "jobName": "赤魔法師",
-          "role": "dps"
+          "id": "1004FD4D",
+          "name": "南天晴齊雲",
+          "jobId": 19,
+          "jobName": "聖騎士",
+          "role": "tank"
         },
         {
           "id": "1004F34F",
@@ -403434,6 +403630,20 @@
           "jobId": 40,
           "jobName": "賢者",
           "role": "healer"
+        },
+        {
+          "id": "1004BEF8",
+          "name": "傷心小殘",
+          "jobId": 22,
+          "jobName": "龍騎士",
+          "role": "dps"
+        },
+        {
+          "id": "10088980",
+          "name": "Y韭",
+          "jobId": 38,
+          "jobName": "舞者",
+          "role": "dps"
         }
       ],
       "primaryTargetId": "40003B50",
@@ -430893,8 +431103,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CBD",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -430906,8 +431116,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CBF",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -430919,8 +431129,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CBB",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -430932,8 +431142,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CC0",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -430945,8 +431155,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CBC",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -430958,8 +431168,8 @@
         {
           "timestamp": "2026-06-16T14:18:34.689Z",
           "offsetSeconds": 459.75,
-          "sourceId": "10061D82",
-          "sourceName": "米米帽帽",
+          "sourceId": "limit-break",
+          "sourceName": "Limit Break",
           "targetId": "40003CBE",
           "targetName": "魔導浮游砲",
           "abilityId": "1EB6",
@@ -437697,7 +437907,7 @@
           "start": "2026-06-16T14:10:54.939Z",
           "end": "2026-06-16T14:13:27.399Z",
           "durationSeconds": 152.46,
-          "eventCount": 1622,
+          "eventCount": 1635,
           "combatEventCount": 1470,
           "playerNames": [
             "南天晴齊雲",
@@ -437711,20 +437921,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -437732,11 +437928,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -437746,11 +437942,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -437765,6 +437961,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B56",
@@ -438348,10 +438558,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 406916,
-              "hps": 2669,
-              "percent": 53.46,
-              "estimatedRhps": 2638.89,
+              "amount": 485670,
+              "hps": 3185.56,
+              "percent": 57.83,
+              "estimatedRhps": 3155.45,
               "healingBuffGiven": 0,
               "healingBuffTaken": 4590.78
             },
@@ -438360,7 +438570,7 @@
               "name": "草莓香草可頌",
               "amount": 145745,
               "hps": 955.96,
-              "percent": 19.15,
+              "percent": 17.35,
               "estimatedRhps": 941.24,
               "healingBuffGiven": 0,
               "healingBuffTaken": 2244.04
@@ -438370,7 +438580,7 @@
               "name": "加辣更好吃",
               "amount": 90757,
               "hps": 595.28,
-              "percent": 11.92,
+              "percent": 10.81,
               "estimatedRhps": 623.74,
               "healingBuffGiven": 4338.17,
               "healingBuffTaken": 0
@@ -438380,7 +438590,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 79428,
               "hps": 520.98,
-              "percent": 10.44,
+              "percent": 9.46,
               "estimatedRhps": 520.98,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -438390,7 +438600,7 @@
               "name": "米店老闆",
               "amount": 23763,
               "hps": 155.86,
-              "percent": 3.12,
+              "percent": 2.83,
               "estimatedRhps": 155.86,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -438400,7 +438610,7 @@
               "name": "南天晴齊雲",
               "amount": 5339,
               "hps": 35.02,
-              "percent": 0.7,
+              "percent": 0.64,
               "estimatedRhps": 51.39,
               "healingBuffGiven": 2496.65,
               "healingBuffTaken": 0
@@ -438410,7 +438620,7 @@
               "name": "Y韭",
               "amount": 3591,
               "hps": 23.55,
-              "percent": 0.47,
+              "percent": 0.43,
               "estimatedRhps": 23.55,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -438420,7 +438630,7 @@
               "name": "傷心小殘",
               "amount": 3174,
               "hps": 20.82,
-              "percent": 0.42,
+              "percent": 0.38,
               "estimatedRhps": 20.82,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -438430,7 +438640,7 @@
               "name": "米米帽帽",
               "amount": 2408,
               "hps": 15.79,
-              "percent": 0.32,
+              "percent": 0.29,
               "estimatedRhps": 15.79,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -438440,14 +438650,14 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 27212,
-              "percent": 52.9
+              "amount": 105966,
+              "percent": 81.39
             },
             {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 24227,
-              "percent": 47.1
+              "percent": 18.61
             }
           ],
           "playerDamageTaken": [
@@ -439991,7 +440201,7 @@
           "start": "2026-06-16T14:13:27.399Z",
           "end": "2026-06-16T14:15:41.159Z",
           "durationSeconds": 133.76,
-          "eventCount": 1093,
+          "eventCount": 1107,
           "combatEventCount": 985,
           "playerNames": [
             "南天晴齊雲",
@@ -440005,20 +440215,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -440026,11 +440222,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -440040,11 +440236,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -440059,6 +440255,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B55",
@@ -440639,10 +440849,10 @@
             {
               "id": "1004F34F",
               "name": "草灰妲",
-              "amount": 203152,
-              "hps": 1518.78,
-              "percent": 51.42,
-              "estimatedRhps": 1518.78,
+              "amount": 245602,
+              "hps": 1836.14,
+              "percent": 56.13,
+              "estimatedRhps": 1836.14,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
             },
@@ -440651,7 +440861,7 @@
               "name": "草莓香草可頌",
               "amount": 76214,
               "hps": 569.78,
-              "percent": 19.29,
+              "percent": 17.42,
               "estimatedRhps": 569.78,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440661,7 +440871,7 @@
               "name": "加辣更好吃",
               "amount": 52951,
               "hps": 395.87,
-              "percent": 13.4,
+              "percent": 12.1,
               "estimatedRhps": 395.87,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440671,7 +440881,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 28503,
               "hps": 213.09,
-              "percent": 7.21,
+              "percent": 6.51,
               "estimatedRhps": 213.09,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440681,7 +440891,7 @@
               "name": "米店老闆",
               "amount": 19784,
               "hps": 147.91,
-              "percent": 5.01,
+              "percent": 4.52,
               "estimatedRhps": 147.91,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440691,7 +440901,7 @@
               "name": "米米帽帽",
               "amount": 6704,
               "hps": 50.12,
-              "percent": 1.7,
+              "percent": 1.53,
               "estimatedRhps": 50.12,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440701,7 +440911,7 @@
               "name": "Y韭",
               "amount": 3149,
               "hps": 23.54,
-              "percent": 0.8,
+              "percent": 0.72,
               "estimatedRhps": 23.54,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440711,7 +440921,7 @@
               "name": "傷心小殘",
               "amount": 3088,
               "hps": 23.09,
-              "percent": 0.78,
+              "percent": 0.71,
               "estimatedRhps": 23.09,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440721,7 +440931,7 @@
               "name": "南天晴齊雲",
               "amount": 1566,
               "hps": 11.71,
-              "percent": 0.4,
+              "percent": 0.36,
               "estimatedRhps": 11.71,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -440729,16 +440939,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 56056,
+              "percent": 73.41
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 20306,
-              "percent": 59.88
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 13606,
-              "percent": 40.12
+              "percent": 26.59
             }
           ],
           "playerDamageTaken": [
@@ -441957,7 +442167,7 @@
           "start": "2026-06-16T14:15:41.159Z",
           "end": "2026-06-16T14:19:55.769Z",
           "durationSeconds": 254.61,
-          "eventCount": 1850,
+          "eventCount": 1885,
           "combatEventCount": 1618,
           "playerNames": [
             "南天晴齊雲",
@@ -441971,20 +442181,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -441992,11 +442188,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -442006,11 +442202,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -442025,6 +442221,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B51",
@@ -442055,18 +442265,6 @@
           "phases": [],
           "raidBuffContributions": [
             {
-              "playerId": "10061D82",
-              "playerName": "米米帽帽",
-              "damage": 602214,
-              "buffGiven": 25560.89,
-              "buffTaken": 27418.78,
-              "netGain": -1857.89,
-              "estimatedRdps": 2357.94,
-              "attributedDamageEvents": 228,
-              "attributionConfidence": "low",
-              "attributionModel": "mixed"
-            },
-            {
               "playerId": "1004BEF8",
               "playerName": "傷心小殘",
               "damage": 312925,
@@ -442077,6 +442275,30 @@
               "attributedDamageEvents": 229,
               "attributionConfidence": "low",
               "attributionModel": "mixed"
+            },
+            {
+              "playerId": "10061D82",
+              "playerName": "米米帽帽",
+              "damage": 306628,
+              "buffGiven": 25560.89,
+              "buffTaken": 27418.78,
+              "netGain": -1857.89,
+              "estimatedRdps": 1197.01,
+              "attributedDamageEvents": 228,
+              "attributionConfidence": "low",
+              "attributionModel": "mixed"
+            },
+            {
+              "playerId": "limit-break",
+              "playerName": "Limit Break",
+              "damage": 295586,
+              "buffGiven": 0,
+              "buffTaken": 0,
+              "netGain": 0,
+              "estimatedRdps": 1160.94,
+              "attributedDamageEvents": 0,
+              "attributionConfidence": "none",
+              "attributionModel": "none"
             },
             {
               "playerId": "10088980",
@@ -442475,28 +442697,6 @@
           ],
           "playerDamage": [
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "amount": 602214,
-              "hits": 96,
-              "critHits": 28,
-              "directHits": 29,
-              "critDirectHits": 11,
-              "dps": 2365.24,
-              "percent": 30.06,
-              "critRate": 29.17,
-              "directRate": 30.21,
-              "critDirectRate": 11.46,
-              "casts": 87,
-              "cpm": 20.5,
-              "estimatedRdps": 2357.94,
-              "raidBuffGiven": 25560.89,
-              "raidBuffTaken": 27418.78,
-              "raidBuffNet": -1857.89,
-              "raidBuffAttributionConfidence": "low",
-              "raidBuffAttributionModel": "mixed"
-            },
-            {
               "id": "1004BEF8",
               "name": "傷心小殘",
               "amount": 312925,
@@ -442517,6 +442717,50 @@
               "raidBuffNet": 7987.86,
               "raidBuffAttributionConfidence": "low",
               "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "amount": 306628,
+              "hits": 90,
+              "critHits": 28,
+              "directHits": 29,
+              "critDirectHits": 11,
+              "dps": 1204.3,
+              "percent": 15.3,
+              "critRate": 31.11,
+              "directRate": 32.22,
+              "critDirectRate": 12.22,
+              "casts": 87,
+              "cpm": 20.5,
+              "estimatedRdps": 1197.01,
+              "raidBuffGiven": 25560.89,
+              "raidBuffTaken": 27418.78,
+              "raidBuffNet": -1857.89,
+              "raidBuffAttributionConfidence": "low",
+              "raidBuffAttributionModel": "mixed"
+            },
+            {
+              "id": "limit-break",
+              "name": "Limit Break",
+              "amount": 295586,
+              "hits": 6,
+              "critHits": 0,
+              "directHits": 0,
+              "critDirectHits": 0,
+              "dps": 1160.94,
+              "percent": 14.75,
+              "critRate": 0,
+              "directRate": 0,
+              "critDirectRate": 0,
+              "casts": 0,
+              "cpm": 0,
+              "estimatedRdps": 1160.94,
+              "raidBuffGiven": 0,
+              "raidBuffTaken": 0,
+              "raidBuffNet": 0,
+              "raidBuffAttributionConfidence": "none",
+              "raidBuffAttributionModel": "none"
             },
             {
               "id": "100780E3",
@@ -442915,31 +443159,31 @@
           ],
           "playerHealingWithShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 374831,
+              "hps": 1472.18,
+              "percent": 42.13,
+              "estimatedRhps": 1446.69,
+              "healingBuffGiven": 0,
+              "healingBuffTaken": 6488.26
+            },
+            {
               "id": "1005A7EF",
               "name": "草莓香草可頌",
               "amount": 312676,
               "hps": 1228.06,
-              "percent": 37.99,
+              "percent": 35.14,
               "estimatedRhps": 1208.33,
               "healingBuffGiven": 0,
               "healingBuffTaken": 5023.54
-            },
-            {
-              "id": "1004F34F",
-              "name": "草灰妲",
-              "amount": 308054,
-              "hps": 1209.91,
-              "percent": 37.43,
-              "estimatedRhps": 1184.42,
-              "healingBuffGiven": 0,
-              "healingBuffTaken": 6488.26
             },
             {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 101183,
               "hps": 397.4,
-              "percent": 12.29,
+              "percent": 11.37,
               "estimatedRhps": 435.42,
               "healingBuffGiven": 9679.84,
               "healingBuffTaken": 0
@@ -442949,7 +443193,7 @@
               "name": "無法歸屬的持續治療",
               "amount": 52508,
               "hps": 206.23,
-              "percent": 6.38,
+              "percent": 5.9,
               "estimatedRhps": 206.23,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -442959,7 +443203,7 @@
               "name": "米店老闆",
               "amount": 25132,
               "hps": 98.71,
-              "percent": 3.05,
+              "percent": 2.82,
               "estimatedRhps": 98.71,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -442969,7 +443213,7 @@
               "name": "米米帽帽",
               "amount": 6911,
               "hps": 27.14,
-              "percent": 0.84,
+              "percent": 0.78,
               "estimatedRhps": 27.14,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -442979,7 +443223,7 @@
               "name": "傷心小殘",
               "amount": 6370,
               "hps": 25.02,
-              "percent": 0.77,
+              "percent": 0.72,
               "estimatedRhps": 25.02,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -442989,7 +443233,7 @@
               "name": "南天晴齊雲",
               "amount": 6003,
               "hps": 23.58,
-              "percent": 0.73,
+              "percent": 0.67,
               "estimatedRhps": 30.77,
               "healingBuffGiven": 1831.96,
               "healingBuffTaken": 0
@@ -442999,7 +443243,7 @@
               "name": "Y韭",
               "amount": 4158,
               "hps": 16.33,
-              "percent": 0.51,
+              "percent": 0.47,
               "estimatedRhps": 16.33,
               "healingBuffGiven": 0,
               "healingBuffTaken": 0
@@ -443007,10 +443251,16 @@
           ],
           "playerShielding": [
             {
+              "id": "1004F34F",
+              "name": "草灰妲",
+              "amount": 66777,
+              "percent": 59.99
+            },
+            {
               "id": "10088833",
               "name": "加辣更好吃",
               "amount": 44533,
-              "percent": 100
+              "percent": 40.01
             }
           ],
           "playerDamageTaken": [
@@ -444400,20 +444650,6 @@
           ],
           "players": [
             {
-              "id": "10088980",
-              "name": "Y韭",
-              "jobId": 38,
-              "jobName": "舞者",
-              "role": "dps"
-            },
-            {
-              "id": "1004BEF8",
-              "name": "傷心小殘",
-              "jobId": 22,
-              "jobName": "龍騎士",
-              "role": "dps"
-            },
-            {
               "id": "10088833",
               "name": "加辣更好吃",
               "jobId": 21,
@@ -444421,11 +444657,11 @@
               "role": "tank"
             },
             {
-              "id": "1004FD4D",
-              "name": "南天晴齊雲",
-              "jobId": 19,
-              "jobName": "聖騎士",
-              "role": "tank"
+              "id": "10061D82",
+              "name": "米米帽帽",
+              "jobId": 35,
+              "jobName": "赤魔法師",
+              "role": "dps"
             },
             {
               "id": "100780E3",
@@ -444435,11 +444671,11 @@
               "role": "dps"
             },
             {
-              "id": "10061D82",
-              "name": "米米帽帽",
-              "jobId": 35,
-              "jobName": "赤魔法師",
-              "role": "dps"
+              "id": "1004FD4D",
+              "name": "南天晴齊雲",
+              "jobId": 19,
+              "jobName": "聖騎士",
+              "role": "tank"
             },
             {
               "id": "1004F34F",
@@ -444454,6 +444690,20 @@
               "jobId": 40,
               "jobName": "賢者",
               "role": "healer"
+            },
+            {
+              "id": "1004BEF8",
+              "name": "傷心小殘",
+              "jobId": 22,
+              "jobName": "龍騎士",
+              "role": "dps"
+            },
+            {
+              "id": "10088980",
+              "name": "Y韭",
+              "jobId": 38,
+              "jobName": "舞者",
+              "role": "dps"
             }
           ],
           "primaryTargetId": "40003B50",
@@ -447706,11 +447956,11 @@
         {
           "playerId": "10061D82",
           "playerName": "米米帽帽",
-          "damage": 1427154,
+          "damage": 1131568,
           "buffGiven": 82351.39,
           "buffTaken": 87441.19,
           "netGain": -5089.8,
-          "estimatedRdps": 2096.23,
+          "estimatedRdps": 1660.52,
           "attributedDamageEvents": 679,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
@@ -447798,6 +448048,18 @@
           "attributedDamageEvents": 686,
           "attributionConfidence": "low",
           "attributionModel": "mixed"
+        },
+        {
+          "playerId": "limit-break",
+          "playerName": "Limit Break",
+          "damage": 295586,
+          "buffGiven": 0,
+          "buffTaken": 0,
+          "netGain": 0,
+          "estimatedRdps": 435.72,
+          "attributedDamageEvents": 0,
+          "attributionConfidence": "none",
+          "attributionModel": "none"
         },
         {
           "playerId": "E0000000",
@@ -449709,19 +449971,19 @@
         {
           "id": "10061D82",
           "name": "米米帽帽",
-          "amount": 1427154,
-          "hits": 326,
+          "amount": 1131568,
+          "hits": 320,
           "critHits": 110,
           "directHits": 105,
           "critDirectHits": 40,
-          "dps": 2103.74,
-          "percent": 21.16,
-          "critRate": 33.74,
-          "directRate": 32.21,
-          "critDirectRate": 12.27,
+          "dps": 1668.02,
+          "percent": 16.77,
+          "critRate": 34.38,
+          "directRate": 32.81,
+          "critDirectRate": 12.5,
           "casts": 269,
           "cpm": 23.79,
-          "estimatedRdps": 2096.23,
+          "estimatedRdps": 1660.52,
           "raidBuffGiven": 82351.39,
           "raidBuffTaken": 87441.19,
           "raidBuffNet": -5089.8,
@@ -449885,6 +450147,28 @@
           "raidBuffNet": 103568.85,
           "raidBuffAttributionConfidence": "low",
           "raidBuffAttributionModel": "mixed"
+        },
+        {
+          "id": "limit-break",
+          "name": "Limit Break",
+          "amount": 295586,
+          "hits": 6,
+          "critHits": 0,
+          "directHits": 0,
+          "critDirectHits": 0,
+          "dps": 435.72,
+          "percent": 4.38,
+          "critRate": 0,
+          "directRate": 0,
+          "critDirectRate": 0,
+          "casts": 0,
+          "cpm": 0,
+          "estimatedRdps": 435.72,
+          "raidBuffGiven": 0,
+          "raidBuffTaken": 0,
+          "raidBuffNet": 0,
+          "raidBuffAttributionConfidence": "none",
+          "raidBuffAttributionModel": "none"
         },
         {
           "id": "E0000000",
@@ -450149,10 +450433,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 1164691,
-          "hps": 1716.85,
-          "percent": 47.55,
-          "estimatedRhps": 1696.73,
+          "amount": 1352672,
+          "hps": 1993.94,
+          "percent": 51.29,
+          "estimatedRhps": 1973.83,
           "healingBuffGiven": 0,
           "healingBuffTaken": 13644.17
         },
@@ -450161,7 +450445,7 @@
           "name": "草莓香草可頌",
           "amount": 633487,
           "hps": 933.81,
-          "percent": 25.86,
+          "percent": 24.02,
           "estimatedRhps": 920.96,
           "healingBuffGiven": 0,
           "healingBuffTaken": 8716.88
@@ -450171,7 +450455,7 @@
           "name": "加辣更好吃",
           "amount": 334414,
           "hps": 492.95,
-          "percent": 13.65,
+          "percent": 12.68,
           "estimatedRhps": 519.53,
           "healingBuffGiven": 18032.45,
           "healingBuffTaken": 0
@@ -450181,7 +450465,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 160439,
           "hps": 236.5,
-          "percent": 6.55,
+          "percent": 6.08,
           "estimatedRhps": 236.5,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -450191,7 +450475,7 @@
           "name": "米店老闆",
           "amount": 88045,
           "hps": 129.79,
-          "percent": 3.59,
+          "percent": 3.34,
           "estimatedRhps": 129.79,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -450201,7 +450485,7 @@
           "name": "傷心小殘",
           "amount": 20279,
           "hps": 29.89,
-          "percent": 0.83,
+          "percent": 0.77,
           "estimatedRhps": 29.89,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -450211,7 +450495,7 @@
           "name": "米米帽帽",
           "amount": 18087,
           "hps": 26.66,
-          "percent": 0.74,
+          "percent": 0.69,
           "estimatedRhps": 26.66,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -450221,7 +450505,7 @@
           "name": "南天晴齊雲",
           "amount": 16040,
           "hps": 23.64,
-          "percent": 0.65,
+          "percent": 0.61,
           "estimatedRhps": 30.02,
           "healingBuffGiven": 4328.61,
           "healingBuffTaken": 0
@@ -450231,7 +450515,7 @@
           "name": "Y韭",
           "amount": 13733,
           "hps": 20.24,
-          "percent": 0.56,
+          "percent": 0.52,
           "estimatedRhps": 20.24,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -450239,16 +450523,16 @@
       ],
       "playerShielding": [
         {
+          "id": "1004F34F",
+          "name": "草灰妲",
+          "amount": 228799,
+          "percent": 66.88
+        },
+        {
           "id": "10088833",
           "name": "加辣更好吃",
           "amount": 113293,
-          "percent": 73.51
-        },
-        {
-          "id": "1004F34F",
-          "name": "草灰妲",
-          "amount": 40818,
-          "percent": 26.49
+          "percent": 33.12
         }
       ],
       "playerDamageTaken": [

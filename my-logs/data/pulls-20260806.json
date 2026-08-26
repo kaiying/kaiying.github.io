@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:43:12.712Z",
+  "generatedAt": "2026-08-21T07:09:46.033Z",
   "inputFiles": [
     "logs/Network_30205_20260806.log"
   ],
@@ -29,38 +29,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -78,11 +57,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "40004465",
@@ -23947,38 +23947,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -23996,11 +23975,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "400046A4",
@@ -43201,38 +43201,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -43250,11 +43229,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "4000487F",
@@ -64745,38 +64745,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -64794,11 +64773,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "40004986",
@@ -88236,38 +88236,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -88285,11 +88264,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "40004A0F",
@@ -108845,38 +108845,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -108894,11 +108873,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "40004A52",
@@ -134686,38 +134686,17 @@
       ],
       "players": [
         {
-          "id": "1005B36E",
-          "name": "Dseven",
-          "jobId": 21,
-          "jobName": "戰士",
-          "role": "tank"
-        },
-        {
-          "id": "10057335",
-          "name": "傑夫垢垢",
-          "jobId": 24,
-          "jobName": "白魔法師",
-          "role": "healer"
+          "id": "10060B81",
+          "name": "幻雪喵",
+          "jobId": 34,
+          "jobName": "武士",
+          "role": "dps"
         },
         {
           "id": "10067362",
           "name": "和善的人",
           "jobId": 25,
           "jobName": "黑魔法師",
-          "role": "dps"
-        },
-        {
-          "id": "1007141D",
-          "name": "啃蘋果無尾熊",
-          "jobId": 41,
-          "jobName": "蝰蛇劍士",
-          "role": "dps"
-        },
-        {
-          "id": "10060B81",
-          "name": "幻雪喵",
-          "jobId": 34,
-          "jobName": "武士",
           "role": "dps"
         },
         {
@@ -134735,11 +134714,32 @@
           "role": "healer"
         },
         {
+          "id": "1007141D",
+          "name": "啃蘋果無尾熊",
+          "jobId": 41,
+          "jobName": "蝰蛇劍士",
+          "role": "dps"
+        },
+        {
+          "id": "10057335",
+          "name": "傑夫垢垢",
+          "jobId": 24,
+          "jobName": "白魔法師",
+          "role": "healer"
+        },
+        {
           "id": "1004E7AB",
           "name": "醬爆",
           "jobId": 38,
           "jobName": "舞者",
           "role": "dps"
+        },
+        {
+          "id": "1005B36E",
+          "name": "Dseven",
+          "jobId": 21,
+          "jobName": "戰士",
+          "role": "tank"
         }
       ],
       "primaryTargetId": "40004A99",
@@ -153830,10 +153830,10 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 7879021,
-          "hps": 26738.46,
-          "percent": 63.71,
-          "estimatedRhps": 26738.46,
+          "amount": 7466422,
+          "hps": 25338.25,
+          "percent": 62.46,
+          "estimatedRhps": 25338.25,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
         },
@@ -153842,7 +153842,7 @@
           "name": "傑夫垢垢",
           "amount": 1904886,
           "hps": 6464.47,
-          "percent": 15.4,
+          "percent": 15.93,
           "estimatedRhps": 6464.47,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153852,7 +153852,7 @@
           "name": "Dseven",
           "amount": 1431604,
           "hps": 4858.33,
-          "percent": 11.58,
+          "percent": 11.98,
           "estimatedRhps": 4858.33,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153862,7 +153862,7 @@
           "name": "果子狸水魚鞭",
           "amount": 503051,
           "hps": 1707.17,
-          "percent": 4.07,
+          "percent": 4.21,
           "estimatedRhps": 1707.17,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153872,7 +153872,7 @@
           "name": "無法歸屬的持續治療",
           "amount": 417123,
           "hps": 1415.56,
-          "percent": 3.37,
+          "percent": 3.49,
           "estimatedRhps": 1415.56,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153882,7 +153882,7 @@
           "name": "幻雪喵",
           "amount": 152202,
           "hps": 516.52,
-          "percent": 1.23,
+          "percent": 1.27,
           "estimatedRhps": 516.52,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153892,7 +153892,7 @@
           "name": "啃蘋果無尾熊",
           "amount": 32091,
           "hps": 108.9,
-          "percent": 0.26,
+          "percent": 0.27,
           "estimatedRhps": 108.9,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153902,7 +153902,7 @@
           "name": "醬爆",
           "amount": 28781,
           "hps": 97.67,
-          "percent": 0.23,
+          "percent": 0.24,
           "estimatedRhps": 97.67,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153912,7 +153912,7 @@
           "name": "和善的人",
           "amount": 18540,
           "hps": 62.92,
-          "percent": 0.15,
+          "percent": 0.16,
           "estimatedRhps": 62.92,
           "healingBuffGiven": 0,
           "healingBuffTaken": 0
@@ -153922,20 +153922,20 @@
         {
           "id": "1004F34F",
           "name": "草灰妲",
-          "amount": 5049086,
-          "percent": 86.08
+          "amount": 4636487,
+          "percent": 85.03
         },
         {
           "id": "1005B36E",
           "name": "Dseven",
           "amount": 531710,
-          "percent": 9.07
+          "percent": 9.75
         },
         {
           "id": "100695E8",
           "name": "果子狸水魚鞭",
           "amount": 284509,
-          "percent": 4.85
+          "percent": 5.22
         }
       ],
       "playerDamageTaken": [
