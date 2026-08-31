@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T14:55:30.181Z",
+  "generatedAt": "2026-08-31T08:00:33.033Z",
   "inputFiles": [
     "logs/Network_30202_20260616.log"
   ],
@@ -24652,13 +24652,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -26897,9 +26892,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -28850,7 +28842,6 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
-            "花崗石牢",
             "花崗石牢"
           ],
           "result": "wipe",
@@ -94025,13 +94016,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -96376,9 +96362,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -98344,13 +98327,9 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
+            "魔導浮游砲",
             "拉哈布雷亞",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲"
+            "花崗石牢"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -163476,13 +163455,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -165727,9 +165701,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -167659,8 +167630,6 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
-            "花崗石牢",
-            "花崗石牢",
             "花崗石牢"
           ],
           "result": "wipe",
@@ -218450,13 +218419,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -220701,9 +220665,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -222627,8 +222588,6 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
-            "花崗石牢",
-            "花崗石牢",
             "花崗石牢"
           ],
           "result": "wipe",
@@ -282667,13 +282626,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -284876,9 +284830,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -286802,13 +286753,9 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
+            "魔導浮游砲",
             "拉哈布雷亞",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲"
+            "花崗石牢"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -357291,13 +357238,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -359536,9 +359478,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -361562,13 +361501,9 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
+            "魔導浮游砲",
             "拉哈布雷亞",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲"
+            "花崗石牢"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -435461,13 +435396,8 @@
           "primaryTargetName": "迦樓羅",
           "targetNames": [
             "迦樓羅",
-            "刺羽",
             "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽",
-            "柔羽"
+            "刺羽"
           ],
           "result": "unknown",
           "confidence": "medium",
@@ -437721,9 +437651,6 @@
           "primaryTargetName": "伊弗利特",
           "targetNames": [
             "伊弗利特",
-            "火獄之楔",
-            "火獄之楔",
-            "火獄之楔",
             "火獄之楔"
           ],
           "result": "unknown",
@@ -439653,13 +439580,9 @@
           "primaryTargetName": "泰坦",
           "targetNames": [
             "泰坦",
+            "魔導浮游砲",
             "拉哈布雷亞",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲",
-            "魔導浮游砲"
+            "花崗石牢"
           ],
           "result": "unknown",
           "confidence": "medium",
